@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 6.113
-date: 04:07:2020 20:13
+data-version: 6.111
+date: 13:06:2020 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-04-07 --
 default-namespace: rat_strain_ontology
 ontology: rs
 
@@ -35413,7 +35413,7 @@ creation_date: 2017-01-20T15:56:40Z
 [Term]
 id: RS:0004256
 name: BDIX/Zte congenic
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0001189 ! BDIX/Zte
 created_by: sjwang
 creation_date: 2017-01-20T16:13:48Z
 
@@ -35788,21 +35788,21 @@ id: RS:0004304
 name: BDIX.BDIV-D6Mit1-D6Mgh2/Zte
 synonym: "BDIX.BDIV-Mss4a" RELATED []
 synonym: "RGD ID: 12738372" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004305
 name: BDIX.BDIV-D6Rat132-D6Mgh3/Zte
 synonym: "BDIX.BDIV-Mss4b" RELATED []
 synonym: "RGD ID: 12738388" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004306
 name: BDIX.BDIV-D6Mit8-D6Rat229/Zte
 synonym: "BDIX.BDIV-Mss4d" RELATED []
 synonym: "RGD ID: 12738394" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004307
@@ -39774,7 +39774,7 @@ creation_date: 2020-04-09T13:56:12Z
 
 [Term]
 id: RS:0004787
-name: SS.BN-(D13Hmgc41-D13Rat101)-Renem2Mcwi
+name: SS.BN-(D13Hmgc41-D13Hmgc23)-Renem2Mcwi
 synonym: "RGD ID: 27095885" EXACT []
 is_a: RS:0004707 ! SS.BN mutants
 created_by: sjwang
@@ -39787,23 +39787,6 @@ synonym: "RGD ID: 25394528" EXACT []
 is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2020-05-28T17:24:17Z
-
-[Term]
-id: RS:0004789
-name: SS.BN-(D13Hmgc41-D13Rat101)/Mcwi
-synonym: "RGD ID: 30309956" EXACT []
-is_a: RS:0001487 ! SS.SS-Chr 13BN/Mcwi congenics
-created_by: sjwang
-creation_date: 2020-06-23T11:41:26Z
-
-[Term]
-id: RS:0004790
-name: BDIX.BDIV-D6Rat132-D6Rat229/Zte
-synonym: "BDIX.BDIV-Mss4c" RELATED []
-synonym: "RGD ID: 32716420" EXACT []
-is_a: RS:0004256 ! BDIX/Zte congenic
-created_by: sjwang
-creation_date: 2020-06-30T09:14:15Z
 
 [Typedef]
 id: part_of

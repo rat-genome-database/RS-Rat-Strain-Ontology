@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 6.113
-date: 04:07:2020 20:13
+data-version: 6.105
+date: 28:03:2020 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2019-10-18 --
 default-namespace: rat_strain_ontology
 ontology: rs
 
@@ -3017,8 +3017,8 @@ name: LE-Mbpmd
 synonym: "LES" RELATED []
 synonym: "Long Evans Shaker" RELATED []
 synonym: "RGD ID: 1358923" RELATED []
+is_a: RS:0000461 ! mutant strain
 is_a: RS:0002755 ! chromosome 18 mutant
-is_a: RS:0004779 ! LE mutants
 
 [Term]
 id: RS:0000427
@@ -3254,51 +3254,51 @@ name: rat strain
 [Term]
 id: RS:0000458
 name: coisogenic strain
-def: "Coisogenic strains are inbred strains that differ at only a single locus through mutation occurring in that strain." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Coisogenic strains are inbred strains that differ at only a single locus through mutation occurring in that strain." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000459
 name: congenic strain
-def: "Congenic strains are produced by repeated backcrosses to an inbred (background) strain, with selection for a particular marker from the donor strain." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Congenic strains are produced by repeated backcrosses to an inbred (background) strain, with selection for a particular marker from the donor strain." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
 id: RS:0000460
 name: consomic strain
-def: "Consomic strains are produced by repeated backcrossing of a whole chromosome onto an inbred (background) strain. \ninbred strain" [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Consomic strains are produced by repeated backcrossing of a whole chromosome onto an inbred (background) strain. \ninbred strain" [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
 id: RS:0000461
 name: mutant strain
-def: "Rat strains  carrying mutated alleles, spontaneously occurred, chemical-induced,  genome-edited and others, are  included in the mutant strain." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Rat strains  carrying mutated alleles, spontaneously occurred, chemical-induced,  genome-edited and others, are  included in the mutant strain." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
 id: RS:0000462
 name: outbred strain
-def: "Outbreds are intentionally not bred with siblings or close relatives, as the purpose of an outbred stock is to maintain maximum heterozygosity." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Outbreds are intentionally not bred with siblings or close relatives, as the purpose of an outbred stock is to maintain maximum heterozygosity." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
 id: RS:0000463
 name: recombinant inbred strain
-def: "Recombinant inbred  strains are the progeny contain unique, approximately equal proportions of genetic contribution from two original progenitor inbred strains." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Recombinant inbred  strains are the progeny contain unique, approximately equal proportions of genetic contribution from two original progenitor inbred strains." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
 id: RS:0000464
 name: segregating inbred strain
-def: "Segregating inbred strains are inbred stains in which a particular allele or mutation is maintained in heterozygous state." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Segregating inbred strains are inbred stains in which a particular allele or mutation is maintained in heterozygous state." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 is_a: RS:0000458 ! coisogenic strain
 
 [Term]
 id: RS:0000465
 name: transgenic strain
-def: "Rats carry foreign DNA that has been stably introduced into the germline of the animal." [http://www.informatics.jax.org/mgihome/nomen/gene.shtml "Guidelines_for_Nomenclature_of_Genes_Genetic_Markers_Alleles_and_Mutations_in_Mouse_and_Rat"]
+def: "Rats carry foreign DNA that has been stably introduced into the germline of the animal." [Guidelines_for_Nomenclature_of_Genes_Genetic_Markers_Alleles_and_Mutations_in_Mouse_and_Rat:http\://www.informatics.jax.org/mgihome/nomen/gene.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
@@ -5375,7 +5375,7 @@ is_a: RS:0003560 ! SHRSP/Gcrc.WKY/Gcrc
 [Term]
 id: RS:0000765
 name: inbred strain
-def: "Inbred Strains are produced by brother x sister mating for 20 or more consecutive generations, and individuals of the strain can be traced to a single ancestral pair at the 20th or subsequent generation." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Inbred Strains are produced by brother x sister mating for 20 or more consecutive generations, and individuals of the strain can be traced to a single ancestral pair at the 20th or subsequent generation." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 created_by: RNigam
 creation_date: 2010-02-10T12:00:00Z
@@ -9686,7 +9686,7 @@ is_a: RS:0001340 ! advanced intercross line
 [Term]
 id: RS:0001340
 name: advanced intercross line
-def: "Advanced intercross lines are made by producing an F2 generation between two inbred strains and then intercrossing in each subsequent generation, but avoiding sibling matings." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Advanced intercross lines are made by producing an F2 generation between two inbred strains and then intercrossing in each subsequent generation, but avoiding sibling matings." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
@@ -10345,7 +10345,7 @@ is_a: RS:0001431 ! conplastic strain
 [Term]
 id: RS:0001431
 name: conplastic strain
-def: "Conplastic strains are strains in which the nuclear genome from one strain has been introduced into the cytoplasm of another, either by backcrossing (in which the mitochondrial donor is always the female parent) or by direct nuclear transfer into an enucleated zygote." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains"]
+def: "Conplastic strains are strains in which the nuclear genome from one strain has been introduced into the cytoplasm of another, either by backcrossing (in which the mitochondrial donor is always the female parent) or by direct nuclear transfer into an enucleated zygote." [Guidelines_for_Nomenclature_of_Mouse_and_Rat_Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 
 [Term]
@@ -16036,7 +16036,7 @@ creation_date: 2010-01-11T12:00:00Z
 [Term]
 id: RS:0002067
 name: hybrid strain
-def: "Hybrid strains are the progeny of two inbred rat strains, crossed in the same direction. F1 hybrids are genetically identical. Further crosses produce offspring that are no longer genetically identical, but it may still be appropriate to give them designations reflecting their parentage, similar to those for F1 hybrids." [http://www.informatics.jax.org/mgihome/nomen/strains.shtml "Guidelines for Nomenclature of Mouse and Rat Strains"]
+def: "Hybrid strains are the progeny of two inbred rat strains, crossed in the same direction. F1 hybrids are genetically identical. Further crosses produce offspring that are no longer genetically identical, but it may still be appropriate to give them designations reflecting their parentage, similar to those for F1 hybrids." [Guidelines for Nomenclature of Mouse and Rat Strains:http\://www.informatics.jax.org/mgihome/nomen/strains.shtml]
 is_a: RS:0000457 ! rat strain
 created_by: RNigam
 creation_date: 2010-01-11T12:00:00Z
@@ -19367,7 +19367,7 @@ creation_date: 2010-07-12T12:00:00Z
 [Term]
 id: RS:0002426
 name: SS-Nckap5em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139872" RELATED []
 synonym: "SS-Nap5em2Mcwi" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
@@ -19378,7 +19378,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002427
 name: SS-Rag1em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139873" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002999 ! SS/JrHsdMcwi (ZFN) mutants (chr 3)
@@ -19388,7 +19388,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002428
 name: SS-Ets1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139874" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002994 ! SS/JrHsdMcwi (ZFN) mutants (chr 8)
@@ -19398,7 +19398,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002429
 name: FHH-Chr 1BN-Sorcs1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "FH-1BN-Sorcs1em1Mcwi" RELATED []
 synonym: "RGD ID: 4139875" RELATED []
 is_a: RS:0001458 ! FHH (ZFN) mutants (chr 1)
@@ -19409,7 +19409,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002430
 name: SS-Mmp2em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139876" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002993 ! SS/JrHsdMcwi (ZFN) mutants (chr 19)
@@ -19419,7 +19419,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002431
 name: FHH.BN-(D1Hmgc14-D1Hmgc15)/Mcwi-Rab38em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "FHH.BN-(Rab38)Mcwi-Rab38em1Mcwi" RELATED []
 synonym: "FHH.BN1-Rab38-Rab38em2Mcwi" RELATED []
 synonym: "FHH.BN-Rab38em1Mcwi" RELATED []
@@ -19432,7 +19432,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002432
 name: SS-Mmp2em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139878" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002993 ! SS/JrHsdMcwi (ZFN) mutants (chr 19)
@@ -19442,7 +19442,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002433
 name: SS-Nckap5em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139879" RELATED []
 synonym: "SS-Nap5em1Mcwi" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
@@ -19453,7 +19453,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002434
 name: SS-Renem1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139880" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002998 ! SS/JrHsdMcwi (ZFN) mutants (chr 13)
@@ -19463,7 +19463,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002435
 name: SS-Nckap5em3Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139881" RELATED []
 synonym: "SS-Nap5em3Mcwi" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
@@ -19474,7 +19474,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002436
 name: SS-Nppaem4Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139882" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002989 ! SS/JrHsdMcwi (ZFN) mutants (chr 5)
@@ -19484,7 +19484,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002437
 name: SS-Nox4em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139883" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -19494,7 +19494,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002438
 name: SS-Rag1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139884" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002999 ! SS/JrHsdMcwi (ZFN) mutants (chr 3)
@@ -19504,7 +19504,7 @@ creation_date: 2010-08-26T12:00:00Z
 [Term]
 id: RS:0002439
 name: SS-Sh2b3em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 4139885" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002987 ! SS/JrHsdMcwi (ZFN) mutants (chr 12)
@@ -20861,7 +20861,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002578
 name: SS-Acad10em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131910" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002987 ! SS/JrHsdMcwi (ZFN) mutants (chr 12)
@@ -20871,7 +20871,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002579
 name: SS-Alms1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 5131911" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002990 ! SS/JrHsdMcwi (ZFN) mutants (chr 4)
@@ -20881,7 +20881,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002580
 name: SS-Aldh2em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131912" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002987 ! SS/JrHsdMcwi (ZFN) mutants (chr 12)
@@ -20891,7 +20891,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002581
 name: SS-Apoeem8Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131920" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -20901,7 +20901,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002582
 name: SS-Apoeem7Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131921" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -20911,7 +20911,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002583
 name: SS-Cdh13em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131922" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002772 ! chromosome 19 mutant
@@ -20922,7 +20922,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002584
 name: SS-Cyp1a1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131932" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002994 ! SS/JrHsdMcwi (ZFN) mutants (chr 8)
@@ -20932,7 +20932,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002585
 name: SS-Cybaem1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131933" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002993 ! SS/JrHsdMcwi (ZFN) mutants (chr 19)
@@ -20942,7 +20942,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002586
 name: SS-Cyp1a1em5Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131934" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002994 ! SS/JrHsdMcwi (ZFN) mutants (chr 8)
@@ -20952,7 +20952,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002587
 name: SS-Msraem3Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131950" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002995 ! SS/JrHsdMcwi (ZFN) mutants (chr 15)
@@ -20962,7 +20962,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002588
 name: SS-Prokr1em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "XX"]
+def: "PhysGen Knockouts" [XX:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131951" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002990 ! SS/JrHsdMcwi (ZFN) mutants (chr 4)
@@ -20972,7 +20972,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002589
 name: SS-Mas1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131952" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -20982,7 +20982,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002590
 name: SS-Prokr1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131953" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002990 ! SS/JrHsdMcwi (ZFN) mutants (chr 4)
@@ -20992,7 +20992,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002591
 name: SS-Mstnem2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131954" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002997 ! SS/JrHsdMcwi (ZFN) mutants (chr 9)
@@ -21002,7 +21002,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002592
 name: SS-Nox4em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131963" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -21012,7 +21012,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002593
 name: SS-Mstnem3Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131964" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002997 ! SS/JrHsdMcwi (ZFN) mutants (chr 9)
@@ -21022,7 +21022,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002594
 name: SS-Mthfrem1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131965" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002989 ! SS/JrHsdMcwi (ZFN) mutants (chr 5)
@@ -21032,7 +21032,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002595
 name: SS-Plod1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu/ "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu/]
 synonym: "RGD ID: 5131966" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002989 ! SS/JrHsdMcwi (ZFN) mutants (chr 5)
@@ -21042,7 +21042,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002596
 name: SS-Rasgrp3em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131974" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0003000 ! SS/JrHsdMcwi (ZFN) mutants (chr 6)
@@ -21052,7 +21052,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002597
 name: SS-Ptpn11em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131975" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002987 ! SS/JrHsdMcwi (ZFN) mutants (chr 12)
@@ -21062,7 +21062,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002598
 name: SS-Ptpn11em4Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131976" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002987 ! SS/JrHsdMcwi (ZFN) mutants (chr 12)
@@ -21072,7 +21072,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002599
 name: SS-Tgfb1em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131987" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -21082,7 +21082,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002600
 name: SS-Wdr72em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131988" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002994 ! SS/JrHsdMcwi (ZFN) mutants (chr 8)
@@ -21092,7 +21092,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002601
 name: SS-Tgfb1em3Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131989" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0002991 ! SS/JrHsdMcwi (ZFN) mutants (chr 1)
@@ -21102,7 +21102,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002602
 name: SS-Slc30a8em2Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131990" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0003001 ! SS/JrHsdMcwi (ZFN) mutants (chr 7)
@@ -21112,7 +21112,7 @@ creation_date: 2011-07-06T12:00:00Z
 [Term]
 id: RS:0002603
 name: SS-Slc30a8em1Mcwi
-def: "PhysGen Knockouts" [http://rgd.mcw.edu "RGD"]
+def: "PhysGen Knockouts" [RGD:http\://rgd.mcw.edu]
 synonym: "RGD ID: 5131991" RELATED []
 is_a: RS:0002576 ! SS/JrHsdMcwi (ZFN) mutants
 is_a: RS:0003001 ! SS/JrHsdMcwi (ZFN) mutants (chr 7)
@@ -26473,7 +26473,7 @@ id: RS:0003240
 name: MWF/ZtmRrrc
 synonym: "RGD ID: 6482298" RELATED []
 synonym: "RRRC:00482" RELATED []
-is_a: RS:0004778 ! MWF/Ztm
+is_a: RS:0000594 ! MWF
 created_by: RNigam
 creation_date: 2012-05-04T12:00:00Z
 
@@ -35413,7 +35413,7 @@ creation_date: 2017-01-20T15:56:40Z
 [Term]
 id: RS:0004256
 name: BDIX/Zte congenic
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0001189 ! BDIX/Zte
 created_by: sjwang
 creation_date: 2017-01-20T16:13:48Z
 
@@ -35788,21 +35788,21 @@ id: RS:0004304
 name: BDIX.BDIV-D6Mit1-D6Mgh2/Zte
 synonym: "BDIX.BDIV-Mss4a" RELATED []
 synonym: "RGD ID: 12738372" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004305
 name: BDIX.BDIV-D6Rat132-D6Mgh3/Zte
 synonym: "BDIX.BDIV-Mss4b" RELATED []
 synonym: "RGD ID: 12738388" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004306
 name: BDIX.BDIV-D6Mit8-D6Rat229/Zte
 synonym: "BDIX.BDIV-Mss4d" RELATED []
 synonym: "RGD ID: 12738394" RELATED []
-is_a: RS:0004256 ! BDIX/Zte congenic
+is_a: RS:0001189 ! BDIX/Zte
 
 [Term]
 id: RS:0004307
@@ -36606,7 +36606,7 @@ creation_date: 2017-04-14T14:59:55Z
 
 [Term]
 id: RS:0004404
-name: Ho:ZFDM-Leprfa
+name: Ho:ZDFM-Leprfa
 synonym: "Hos:ZFDM-Leprfa" RELATED []
 synonym: "RGD ID: 12859279" RELATED []
 is_a: RS:0001835 ! ZUC
@@ -37100,7 +37100,7 @@ creation_date: 2017-06-02T16:25:37Z
 
 [Term]
 id: RS:0004458
-name: LE-ROSA26em1(CAG-tdTomato)1Sage
+name: LE-ROSA26em1CAG-tdTomato)1Sage
 synonym: "RGD ID: 12905037" RELATED []
 synonym: "TGRL9660" RELATED []
 is_a: RS:0003485 ! Crl:LE mutants
@@ -37218,7 +37218,7 @@ creation_date: 2017-07-14T15:00:11Z
 [Term]
 id: RS:0004472
 name: transchromosomal strain
-def: "Transchromosomal strains carry a chromosome, chromosomal fragment, or engineered chromosome from another species existing as a separate, heritable, freely segregating entity or is centromerically fused to an endogenous chromosome." [http://www.informatics.jax.org/mgihome/nomen/anomalies.shtml "Rules_for_Nomenclature_of_Chromosome_Aberrations"]
+def: "Transchromosomal strains carry a chromosome, chromosomal fragment, or engineered chromosome from another species existing as a separate, heritable, freely segregating entity or is centromerically fused to an endogenous chromosome." [Rules_for_Nomenclature_of_Chromosome_Aberrations:http\://www.informatics.jax.org/mgihome/nomen/anomalies.shtml]
 is_a: RS:0000457 ! rat strain
 created_by: sjwang
 creation_date: 2017-07-14T15:52:22Z
@@ -37592,7 +37592,7 @@ creation_date: 2017-08-11T11:21:57Z
 id: RS:0004518
 name: LE-(ROSA)26 em1(LTR-nLuc)Ottc
 synonym: "RGD ID: 13208223" RELATED []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2017-08-11T11:42:11Z
 
@@ -37600,7 +37600,7 @@ creation_date: 2017-08-11T11:42:11Z
 id: RS:0004519
 name: LE-(ROSA)26 em1(CAG-Cas9)Ottc
 synonym: "RGD ID: 13208224" RELATED []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2017-08-11T11:44:00Z
 
@@ -39146,7 +39146,7 @@ creation_date: 2019-04-19T09:18:09Z
 id: RS:0004708
 name: LE-Drd1em1(iCre)Berke
 synonym: "RGD ID: 14398499" EXACT []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2019-04-23T16:53:13Z
 
@@ -39154,7 +39154,7 @@ creation_date: 2019-04-23T16:53:13Z
 id: RS:0004709
 name: LE-Adora2aem1(iCre)Berke
 synonym: "RGD ID: 14398734" EXACT []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2019-04-24T14:28:29Z
 
@@ -39178,7 +39178,7 @@ creation_date: 2019-05-02T15:17:08Z
 id: RS:0004712
 name: LE-Chrna5em18Pas
 synonym: "RGD ID: 14402419" EXACT []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2019-06-18T15:47:34Z
 
@@ -39186,7 +39186,7 @@ creation_date: 2019-06-18T15:47:34Z
 id: RS:0004713
 name: LE-Chrna5em20(D398N)Pas
 synonym: "RGD ID: 14402421" EXACT []
-is_a: RS:0004779 ! LE mutants
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2019-06-18T15:51:35Z
 
@@ -39700,110 +39700,6 @@ synonym: "RGD ID: 21409752" EXACT []
 is_a: RS:0000014 ! DA
 created_by: sjwang
 creation_date: 2020-03-24T16:43:51Z
-
-[Term]
-id: RS:0004778
-name: MWF/Ztm
-synonym: "RGD ID: 25314294" EXACT []
-is_a: RS:0000594 ! MWF
-created_by: sjwang
-creation_date: 2020-04-03T12:58:47Z
-
-[Term]
-id: RS:0004779
-name: LE mutants
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2020-04-09T11:42:56Z
-
-[Term]
-id: RS:0004780
-name: LE-Dyrk1aem3Mcwi
-synonym: "RGD ID: 25394526" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T11:59:51Z
-
-[Term]
-id: RS:0004781
-name: LE-Chd8em1Mcwi
-synonym: "RGD ID: 25330088" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T12:06:20Z
-
-[Term]
-id: RS:0004782
-name: LE-Cntnap2em1Mcwi
-synonym: "RGD ID: 25330087" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T12:11:24Z
-
-[Term]
-id: RS:0004783
-name: LE-Nrxn1em1Mcwi
-synonym: "RGD ID: 25330089" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T12:17:38Z
-
-[Term]
-id: RS:0004784
-name: SD-Mir146bem1Mcwi
-synonym: "RGD ID: 25330093" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2020-04-09T12:22:12Z
-
-[Term]
-id: RS:0004785
-name: LE-Scn2aem1Mcwi
-synonym: "RGD ID: 25394530" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T13:53:31Z
-
-[Term]
-id: RS:0004786
-name: LE-Scn2aem2Mcwi
-synonym: "RGD ID: 25394532" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2020-04-09T13:56:12Z
-
-[Term]
-id: RS:0004787
-name: SS.BN-(D13Hmgc41-D13Rat101)-Renem2Mcwi
-synonym: "RGD ID: 27095885" EXACT []
-is_a: RS:0004707 ! SS.BN mutants
-created_by: sjwang
-creation_date: 2020-05-14T15:20:54Z
-
-[Term]
-id: RS:0004788
-name: SD-Ephx2em2Mcwi
-synonym: "RGD ID: 25394528" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2020-05-28T17:24:17Z
-
-[Term]
-id: RS:0004789
-name: SS.BN-(D13Hmgc41-D13Rat101)/Mcwi
-synonym: "RGD ID: 30309956" EXACT []
-is_a: RS:0001487 ! SS.SS-Chr 13BN/Mcwi congenics
-created_by: sjwang
-creation_date: 2020-06-23T11:41:26Z
-
-[Term]
-id: RS:0004790
-name: BDIX.BDIV-D6Rat132-D6Rat229/Zte
-synonym: "BDIX.BDIV-Mss4c" RELATED []
-synonym: "RGD ID: 32716420" EXACT []
-is_a: RS:0004256 ! BDIX/Zte congenic
-created_by: sjwang
-creation_date: 2020-06-30T09:14:15Z
 
 [Typedef]
 id: part_of
