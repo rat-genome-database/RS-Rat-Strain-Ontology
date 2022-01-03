@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.157
-date: 18:09:2021 20:13
+data-version: 6.153
+date: 21:08:2021 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -25353,7 +25353,7 @@ creation_date: 2012-02-20T12:00:00Z
 
 [Term]
 id: RS:0003129
-name: SS-Tgfb1em3Mcwi+/-
+name: SS-Tgfb1em3Mcwi-/+
 synonym: "RGD ID: 5688119" RELATED []
 synonym: "SS-Tgfb1em3Mcwi/2Mcwi" RELATED []
 synonym: "SS-Tgfb1em3Mcwi-/Tgfb1em3Mcwi+" RELATED []
@@ -41812,127 +41812,6 @@ synonym: "RGD ID: 38676461" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
 creation_date: 2021-08-20T13:17:21Z
-
-[Term]
-id: RS:0005041
-name: SS-Tgfb1em3Mcwi+/+
-synonym: "RGD ID: 150340629" EXACT []
-is_a: RS:0002601 ! SS-Tgfb1em3Mcwi
-is_a: RS:0003397 ! SS/JrHsdMcwi Wild Type (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-08-24T09:07:55Z
-
-[Term]
-id: RS:0005042
-name: LEW-Myo15aci2/Ztm
-synonym: "RGD ID: 150404267" EXACT []
-is_a: RS:0003480 ! LEW mutants
-created_by: sjwang
-creation_date: 2021-09-03T15:46:52Z
-
-[Term]
-id: RS:0005043
-name: SS-Vwfem4Mcwi
-synonym: "RGD ID: 150429598" EXACT []
-is_a: RS:0003478 ! SS mutants
-created_by: sjwang
-creation_date: 2021-09-08T10:10:43Z
-
-[Term]
-id: RS:0005044
-name: MWF.SHR-(D6Rat1-D6Rat30)/Rkb
-synonym: "RGD ID: 150429601" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:08:14Z
-
-[Term]
-id: RS:0005045
-name: MWF.SHR-(D6Rat1-D6Rat106)/Rkb
-synonym: "RGD ID: 150429602" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:12:23Z
-
-[Term]
-id: RS:0005046
-name: MWF.SHR-(D6Rat1-D6Mit8)/Rkb
-synonym: "RGD ID: 150429603" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:14:21Z
-
-[Term]
-id: RS:0005047
-name: MWF.SHR-(D6Rat1-D6Rat121)/Rkb
-synonym: "RGD ID: 150429604" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:16:40Z
-
-[Term]
-id: RS:0005048
-name: MWF.SHR-(D6Rat1-D6Mgh4)/Rkb
-synonym: "RGD ID: 150429605" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:19:08Z
-
-[Term]
-id: RS:0005049
-name: MWF.SHR-(D6Rat1-D6Rat81)/Rkb
-synonym: "RGD ID: 150429606" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:21:16Z
-
-[Term]
-id: RS:0005050
-name: MWF.SHR-(D6Rat1-D6Rat115)/Rkb
-synonym: "RGD ID: 150429607" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:24:06Z
-
-[Term]
-id: RS:0005051
-name: MWF.SHR-(D6Rat1-D6Rat184)/Rkb
-synonym: "RGD ID: 150429608" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:26:10Z
-
-[Term]
-id: RS:0005052
-name: SD-Add3em1Mcwi/ Roman
-synonym: "RGD ID: 150429615" EXACT []
-is_a: RS:0004248 ! Crl:SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-09-09T13:28:09Z
-
-[Term]
-id: RS:0005053
-name: FHH-Tg(CAG-Add3)McwiRoman
-synonym: "RGD ID: 150429614" EXACT []
-is_a: RS:0003112 ! FHH/EurMcwi transgenics
-created_by: sjwang
-creation_date: 2021-09-09T13:39:56Z
-
-[Term]
-id: RS:0005054
-name: FHH-Chr 1BN-Add3em2Mcwi /Roman
-synonym: "RGD ID: 150429618" EXACT []
-is_a: RS:0003494 ! FHH-Chr 1BN/Mcwi Homozygous (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-09-09T14:33:09Z
-
-[Term]
-id: RS:0005055
-name: SD-Cyp2c11em1Nju
-synonym: "RGD ID: 150429707" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-09-17T15:56:34Z
 
 [Typedef]
 id: part_of

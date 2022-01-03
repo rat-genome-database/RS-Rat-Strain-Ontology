@@ -1,9 +1,8 @@
 format-version: 1.2
-data-version: 6.157
-date: 18:09:2021 20:13
+data-version: 6.123
+date: 05:12:2020 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
-synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: rat_strain_ontology
 ontology: rs
 
@@ -1210,9 +1209,8 @@ is_a: RS:0000215 ! F344
 [Term]
 id: RS:0000180
 name: CDR/Ygl
-synonym: "CDr/y" EXACT []
-synonym: "Cohen Diabetic-Resistant Rat" EXACT []
-synonym: "MDC-01-89" EXACT []
+synonym: "Cohen Diabetic-Resistant Rat" RELATED []
+synonym: "MDC-01-89" RELATED []
 synonym: "RGD ID: 1357181" RELATED []
 is_a: RS:0002289 ! CDR
 
@@ -1875,7 +1873,7 @@ creation_date: 2011-08-04T12:00:00Z
 [Term]
 id: RS:0000272
 name: F344.BN
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 
 [Term]
 id: RS:0000273
@@ -1915,7 +1913,7 @@ is_a: RS:0003509 ! F344 transgenics
 [Term]
 id: RS:0000279
 name: F344.GK/KyoSwe
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 
 [Term]
 id: RS:0000280
@@ -1960,7 +1958,7 @@ is_a: RS:0000765 ! inbred strain
 id: RS:0000285
 name: F344.OLETF
 synonym: "F344 background OLETF Congenic" RELATED []
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 
 [Term]
 id: RS:0000286
@@ -4287,6 +4285,7 @@ id: RS:0000610
 name: NP
 synonym: "alcohol-nonpreferring" RELATED []
 synonym: "RGD ID: 634381" RELATED []
+is_a: RS:0000461 ! mutant strain
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -4931,7 +4930,7 @@ is_a: RS:0002341 ! SDL
 
 [Term]
 id: RS:0000706
-name: SDT.Cg-Leprfa/Jtt
+name: SDT.ZDF-Leprfa/Jtt
 synonym: "RGD ID: 2314027" RELATED []
 synonym: "SDT.Cg-Leprfa/Jtp" RELATED []
 synonym: "SDT fatty" RELATED []
@@ -4953,7 +4952,6 @@ synonym: "NBRP Rat No. 0151" RELATED []
 synonym: "RGD ID: 1302698" RELATED []
 synonym: "RRRC:0066" RELATED []
 synonym: "spontaneous dwarf rat" RELATED []
-is_a: RS:0000461 ! mutant strain
 is_a: RS:0002342 ! SDR
 
 [Term]
@@ -6608,7 +6606,7 @@ is_a: RS:0000817 ! SS/Jr
 
 [Term]
 id: RS:0000924
-name: SS/JrTol
+name: SS/JrMco
 synonym: "Dahl salt-sensitive" RELATED []
 synonym: "RGD ID: 724573" RELATED []
 is_a: RS:0000817 ! SS/Jr
@@ -7095,9 +7093,8 @@ is_a: RS:0000459 ! congenic strain
 [Term]
 id: RS:0000994
 name: WF.COP-(D2Mit29-D2Rat201)/Uwm
-synonym: "line B" EXACT []
-synonym: "RGD ID: 728389" EXACT []
-synonym: "WF.COP-D2Mit29/D2Rat201" EXACT []
+synonym: "RGD ID: 728389" RELATED []
+synonym: "WF.COP-D2Mit29/D2Rat201" RELATED []
 is_a: RS:0000993 ! WF/NHsd.COP
 is_a: RS:0002905 ! WF/NHsd.COP (chr 2)
 
@@ -7149,8 +7146,7 @@ is_a: RS:0002822 ! chromosome 19 congenic
 [Term]
 id: RS:0001000
 name: WF.WKY-(D5Wox7-D5Uwm37)/Uwm
-synonym: "line C" EXACT []
-synonym: "RGD ID: 634359" EXACT []
+synonym: "RGD ID: 634359" RELATED []
 is_a: RS:0001001 ! WF/NHsd.WKY/NHsd
 is_a: RS:0002909 ! WF/NHsd.WKY/NHsd (chr 5)
 
@@ -8489,8 +8485,7 @@ is_a: RS:0002354 ! BBDP/WorSunn.WF (chr 8)
 [Term]
 id: RS:0001181
 name: BBDP/Wor
-synonym: "RGD ID: 41412186" RELATED []
-is_a: RS:0001155 ! BBDP
+is_a: RS:0000071 ! BBDP/Rhw
 
 [Term]
 id: RS:0001182
@@ -8877,7 +8872,7 @@ is_a: RS:0003327 ! F344/N
 
 [Term]
 id: RS:0001236
-name: F344-ApcPirc/Uwm
+name: F344-ApcPircUwm
 synonym: "F344-ApcPirc/Uwm" RELATED []
 synonym: "Pirc" RELATED []
 synonym: "polyposis in the rat colon (Pirc) kindred" RELATED []
@@ -9531,7 +9526,6 @@ id: RS:0001318
 name: GRY/Idr
 synonym: "groggy rat" RELATED []
 synonym: "RGD ID: 1599759" RELATED []
-is_a: RS:0000461 ! mutant strain
 is_a: RS:0002300 ! GRY
 
 [Term]
@@ -9717,11 +9711,11 @@ creation_date: 2011-08-23T12:00:00Z
 
 [Term]
 id: RS:0001344
-name: LA-cp/NJcr
+name: LA/NJcr-cp
 synonym: "JCR:LA-corpulent rat" RELATED []
 synonym: "JCR:LA-cp" RELATED []
 synonym: "RGD ID: 1642690" RELATED []
-is_a: RS:0000421 ! LA/N-cp
+is_a: RS:0000459 ! congenic strain
 
 [Term]
 id: RS:0001345
@@ -9975,7 +9969,7 @@ is_a: RS:0000635 ! P
 
 [Term]
 id: RS:0001378
-name: ODS/Shi
+name: ODS/Jcl
 synonym: "ODS" RELATED []
 synonym: "RGD ID: 1559039" RELATED []
 is_a: RS:0002328 ! ODS
@@ -10001,7 +9995,6 @@ synonym: "PCK-Pkhd1pck/Crl" RELATED []
 synonym: "Polycystic kidney rat" RELATED []
 synonym: "RGD ID: 1580542" RELATED []
 is_a: RS:0000458 ! coisogenic strain
-is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0001382
@@ -11061,7 +11054,6 @@ is_a: RS:0000853 ! SS.LEW-(D10Rat27-Igfbp4)/Ayd
 id: RS:0001523
 name: SS.LEW-(D10Mco38-D10Mco41)/Jr
 synonym: "RGD ID: 1641872" RELATED []
-synonym: "S.LEWX11" EXACT []
 is_a: RS:0000884 ! SS.LEW-(D10Mit10-D10Mgh1)/Jr
 
 [Term]
@@ -11576,7 +11568,7 @@ name: HanTac:WH
 synonym: "RGD ID: 1566433" RELATED []
 synonym: "WH/HanTac" RELATED []
 synonym: "Wistar Hannover GALAS" RELATED []
-is_a: RS:0005006 ! RCCHan:WIST
+is_a: RS:0000462 ! outbred strain
 
 [Term]
 id: RS:0001593
@@ -13266,7 +13258,7 @@ id: RS:0001791
 name: BDIX/NemOda
 synonym: "NBRP Rat No: 0304" RELATED []
 synonym: "RGD ID: 2304285" RELATED []
-is_a: RS:0004962 ! BDIX/Nem
+is_a: RS:0000091 ! BDIX
 created_by: rnigam
 creation_date: 2009-12-14T12:00:00Z
 
@@ -13653,7 +13645,7 @@ name: Crl:WI(Han)
 synonym: "Crl:WI(Glx/BRL/Han)IGSBR" RELATED []
 synonym: "RGD ID: 2308816" RELATED []
 synonym: "Wistar Han IGS" RELATED []
-is_a: RS:0005006 ! RCCHan:WIST
+is_a: RS:0001013 ! WI
 created_by: rnigam
 creation_date: 2009-12-15T12:00:00Z
 
@@ -14598,7 +14590,7 @@ synonym: "F344.CVD-Unc5c/Kyo" RELATED []
 synonym: "NBRP Rat No: 0084" RELATED []
 synonym: "RGD ID: 2304017" RELATED []
 is_a: RS:0000461 ! mutant strain
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0002659 ! F344/NSlc congenics
 is_a: RS:0002784 ! chromosome 2 congenic
 created_by: RNigam
 creation_date: 2010-01-05T12:00:00Z
@@ -14611,7 +14603,7 @@ synonym: "F344.Cg-Foxn1rnu/Kyo (rnu/+)" RELATED []
 synonym: "F344/N-rnu" RELATED []
 synonym: "NBRP Rat No: 0083" RELATED []
 synonym: "RGD ID: 2303996" RELATED []
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0002659 ! F344/NSlc congenics
 is_a: RS:0002732 ! chromosome 10 congenic
 created_by: RNigam
 creation_date: 2010-01-05T12:00:00Z
@@ -14679,7 +14671,7 @@ creation_date: 2010-01-06T12:00:00Z
 [Term]
 id: RS:0001933
 name: F344/NSlc.NER/Kyo
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2010-01-06T12:00:00Z
 
@@ -15317,7 +15309,7 @@ synonym: "F.ZF-lepr" RELATED []
 synonym: "F344.Z-Leprob/Tj" RELATED []
 synonym: "NBRP Rat No: 0178" RELATED []
 synonym: "RGD ID: 2304047" RELATED []
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 is_a: RS:0002727 ! chromosome 5 congenic
 created_by: RNigam
 creation_date: 2010-01-07T12:00:00Z
@@ -15835,7 +15827,7 @@ creation_date: 2010-01-08T12:00:00Z
 [Term]
 id: RS:0002046
 name: W-Tg(CAG-Zfml)Ncms
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-08T12:00:00Z
 
@@ -15965,7 +15957,7 @@ creation_date: 2010-01-11T12:00:00Z
 
 [Term]
 id: RS:0002059
-name: LEW-Tg((ROSA26)Sor-lacZ)44JmskRrrc
+name: LEW-Tg((ROSA)26Sor-lacZ)44JmskRrrc
 synonym: "LEW-Tg(Gt(ROSA)26Sor-lacZ)44Jmsk" RELATED []
 synonym: "LEW-Tg(Rosa-LacZ)44Jmsk" RELATED []
 synonym: "NBRP Rat No: 0298" RELATED []
@@ -16613,7 +16605,7 @@ creation_date: 2010-01-12T12:00:00Z
 
 [Term]
 id: RS:0002124
-name: SD-Tg(HRAS)128Ncc
+name: SD-Tg(HRAS)128Ncu
 synonym: "Hras128" RELATED []
 synonym: "NBRP Rat No: 0376" RELATED []
 synonym: "RGD ID: 2304330" RELATED []
@@ -17524,7 +17516,7 @@ synonym: "Slc: Wistar/ST" RELATED []
 synonym: "Slc: Wistar-ST" RELATED []
 synonym: "Slc:WST" RELATED []
 synonym: "Wistar-ST" RELATED []
-is_a: RS:0001013 ! WI
+is_a: RS:0000462 ! outbred strain
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17552,7 +17544,7 @@ creation_date: 2010-01-14T12:00:00Z
 [Term]
 id: RS:0002219
 name: W/Jmsk transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17641,7 +17633,7 @@ creation_date: 2010-01-14T12:00:00Z
 [Term]
 id: RS:0002227
 name: W/Ys transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17673,7 +17665,7 @@ name: W-Tg(Gnrh1-EGFP)Nphy
 synonym: "NBRP Rat No: 0469" RELATED []
 synonym: "RGD ID: 2306047" RELATED []
 synonym: "Wistar-Tg(Gnrh1-EGFP)Nphy" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17706,7 +17698,7 @@ synonym: "HIKARU" RELATED []
 synonym: "NBRP Rat No: 0475" RELATED []
 synonym: "RGD ID: 2306062" RELATED []
 synonym: "Wistar-Tg(Per1-luc)1Oa" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17751,7 +17743,7 @@ synonym: "NBRP Rat No: 0371" RELATED []
 synonym: "RGD ID: 2304300" RELATED []
 synonym: "s100b-GFP" RELATED []
 synonym: "Wistar-Tg(S100b-EGFP)Scell" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17762,7 +17754,7 @@ synonym: "NBRP Rat No: 0554" RELATED []
 synonym: "RGD ID: 2314361" RELATED []
 synonym: "VGAT-Venus-A" RELATED []
 synonym: "Wistar-Tg(Slc32a1-YFP*)1Yyan" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17773,7 +17765,7 @@ synonym: "NBRP Rat No: 0555" RELATED []
 synonym: "RGD ID: 2314363" RELATED []
 synonym: "VGAT-Venus-B" RELATED []
 synonym: "Wistar-Tg(Slc32a1-YFP*)2Yyan" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-14T12:00:00Z
 
@@ -17813,7 +17805,7 @@ creation_date: 2010-01-15T12:00:00Z
 [Term]
 id: RS:0002243
 name: Crlj:WI transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-15T12:00:00Z
 
@@ -17932,7 +17924,7 @@ creation_date: 2011-10-31T12:00:00Z
 [Term]
 id: RS:0002256
 name: WIC transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-01-20T12:00:00Z
 
@@ -17977,7 +17969,6 @@ synonym: "RGD ID: 2303986" RELATED []
 synonym: "WKAH.C-hts" RELATED []
 synonym: "WKAH.LEC-Atp7b/Tj" RELATED []
 synonym: "WKAH background LEC-derived hts Congenic" RELATED []
-is_a: RS:0000461 ! mutant strain
 is_a: RS:0002691 ! WKAH.LEC/Tj
 is_a: RS:0002734 ! chromosome 16 congenic
 created_by: RNigam
@@ -19572,7 +19563,7 @@ synonym: "NBRP Rat No: 0603" RELATED []
 synonym: "Nts:Mini rat" RELATED []
 synonym: "RGD ID: 4140402" RELATED []
 synonym: "TRE4 910329-32" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-08-27T12:00:00Z
 
@@ -19588,11 +19579,11 @@ creation_date: 2010-08-27T12:00:00Z
 
 [Term]
 id: RS:0002446
-name: ODS-Gulood/od/ShiJcl
+name: ODS/ShiJcl
 synonym: "ODS/ShiJcl (od/od)" RELATED []
 synonym: "Osteogenic disorder Shionagi rat" RELATED []
 synonym: "RGD ID: 4140404" RELATED []
-is_a: RS:0001378 ! ODS/Shi
+is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2010-08-27T12:00:00Z
 
@@ -19801,7 +19792,7 @@ name: W-Tg(Tek-GFP)1Soh
 synonym: "NBRP Rat No: 0604" RELATED []
 synonym: "RGD ID: 4142541" RELATED []
 synonym: "Tie2-GFP" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2010-12-14T12:00:00Z
 
@@ -20577,8 +20568,7 @@ creation_date: 2010-12-17T12:00:00Z
 [Term]
 id: RS:0002541
 name: WF.WKY-(D5Rat26-D5Uwm42)/Uwm
-synonym: "line D" EXACT []
-synonym: "RGD ID: 4892563" EXACT []
+synonym: "RGD ID: 4892563" RELATED []
 is_a: RS:0001001 ! WF/NHsd.WKY/NHsd
 is_a: RS:0002909 ! WF/NHsd.WKY/NHsd (chr 5)
 created_by: RNigam
@@ -21589,7 +21579,7 @@ creation_date: 2011-08-04T12:00:00Z
 [Term]
 id: RS:0002655
 name: DA/ZtmRhd congenics
-is_a: RS:0002681 ! DA congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-04T12:00:00Z
 
@@ -21610,13 +21600,13 @@ creation_date: 2011-08-04T12:00:00Z
 [Term]
 id: RS:0002658
 name: F344/NSlc.ACI
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-04T12:00:00Z
 
 [Term]
 id: RS:0002659
-name: F344 congenics
+name: F344/NSlc congenics
 is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-04T12:00:00Z
@@ -21624,56 +21614,56 @@ creation_date: 2011-08-04T12:00:00Z
 [Term]
 id: RS:0002660
 name: F344/DuCrlCrlj congenics
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-04T12:00:00Z
 
 [Term]
 id: RS:0002661
 name: F344/NHsd.DA/BklArb
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-04T12:00:00Z
 
 [Term]
 id: RS:0002662
 name: F344/NHsd.HTX/Hcj
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
 [Term]
 id: RS:0002663
 name: F344.LEC
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
 [Term]
 id: RS:0002664
 name: F344-Tg.LEW
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
 [Term]
 id: RS:0002665
 name: F344.BBDR(BBDP)
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
 [Term]
 id: RS:0002666
 name: F344.OP/Jtt
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
 [Term]
 id: RS:0002667
 name: F344/NSlc.SDT/CrljJcl
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
@@ -22419,7 +22409,6 @@ creation_date: 2011-08-16T12:00:00Z
 id: RS:0002773
 name: F344/NHsd (sleeping beauty) mutants (chr 19)
 is_a: RS:0002772 ! chromosome 19 mutant
-is_a: RS:0003472 ! F344 mutants
 created_by: RNigam
 creation_date: 2011-08-16T12:00:00Z
 
@@ -23641,9 +23630,9 @@ creation_date: 2011-10-31T12:00:00Z
 
 [Term]
 id: RS:0002941
-name: HsdRccHan:WIST
+name: RccHan:WIST
 synonym: "RGD ID: 5508396" RELATED []
-is_a: RS:0005006 ! RCCHan:WIST
+is_a: RS:0000462 ! outbred strain
 created_by: RNigam
 creation_date: 2011-10-31T12:00:00Z
 
@@ -23651,7 +23640,7 @@ creation_date: 2011-10-31T12:00:00Z
 id: RS:0002942
 name: HotHsd:SD
 synonym: "RGD ID: 5508397" RELATED []
-is_a: RS:0000681 ! SD
+is_a: RS:0000698 ! Hsd:SD
 created_by: RNigam
 creation_date: 2011-10-31T12:00:00Z
 
@@ -25353,7 +25342,7 @@ creation_date: 2012-02-20T12:00:00Z
 
 [Term]
 id: RS:0003129
-name: SS-Tgfb1em3Mcwi+/-
+name: SS-Tgfb1em3Mcwi-/+
 synonym: "RGD ID: 5688119" RELATED []
 synonym: "SS-Tgfb1em3Mcwi/2Mcwi" RELATED []
 synonym: "SS-Tgfb1em3Mcwi-/Tgfb1em3Mcwi+" RELATED []
@@ -26210,7 +26199,9 @@ id: RS:0003210
 name: F344.AR-EdnrbslHkv
 synonym: "F344-Ednrbsl" RELATED []
 synonym: "RGD ID: 6480223" RELATED []
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
+is_a: RS:0003208 ! AR-Ednrbsl/Hkv
+is_a: RS:0003472 ! F344 mutants
 created_by: RNigam
 creation_date: 2012-04-04T12:00:00Z
 
@@ -26445,7 +26436,7 @@ creation_date: 2012-05-04T12:00:00Z
 
 [Term]
 id: RS:0003236
-name: LEW-Tg((ROSA26)Sor-lacZ)15Jmsk
+name: LEW-Tg((ROSA)26Sor-lacZ)15Jmsk
 synonym: "LEW-Tg(Rosa-lacZ)15Jmsk" RELATED []
 synonym: "RGD ID: 6482292" RELATED []
 synonym: "RRRC:00297" RELATED []
@@ -28581,7 +28572,6 @@ creation_date: 2013-08-29T12:51:54Z
 id: RS:0003474
 name: F344/NTac (ENU) mutants
 is_a: RS:0003473 ! F344/NTac mutants
-is_a: RS:0003716 ! F344 (ENU) mutants
 created_by: RNigam
 creation_date: 2013-08-29T12:52:17Z
 
@@ -28860,7 +28850,7 @@ creation_date: 2013-08-29T03:49:59Z
 
 [Term]
 id: RS:0003514
-name: W transgenics
+name: WI transgenics
 is_a: RS:0000465 ! transgenic strain
 created_by: RNigam
 creation_date: 2013-08-29T03:50:49Z
@@ -29486,7 +29476,7 @@ creation_date: 2013-12-11T01:03:08Z
 
 [Term]
 id: RS:0003586
-name: SS.LEW-(D17Chm131-D17Chm93)/Ayd
+name: SS.LEW-(D17Chm31-D17Chm93)/Ayd
 synonym: "C17S.L11" RELATED []
 synonym: "RGD ID: 7421621" RELATED []
 is_a: RS:0000818 ! SS/Jr.LEW/Crlc
@@ -29784,7 +29774,7 @@ id: RS:0003614
 name: F344.Cg-Du, TyrC/Kyo
 synonym: "RGD ID: 7800659" RELATED []
 is_a: RS:0002292 ! chromosome 1 congenic
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0002659 ! F344/NSlc congenics
 created_by: RNigam
 creation_date: 2014-01-16T12:18:13Z
 
@@ -30188,20 +30178,20 @@ creation_date: 2014-04-11T02:28:15Z
 
 [Term]
 id: RS:0003659
-name: SS.LEW-(D17Chm131-D17Chm93)(D10Chm10-D10Rat11)/Ayd
+name: SS.LEW-(D17Chm31-D17Chm93)(D10Chm10-D10Rat11)/Ayd
 synonym: "C17S.L11/C10S.L16" RELATED []
 synonym: "RGD ID: 8551732" RELATED []
 is_a: RS:0001507 ! SS.LEW-(D10Chm10-D10Rat11)/Ayd
-is_a: RS:0003586 ! SS.LEW-(D17Chm131-D17Chm93)/Ayd
+is_a: RS:0003586 ! SS.LEW-(D17Chm31-D17Chm93)/Ayd
 created_by: RNigam
 creation_date: 2014-04-11T02:30:35Z
 
 [Term]
 id: RS:0003660
-name: SS.LEW-(D17Chm131-D17Chm93)(D17Rat84-D17Chm17)/Ayd
+name: SS.LEW-(D17Chm31-D17Chm93)(D17Rat84-D17Chm17)/Ayd
 synonym: "C17S.L30/C17S.L9" RELATED []
 synonym: "RGD ID: 8551734" RELATED []
-is_a: RS:0003586 ! SS.LEW-(D17Chm131-D17Chm93)/Ayd
+is_a: RS:0003586 ! SS.LEW-(D17Chm31-D17Chm93)/Ayd
 is_a: RS:0003587 ! SS.LEW-(D17Rat84-D17Chm17)/Ayd
 created_by: RNigam
 creation_date: 2014-04-11T02:33:17Z
@@ -30893,7 +30883,7 @@ creation_date: 2014-04-23T10:25:02Z
 [Term]
 id: RS:0003732
 name: W/Jfhy transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2014-04-23T10:31:28Z
 
@@ -30983,7 +30973,7 @@ name: W-Tg(Nqo1)Kop
 synonym: "NBRP Rat No: 0693" RELATED []
 synonym: "RGD ID: 8552329" RELATED []
 synonym: "W-Tg(NQO1)" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2014-05-02T01:14:59Z
 
@@ -31300,12 +31290,12 @@ creation_date: 2014-06-06T01:03:30Z
 
 [Term]
 id: RS:0003777
-name: SS.LEW-(D17Chm131-D17Chm93),MNS-(D2Rat155-D2Chm161),LEW-(D18Chm41-D18Rat92)/Ayd
+name: SS.LEW-(D17Chm31-D17Chm93),MNS-(D2Rat155-D2Chm161),LEW-(D18Chm41-D18Rat92)/Ayd
 synonym: "C2S.M17/C17S.L11/C18S.L3" RELATED []
 synonym: "congenic combination (i)" RELATED []
 synonym: "RGD ID: 8657348" RELATED []
 is_a: RS:0001654 ! SS.LEW-(D18Chm41-D18Rat92)/Ayd
-is_a: RS:0003586 ! SS.LEW-(D17Chm131-D17Chm93)/Ayd
+is_a: RS:0003586 ! SS.LEW-(D17Chm31-D17Chm93)/Ayd
 is_a: RS:0003591 ! SS.MNS-(D2Rat155-D2Chm161)/Ayd
 created_by: RNigam
 creation_date: 2014-06-06T01:06:33Z
@@ -32003,7 +31993,7 @@ synonym: "Dox-dependent re-programmable rat" RELATED []
 synonym: "NBRP Rat No: 0695" RELATED []
 synonym: "RGD ID: 9685755" RELATED []
 synonym: "W-Tg(TRE-mOKS Ubc-rTet I/EGFP)T1-3/Hina" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2015-03-04T09:57:53Z
 
@@ -32623,7 +32613,7 @@ creation_date: 2015-07-13T02:19:57Z
 
 [Term]
 id: RS:0003925
-name: LE-Tg((ROSA26)Sor-CAG-tdTomato)24Jfhy
+name: LE-Tg((ROSA)26Sor-CAG-tdTomato)24Jfhy
 synonym: "NBRP Rat No: 0734" RELATED []
 synonym: "RGD ID: 10045580" RELATED []
 synonym: "Tg(RP23-244D9/CAG-neo-tdTomato)Jfhy" RELATED []
@@ -32742,7 +32732,7 @@ creation_date: 2015-07-14T02:40:33Z
 [Term]
 id: RS:0003937
 name: Slc:W transgenics
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2015-07-14T02:52:25Z
 
@@ -33474,7 +33464,7 @@ creation_date: 2015-08-26T12:26:37Z
 id: RS:0004028
 name: W-Tg(GnRH-GFP)Mni
 synonym: "RGD ID: 10059635" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: RNigam
 creation_date: 2015-08-26T12:28:38Z
 
@@ -34157,7 +34147,7 @@ id: RS:0004108
 name: W-Tg(RNB1-116K03-EGFP-mRFP)3Kyo
 synonym: "NBRP Rat No: 0606" RELATED []
 synonym: "RGD ID: 11040568" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T14:25:36Z
 
@@ -34166,7 +34156,7 @@ id: RS:0004109
 name: W-Tg(RNB1-116K03-EGFP-mRFP)20Kyo
 synonym: "NBRP Rat No: 0607" RELATED []
 synonym: "RGD ID: 11040570" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T14:27:57Z
 
@@ -34175,7 +34165,7 @@ id: RS:0004110
 name: W-Tg(RNB1-116K03-EGFP-mRFP)21Kyo
 synonym: "NBRP Rat No: 0608" RELATED []
 synonym: "RGD ID: 11040572" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T15:39:42Z
 
@@ -34184,7 +34174,7 @@ id: RS:0004111
 name: W-Tg(RNB1-116K03-EGFP-mRFP)22Kyo
 synonym: "NBRP Rat No: 0609" RELATED []
 synonym: "RGD ID: 11040574" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T15:40:47Z
 
@@ -34193,7 +34183,7 @@ id: RS:0004112
 name: W-Tg(RNB1-116K03-EGFP-mRFP)41Kyo
 synonym: "NBRP Rat No: 0610" RELATED []
 synonym: "RGD ID: 11040577" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T15:44:32Z
 
@@ -34202,7 +34192,7 @@ id: RS:0004113
 name: W-Tg(RNB1-116K03-EGFP-mRFP)104Kyo
 synonym: "NBRP Rat No: 0611" RELATED []
 synonym: "RGD ID: 11040579" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: rnigam
 creation_date: 2016-03-23T15:45:44Z
 
@@ -34907,6 +34897,7 @@ creation_date: 2016-06-03T15:37:39Z
 [Term]
 id: RS:0004193
 name: HsdHot:SD mutants
+is_a: RS:0002942 ! HotHsd:SD
 is_a: RS:0003828 ! SD mutants
 created_by: rnigam
 creation_date: 2016-06-03T15:41:20Z
@@ -35053,7 +35044,7 @@ creation_date: 2016-08-19T09:52:11Z
 
 [Term]
 id: RS:0004210
-name: SD-F8em1Sage/Novo
+name: SD/Novo-F8em1Sage
 synonym: "RGD ID: 11531094" RELATED []
 is_a: RS:0004183 ! SD (ZFN) mutants
 created_by: vpetri
@@ -35061,24 +35052,24 @@ creation_date: 2016-09-09T08:53:16Z
 
 [Term]
 id: RS:0004211
-name: SD-F8em1Sage+/-/Novo
+name: SD/Novo-F8em1Sage+/-
 synonym: "RGD ID: 11531089" RELATED []
-is_a: RS:0004210 ! SD-F8em1Sage/Novo
+is_a: RS:0004210 ! SD/Novo-F8em1Sage
 created_by: vpetri
 creation_date: 2016-09-09T08:55:32Z
 
 [Term]
 id: RS:0004212
-name: SD-F8em1Sage-/-/Novo
+name: SD/Novo-F8em1Sage-/-
 synonym: "RGD ID: 11531091" RELATED []
-is_a: RS:0004210 ! SD-F8em1Sage/Novo
+is_a: RS:0004210 ! SD/Novo-F8em1Sage
 created_by: vpetri
 creation_date: 2016-09-09T08:56:06Z
 
 [Term]
 id: RS:0004213
-name: NP (ZFN) mutants
-is_a: RS:0000461 ! mutant strain
+name: NP/lusm (ZFN)
+is_a: RS:0001375 ! NP/Iusm
 created_by: vpetri
 creation_date: 2016-09-09T09:07:40Z
 
@@ -35086,7 +35077,7 @@ creation_date: 2016-09-09T09:07:40Z
 id: RS:0004214
 name: NP/Iusm-Npyem6Sage
 synonym: "RGD ID: 11530028" RELATED []
-is_a: RS:0004213 ! NP (ZFN) mutants
+is_a: RS:0004213 ! NP/lusm (ZFN)
 created_by: vpetri
 creation_date: 2016-09-09T09:09:11Z
 
@@ -35110,7 +35101,6 @@ creation_date: 2016-09-09T09:10:17Z
 id: RS:0004217
 name: PKD/Mhm
 synonym: "RGD ID: 11535000" RELATED []
-is_a: RS:0000461 ! mutant strain
 is_a: RS:0000642 ! PKD
 created_by: vpetri
 creation_date: 2016-09-23T10:03:38Z
@@ -35456,7 +35446,7 @@ creation_date: 2017-01-20T16:48:17Z
 
 [Term]
 id: RS:0004260
-name: BDIV-Myo5a/StcRrrc
+name: BDIV-Myo5a
 synonym: "RGD ID: 11667081" RELATED []
 synonym: "RRRC:00784" RELATED []
 is_a: RS:0004259 ! BDIV mutants
@@ -35596,7 +35586,7 @@ creation_date: 2017-01-27T15:02:46Z
 
 [Term]
 id: RS:0004278
-name: LE-Tg((Rosa26)Sor-CAG-tdTomato)9Jfhy
+name: LE-Tg((Rosa)26Sor-CAG-tdTomato)9Jfhy
 synonym: "RGD ID: 11561979" RELATED []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -35604,7 +35594,7 @@ creation_date: 2017-01-27T15:06:27Z
 
 [Term]
 id: RS:0004279
-name: LE-Tg((Rosa26)Sor-CAG-tdTomato)14Jfhy
+name: LE-Tg((Rosa)26Sor-CAG-tdTomato)14Jfhy
 synonym: "RGD ID: 11564343" RELATED []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -35763,7 +35753,7 @@ id: RS:0004299
 name: W-Tg(CFH)Crl
 synonym: "RGD ID: 11667094" RELATED []
 synonym: "WI-Tg(CFH)" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: sjwang
 creation_date: 2017-01-31T16:14:45Z
 
@@ -35977,7 +35967,8 @@ creation_date: 2017-02-21T11:04:00Z
 id: RS:0004326
 name: DA.KHW-(RT1-Db1-RT1-DMb)
 synonym: "RGD ID: 12743645" RELATED []
-is_a: RS:0002681 ! DA congenics
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:11:32Z
 
@@ -35985,7 +35976,8 @@ creation_date: 2017-02-21T11:11:32Z
 id: RS:0004327
 name: DA.E3-(Btnl2-RT1-DMb)
 synonym: "RGD ID: 12743647" RELATED []
-is_a: RS:0000236 ! DA/ZtmRhd.E3/ZtmRhd
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:17:42Z
 
@@ -35993,7 +35985,8 @@ creation_date: 2017-02-21T11:17:42Z
 id: RS:0004328
 name: DA.F-(Tesb-RT1-DMb)
 synonym: "RGD ID: 12743650" RELATED []
-is_a: RS:0002681 ! DA congenics
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:20:44Z
 
@@ -36001,7 +35994,8 @@ creation_date: 2017-02-21T11:20:44Z
 id: RS:0004329
 name: DA.E3-(RT1-DMa-Ggnbp1)
 synonym: "RGD ID: 12743640" RELATED []
-is_a: RS:0000236 ! DA/ZtmRhd.E3/ZtmRhd
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:22:43Z
 
@@ -36009,7 +36003,8 @@ creation_date: 2017-02-21T11:22:43Z
 id: RS:0004330
 name: DA.KHW-(RT1-DMa-Mln)
 synonym: "RGD ID: 12743652" RELATED []
-is_a: RS:0002681 ! DA congenics
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:24:25Z
 
@@ -36017,7 +36012,8 @@ creation_date: 2017-02-21T11:24:25Z
 id: RS:0004331
 name: DA.E3-(RT1-DMa-Mln)
 synonym: "RGD ID: 12743655" RELATED []
-is_a: RS:0000236 ! DA/ZtmRhd.E3/ZtmRhd
+is_a: RS:0000244 ! DA/OlaHsd
+is_a: RS:0000459 ! congenic strain
 created_by: sjwang
 creation_date: 2017-02-21T11:27:29Z
 
@@ -36670,7 +36666,7 @@ name: W-Tg(HCRT-cre-EGFP)B5Ahky
 synonym: "NBRP Rat No: 0778" RELATED []
 synonym: "RGD ID: 12879423" RELATED []
 synonym: "W-Tg(HCRT-cre,-EGFP)B5Ahky" RELATED []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: sjwang
 creation_date: 2017-04-27T13:28:25Z
 
@@ -36814,11 +36810,10 @@ creation_date: 2017-05-10T15:06:58Z
 
 [Term]
 id: RS:0004426
-name: SD-Bdnfem1Sage+/-
+name: SD-Bdnfem1Sage
 synonym: "RGD ID: 12902621" RELATED []
 synonym: "SD- Bdnf tm1sage" RELATED []
 is_a: RS:0004248 ! Crl:SD (ZFN) mutants
-is_a: RS:0004623 ! SD heterozygous mutants
 created_by: sjwang
 creation_date: 2017-05-12T18:02:11Z
 
@@ -37151,7 +37146,6 @@ creation_date: 2017-06-15T13:47:49Z
 [Term]
 id: RS:0004463
 name: LEW.1WR1-Ifnar1em1
-synonym: "IFNAR1delta81" EXACT []
 synonym: "RGD ID: 12910493" RELATED []
 is_a: RS:0000461 ! mutant strain
 created_by: sjwang
@@ -37160,7 +37154,6 @@ creation_date: 2017-06-26T13:33:39Z
 [Term]
 id: RS:0004464
 name: LEW.1WR1-Ifnar1em2
-synonym: "IFNAR1delta81+4" EXACT []
 synonym: "RGD ID: 12910494" RELATED []
 is_a: RS:0000461 ! mutant strain
 created_by: sjwang
@@ -38897,7 +38890,7 @@ creation_date: 2019-02-18T13:07:42Z
 id: RS:0004677
 name: WI-Tg(Fos-LacZ)Hope
 synonym: "RGD ID: 14390083" EXACT []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: sjwang
 creation_date: 2019-02-19T15:23:58Z
 
@@ -39244,7 +39237,7 @@ creation_date: 2019-07-10T15:10:56Z
 id: RS:0004720
 name: W-Tg(Crh-cre)Msg
 synonym: "RGD ID: 14695026" EXACT []
-is_a: RS:0003514 ! W transgenics
+is_a: RS:0003514 ! WI transgenics
 created_by: sjwang
 creation_date: 2019-07-10T15:27:05Z
 
@@ -39850,9 +39843,10 @@ creation_date: 2020-08-27T09:42:15Z
 
 [Term]
 id: RS:0004795
-name: F344.LE-ROSA26 em1(LTR-nLuc)Ottc
+name: F344.LE-(ROSA)26 em1(LTR-nLuc)Ottc
 synonym: "RGD ID: 38508893" EXACT []
-is_a: RS:0002659 ! F344 congenics
+is_a: RS:0000459 ! congenic strain
+is_a: RS:0004779 ! LE mutants
 created_by: sjwang
 creation_date: 2020-08-27T10:35:33Z
 
@@ -40117,7 +40111,7 @@ creation_date: 2020-10-01T16:51:28Z
 
 [Term]
 id: RS:0004828
-name: LE-Tg(Gt(ROSA26)Sor-CAG-COP4*C167A/YFP*)2Jfhy
+name: LE-Tg(Gt(ROSA)26Sor-CAG-COP4*C167A/YFP*)2Jfhy
 synonym: "RGD ID: 38599203" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -40125,7 +40119,7 @@ creation_date: 2020-10-01T16:54:30Z
 
 [Term]
 id: RS:0004829
-name: LE-Tg(Gt(ROSA26)Sor-CAG-COP4*C167A/YFP*)1Jfhy
+name: LE-Tg(Gt(ROSA)26Sor-CAG-COP4*C167A/YFP*)1Jfhy
 synonym: "RGD ID: 38599204" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -40242,1697 +40236,6 @@ synonym: "RGD ID: 2303000" EXACT []
 is_a: RS:0001487 ! SS.SS-Chr 13BN/Mcwi congenics
 created_by: sjwang
 creation_date: 2020-11-19T11:21:18Z
-
-[Term]
-id: RS:0004844
-name: Beta IIM
-synonym: "RGD ID: 40924649" RELATED []
-is_a: RS:0000406 ! IIM
-created_by: sjwang
-creation_date: 2021-01-18T12:35:56Z
-
-[Term]
-id: RS:0004845
-name: Alpha IIM
-synonym: "RGD ID: 40924650" RELATED []
-is_a: RS:0000406 ! IIM
-created_by: sjwang
-creation_date: 2021-01-18T12:39:46Z
-
-[Term]
-id: RS:0004846
-name: LA-cp/NRll
-synonym: "RGD ID: 40924661" RELATED []
-is_a: RS:0000421 ! LA/N-cp
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2021-01-20T11:51:42Z
-
-[Term]
-id: RS:0004847
-name: BN.ZUC-Leprfa
-synonym: "RGD ID: 40924656" EXACT []
-is_a: RS:0000459 ! congenic strain
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2021-01-20T12:26:46Z
-
-[Term]
-id: RS:0004848
-name: SD-Lrp5em1Vari
-synonym: "RGD ID: 41404646" RELATED []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-01-29T15:17:54Z
-
-[Term]
-id: RS:0004849
-name: SD-Lrp5em2Vari
-synonym: "RGD ID: 41404648" RELATED []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-01-29T15:22:21Z
-
-[Term]
-id: RS:0004850
-name: SD-Lrp5em3Vari
-synonym: "RGD ID: 41404651" RELATED []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-01-29T15:24:00Z
-
-[Term]
-id: RS:0004851
-name: GK/Jpe
-synonym: "RGD ID: 41404660" RELATED []
-is_a: RS:0001299 ! GK
-created_by: sjwang
-creation_date: 2021-02-01T16:32:41Z
-
-[Term]
-id: RS:0004852
-name: W/Jpe
-synonym: "RGD ID: 41404661" RELATED []
-is_a: RS:0000955 ! W
-created_by: sjwang
-creation_date: 2021-02-01T16:41:43Z
-
-[Term]
-id: RS:0004853
-name: SD-Shank3em1Bux
-synonym: "RGD ID: 41404705" RELATED []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-02-04T15:17:02Z
-
-[Term]
-id: RS:0004854
-name: DA.W-Ncf1W/Rhd
-synonym: "RGD ID: 41404723" RELATED []
-is_a: RS:0002681 ! DA congenics
-is_a: RS:0003986 ! DA/OlaHsd mutants
-created_by: sjwang
-creation_date: 2021-02-08T13:45:32Z
-
-[Term]
-id: RS:0004855
-name: DA.F344-Dpp4DPPIV/SvH
-synonym: "RGD ID: 41408337" RELATED []
-is_a: RS:0000237 ! DA.F344
-created_by: sjwang
-creation_date: 2021-02-09T10:31:21Z
-
-[Term]
-id: RS:0004856
-name: WI.SD-PcloTn(sb-B-Geo)Fkh
-synonym: "RGD ID: 41408339" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-02-10T14:07:58Z
-
-[Term]
-id: RS:0004857
-name: WI-Grm2em1
-synonym: "RGD ID: 41410881" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-02-17T10:48:46Z
-
-[Term]
-id: RS:0004858
-name: BBDR/RhwMcwi
-synonym: "RGD ID: 41412170" RELATED []
-is_a: RS:0000073 ! BBDR/Rhw
-created_by: sjwang
-creation_date: 2021-02-19T13:28:03Z
-
-[Term]
-id: RS:0004859
-name: BBDR.BBDP-(D4Mit6-D4Mit24)/RhwMcwi
-synonym: "RGD ID: 41412172" RELATED []
-is_a: RS:0000075 ! BBDR.BBDP-(D4Mit6-D4Mit24)/Rhw
-created_by: sjwang
-creation_date: 2021-02-19T13:37:16Z
-
-[Term]
-id: RS:0004860
-name: LEW/SsNArc
-synonym: "RGD ID: 42721973" RELATED []
-is_a: RS:0000530 ! LEW/SsN
-created_by: sjwang
-creation_date: 2021-02-25T12:54:16Z
-
-[Term]
-id: RS:0004861
-name: LEW-Nek8lpk/Arc
-synonym: "RGD ID: 42721974" EXACT DISPLAY_SYNONYM []
-is_a: RS:0003480 ! LEW mutants
-created_by: sjwang
-creation_date: 2021-02-25T13:59:38Z
-
-[Term]
-id: RS:0004862
-name: WI-Prdm14em10Nips
-synonym: "RGD ID: 41457452" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-02-25T14:05:22Z
-
-[Term]
-id: RS:0004863
-name: SD-Pde6bem1Baek
-synonym: "RGD ID: 42721977" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-02-25T14:52:04Z
-
-[Term]
-id: RS:0004864
-name: F344-Tg(HIV)1Hsd
-synonym: "RGD ID: 42722004" RELATED []
-is_a: RS:0004040 ! F344/NHsd transgenics
-created_by: sjwang
-creation_date: 2021-03-01T14:08:09Z
-
-[Term]
-id: RS:0004865
-name: WKY-Gja5em1Mcwi
-synonym: "RGD ID: 13825143" RELATED []
-is_a: RS:0004024 ! WKY/NCrl (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-03-09T12:14:13Z
-
-[Term]
-id: RS:0004866
-name: SD-Fmr1em1Mzhe
-synonym: "RGD ID: 45073130" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-03-26T12:15:53Z
-
-[Term]
-id: RS:0004867
-name: SD-Pon1em1Lizh
-synonym: "RGD ID: 45073133" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-03-26T12:23:40Z
-
-[Term]
-id: RS:0004868
-name: SD-Tg(Wnt1-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 53621137" RELATED []
-is_a: RS:0004971 ! SD-Tg(Wnt1-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-03-26T12:32:26Z
-
-[Term]
-id: RS:0004869
-name: SD-Disc1em1Rst
-synonym: "RGD ID: 125093746" RELATED []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-03-30T14:38:31Z
-
-[Term]
-id: RS:0004870
-name: Iar:WIC
-synonym: "RGD ID: 125097496" RELATED []
-is_a: RS:0001013 ! WI
-created_by: sjwang
-creation_date: 2021-04-01T11:44:52Z
-
-[Term]
-id: RS:0004871
-name: WIC-Cspg4em1Kyst
-synonym: "RGD ID: 38676464" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-04-01T12:04:25Z
-
-[Term]
-id: RS:0004872
-name: WIC-Cspg4em2Kyst
-synonym: "RGD ID: 39128162" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-04-01T12:24:06Z
-
-[Term]
-id: RS:0004873
-name: WIC-Cspg4em3Kyst
-synonym: "RGD ID: 39128163" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-04-01T12:27:20Z
-
-[Term]
-id: RS:0004874
-name: WIC-Sparcem1Kykn
-synonym: "RGD ID: 39128166" RELATED []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-04-01T12:31:31Z
-
-[Term]
-id: RS:0004875
-name: W-Tg(Grp-YFP*)14Hskmt
-synonym: "RGD ID: 39128167" RELATED []
-is_a: RS:0003514 ! W transgenics
-created_by: sjwang
-creation_date: 2021-04-01T12:36:31Z
-
-[Term]
-id: RS:0004876
-name: SHRSP-Stim1em1Izm
-synonym: "RGD ID: 39128170" RELATED []
-is_a: RS:0004236 ! SHRSP mutant
-created_by: sjwang
-creation_date: 2021-04-01T12:40:27Z
-
-[Term]
-id: RS:0004877
-name: LE-Tg(Pvalb-cre)2-28Koba
-synonym: "RGD ID: 39128171" RELATED []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2021-04-01T12:44:14Z
-
-[Term]
-id: RS:0004878
-name: W-Tg(Slc32a1-cre)3_5Fusa
-synonym: "RGD ID: 39128172" RELATED []
-is_a: RS:0003514 ! W transgenics
-created_by: sjwang
-creation_date: 2021-04-01T12:46:51Z
-
-[Term]
-id: RS:0004880
-name: SHRSP.SHR-(D1Rat23-D1Rat213)(D18Rat73-D18Rat52)/Izm
-synonym: "RGD ID: 38599202" RELATED []
-is_a: RS:0002188 ! SHRSP/Izm.SHR/Izm
-created_by: sjwang
-creation_date: 2021-04-01T13:19:19Z
-
-[Term]
-id: RS:0004881
-name: SHR-Prdx2em2Izm
-synonym: "RGD ID: 38599206" RELATED []
-is_a: RS:0003823 ! SHR mutants
-created_by: sjwang
-creation_date: 2021-04-01T14:11:22Z
-
-[Term]
-id: RS:0004882
-name: F344; W-Phf24em6(EGFP)Iexas
-synonym: "RGD ID: 38676453" RELATED []
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2021-04-06T16:16:41Z
-
-[Term]
-id: RS:0004883
-name: W-Phf24em24Iexas
-synonym: "RGD ID: 38676452" RELATED []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-06T16:22:17Z
-
-[Term]
-id: RS:0004884
-name: W-Phf24em11Iexas
-synonym: "RGD ID: 38676451" RELATED []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-06T16:26:52Z
-
-[Term]
-id: RS:0004885
-name: F344-Phf24em2Kyo
-synonym: "RGD ID: 38676450" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-06T16:29:35Z
-
-[Term]
-id: RS:0004886
-name: LE-Tg(Tac1-cre)4-1Koba
-synonym: "RGD ID: 38599247" RELATED []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2021-04-06T16:33:10Z
-
-[Term]
-id: RS:0004887
-name: W-Trpa1em1Kcrd
-synonym: "RGD ID: 38676448" RELATED []
-is_a: RS:0003465 ! Crl:WI mutants
-created_by: sjwang
-creation_date: 2021-04-06T16:51:16Z
-
-[Term]
-id: RS:0004888
-name: W-Tg(Slc32a1-cre)5_9Fusa
-synonym: "RGD ID: 38676447" RELATED []
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: sjwang
-creation_date: 2021-04-06T16:54:16Z
-
-[Term]
-id: RS:0004889
-name: W-Tg(Slc32a1-cre)2_5Fusa
-synonym: "RGD ID: 38676446" RELATED []
-is_a: RS:0002243 ! Crlj:WI transgenics
-created_by: sjwang
-creation_date: 2021-04-06T16:58:52Z
-
-[Term]
-id: RS:0004890
-name: W-Tg(Slc32a1-cre)1_4Fusa
-synonym: "RGD ID: 38676445" RELATED []
-is_a: RS:0002243 ! Crlj:WI transgenics
-created_by: sjwang
-creation_date: 2021-04-06T17:01:34Z
-
-[Term]
-id: RS:0004891
-name: SD;DA-Tg(Thy1-APP*)1Dspb
-synonym: "RGD ID: 38599241" RELATED []
-is_a: RS:0000465 ! transgenic strain
-created_by: sjwang
-creation_date: 2021-04-08T14:32:33Z
-
-[Term]
-id: RS:0004892
-name: SD;DA-Tg(Thy1-APP*)6Dspb
-synonym: "RGD ID: 38599242" RELATED []
-is_a: RS:0000465 ! transgenic strain
-created_by: sjwang
-creation_date: 2021-04-08T14:39:32Z
-
-[Term]
-id: RS:0004893
-name: SD;DA-Tg(Thy1-APP*)12Dspb
-synonym: "RGD ID: 38599243" RELATED []
-is_a: RS:0000465 ! transgenic strain
-created_by: sjwang
-creation_date: 2021-04-08T14:41:59Z
-
-[Term]
-id: RS:0004894
-name: SD;DA-Tg(Thy1-APP*)14Dspb
-synonym: "RGD ID: 38599244" RELATED []
-is_a: RS:0000465 ! transgenic strain
-created_by: sjwang
-creation_date: 2021-04-08T14:44:27Z
-
-[Term]
-id: RS:0004895
-name: LE-Tg(Tac1-cre)6-7Koba
-synonym: "RGD ID: 38599245" RELATED []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2021-04-08T14:47:04Z
-
-[Term]
-id: RS:0004896
-name: F344-Hcn1em3Kyo
-synonym: "RGD ID: 38676250" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-08T14:50:44Z
-
-[Term]
-id: RS:0004897
-name: F344-Hcn1em2Kyo
-synonym: "RGD ID: 38676251" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-08T14:54:08Z
-
-[Term]
-id: RS:0004898
-name: F344-Hcn1em1Kyo
-synonym: "RGD ID: 38676253" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-08T14:56:56Z
-
-[Term]
-id: RS:0004899
-name: F344-Hcn1em4Kyo
-synonym: "RGD ID: 38676255" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-08T14:59:34Z
-
-[Term]
-id: RS:0004900
-name: LOU/MWsl
-synonym: "RGD ID: 126779578" RELATED []
-is_a: RS:0000566 ! LOU/M
-created_by: sjwang
-creation_date: 2021-04-09T10:10:45Z
-
-[Term]
-id: RS:0004901
-name: SHR-Prdx2em1Izm
-synonym: "RGD ID: 38599208" RELATED []
-is_a: RS:0003823 ! SHR mutants
-created_by: sjwang
-creation_date: 2021-04-13T13:44:45Z
-
-[Term]
-id: RS:0004902
-name: F344-Ppargm1Kyo
-synonym: "RGD ID: 38676254" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-04-13T13:51:24Z
-
-[Term]
-id: RS:0004903
-name: DA-Csf1rtm(EGFP)+/-/Hume
-synonym: "RGD ID: 126779587" RELATED []
-is_a: RS:0004699 ! DA heterozygous mutants
-created_by: sjwang
-creation_date: 2021-04-14T13:00:19Z
-
-[Term]
-id: RS:0004904
-name: SD-Csf1rtm(EGFP)+/-/Tset
-synonym: "RGD ID: 126779586" RELATED []
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-04-14T13:07:48Z
-
-[Term]
-id: RS:0004905
-name: SD-Csf1rtm(EGFP)-/-/Tset
-synonym: "RGD ID: 126779591" RELATED []
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-04-15T11:31:59Z
-
-[Term]
-id: RS:0004906
-name: DA-Csf1rtm(EGFP)-/-/Hume
-synonym: "RGD ID: 126779592" RELATED []
-is_a: RS:0004698 ! DA homozygous mutants
-created_by: sjwang
-creation_date: 2021-04-15T11:35:42Z
-
-[Term]
-id: RS:0004907
-name: WI-Mkxem1Asah
-synonym: "RGD ID: 126777684" RELATED []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-15T12:01:19Z
-
-[Term]
-id: RS:0004908
-name: WDB-Kiss1tm8Nips
-synonym: "RGD ID: 125097497" RELATED []
-is_a: RS:0003754 ! WDB mutants
-created_by: sjwang
-creation_date: 2021-04-15T12:11:50Z
-
-[Term]
-id: RS:0004909
-name: WI-Sall1em1Nips
-synonym: "RGD ID: 125097492" RELATED []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-15T12:49:03Z
-
-[Term]
-id: RS:0004910
-name: WI.WDB-Sall1tm4(tdTomato)Nips
-synonym: "RGD ID: 125097494" RELATED []
-is_a: RS:0003754 ! WDB mutants
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: sjwang
-creation_date: 2021-04-15T13:04:23Z
-
-[Term]
-id: RS:0004911
-name: WI.WDB-Prdm14tm1(H2BVenus)Nips
-synonym: "RGD ID: 125097491" RELATED []
-is_a: RS:0003754 ! WDB mutants
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: sjwang
-creation_date: 2021-04-15T13:38:48Z
-
-[Term]
-id: RS:0004912
-name: SD-Nr3c1em1Kuan
-synonym: "RGD ID: 125097486" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-04-15T14:01:09Z
-
-[Term]
-id: RS:0004913
-name: LEW-Tg(HLA-B*2705,B2M)21-3TrgTg/0
-synonym: "RGD ID: 35668861" RELATED []
-is_a: RS:0003510 ! LEW transgenics
-created_by: sjwang
-creation_date: 2021-04-15T14:53:40Z
-
-[Term]
-id: RS:0004914
-name: SD-Tg(Tie2-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 58366897" RELATED []
-is_a: RS:0004981 ! SD-Tg(Tie2-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-04-15T14:56:51Z
-
-[Term]
-id: RS:0004915
-name: SD-ROSA26 em1(LTR-nLuc)Ottc
-synonym: "RGD ID: 21083604" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-16T16:03:04Z
-
-[Term]
-id: RS:0004916
-name: SD-Tg(GFAP-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 56677892" RELATED []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-04-21T15:46:21Z
-
-[Term]
-id: RS:0004917
-name: SD-Tg(PDGFB-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781838" RELATED []
-is_a: RS:0004972 ! SD-Tg(PDGFB-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-04-21T15:59:02Z
-
-[Term]
-id: RS:0004918
-name: SD-Tg(Olfr16-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781839" RELATED []
-is_a: RS:0004973 ! SD-Tg(Olfr16-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-04-21T16:02:09Z
-
-[Term]
-id: RS:0004919
-name: F344.Cg-Foxn1rnu-/-/Jcl
-synonym: "RGD ID: 126790469" RELATED []
-is_a: RS:0002659 ! F344 congenics
-created_by: sjwang
-creation_date: 2021-04-22T13:30:22Z
-
-[Term]
-id: RS:0004920
-name: SD-Shank2em13Sage
-synonym: "RGD ID: 126790496" RELATED []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-04-23T13:43:43Z
-
-[Term]
-id: RS:0004921
-name: SD-Ube3aem1Jue
-synonym: "RGD ID: 126790464" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-04-23T15:39:34Z
-
-[Term]
-id: RS:0004922
-name: SD-Shank2em13Sage
-synonym: "RGD ID: 126790496" RELATED []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-04-23T15:43:12Z
-
-[Term]
-id: RS:0004923
-name: Jcl:WIST
-synonym: "RGD ID: 126790511" RELATED []
-is_a: RS:0005006 ! RCCHan:WIST
-created_by: sjwang
-creation_date: 2021-04-23T16:10:45Z
-
-[Term]
-id: RS:0004924
-name: WI- Msh6m1Hubr
-synonym: "RGD ID: 126848737" RELATED []
-is_a: RS:0003465 ! Crl:WI mutants
-created_by: sjwang
-creation_date: 2021-04-28T10:29:46Z
-
-[Term]
-id: RS:0004925
-name: WI- Lpar1m1Hubr
-synonym: "RGD ID: 39457945" RELATED []
-is_a: RS:0003465 ! Crl:WI mutants
-created_by: sjwang
-creation_date: 2021-04-28T10:32:35Z
-
-[Term]
-id: RS:0004926
-name: SDT.Cg-Leprfa/JttJcl
-synonym: "RGD ID: 126848740" RELATED []
-is_a: RS:0000706 ! SDT.Cg-Leprfa/Jtt
-created_by: sjwang
-creation_date: 2021-04-28T11:05:42Z
-
-[Term]
-id: RS:0004927
-name: RCS-Mertkrdyp+/LavJcl
-synonym: "RGD ID: 126848751" RELATED []
-is_a: RS:0002676 ! RCS/Lav congenics
-created_by: sjwang
-creation_date: 2021-04-28T16:42:19Z
-
-[Term]
-id: RS:0004928
-name: ODS-Gulood+/+/ShiJcl
-synonym: "RGD ID: 126848763" RELATED []
-is_a: RS:0001378 ! ODS/Shi
-created_by: sjwang
-creation_date: 2021-04-29T15:56:53Z
-
-[Term]
-id: RS:0004929
-name: RCS-Mertkrdy+p/LavJcl
-synonym: "RGD ID: 126848776" RELATED []
-is_a: RS:0002676 ! RCS/Lav congenics
-created_by: sjwang
-creation_date: 2021-04-30T10:39:39Z
-
-[Term]
-id: RS:0004930
-name: SD-Tg(HRAS)128NccJcl
-synonym: "RGD ID: 126848777" RELATED []
-is_a: RS:0002124 ! SD-Tg(HRAS)128Ncc
-created_by: sjwang
-creation_date: 2021-04-30T11:09:06Z
-
-[Term]
-id: RS:0004931
-name: SD-Tg(CAG-KRAS*G12V)301Jcl
-synonym: "RGD ID: 126848778" RELATED []
-is_a: RS:0003556 ! CrljJcl:SD transgenics
-created_by: sjwang
-creation_date: 2021-04-30T12:09:47Z
-
-[Term]
-id: RS:0004932
-name: SS-Gper1em1Bj-/-
-synonym: "RGD ID: 126848793" RELATED []
-is_a: RS:0004612 ! SS Homozygous mutants
-created_by: sjwang
-creation_date: 2021-05-03T09:46:34Z
-
-[Term]
-id: RS:0004933
-name: F344-Trpc4Tn(sb)1Bni
-synonym: "RGD ID: 126848804" RELATED []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-05-04T16:21:45Z
-
-[Term]
-id: RS:0004934
-name: SD-Kcnk3em1Ang-/+
-synonym: "RGD ID: 126908013" RELATED []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-05-10T15:17:43Z
-
-[Term]
-id: RS:0004935
-name: SD-Kcnk3em1Ang-/-
-synonym: "RGD ID: 126908010" RELATED []
-is_a: RS:0004247 ! Crl:SD mutants
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-05-10T15:21:30Z
-
-[Term]
-id: RS:0004936
-name: SD-Mstnem1Cqin
-synonym: "RGD ID: 126925136" RELATED []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-05-12T14:32:20Z
-
-[Term]
-id: RS:0004937
-name: SD-Il36rntm1(Myh6-cre)Mhzh
-synonym: "RGD ID: 126925134" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-05-12T14:40:06Z
-
-[Term]
-id: RS:0004938
-name: SD-Il1rl2tm1(Myh6-cre)Mhzh
-synonym: "RGD ID: 126925135" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-05-12T14:42:28Z
-
-[Term]
-id: RS:0004939
-name: SD-Ogdhem1Yuyi
-synonym: "RGD ID: 126925137" RELATED []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-05-12T16:23:25Z
-
-[Term]
-id: RS:0004940
-name: SD-Dnmt1tm1(Myh6-cre)Cqin
-synonym: "RGD ID: 126925139" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-05-13T15:41:07Z
-
-[Term]
-id: RS:0004941
-name: SD-Ubdem1
-synonym: "RGD ID: 126925138" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-05-13T16:02:33Z
-
-[Term]
-id: RS:0004942
-name: F344-Slc6a3m1Span
-synonym: "RGD ID: 126925196" RELATED []
-is_a: RS:0003716 ! F344 (ENU) mutants
-created_by: sjwang
-creation_date: 2021-05-14T12:58:10Z
-
-[Term]
-id: RS:0004943
-name: WI- Drd1m1Hubr
-synonym: "RGD ID: 126925212" RELATED []
-is_a: RS:0003465 ! Crl:WI mutants
-created_by: sjwang
-creation_date: 2021-05-14T15:59:18Z
-
-[Term]
-id: RS:0004944
-name: SD-Cryba1Nuc1Dbsa
-synonym: "RGD ID: 126925756" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-05-19T12:14:59Z
-
-[Term]
-id: RS:0004945
-name: HHSE/Hat
-synonym: "RGD ID: 38676463" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-05-19T12:28:47Z
-
-[Term]
-id: RS:0004946
-name: SD-Myh7bem1Blar+/-
-synonym: "RGD ID: 126925949" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-05-20T10:02:25Z
-
-[Term]
-id: RS:0004947
-name: SD-Myh7bem1Blar-/-
-synonym: "RGD ID: 126925952" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-05-20T10:04:16Z
-
-[Term]
-id: RS:0004948
-name: SD-Ercc6em1Cgen
-synonym: "RGD ID: 126925978" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-05-24T16:48:44Z
-
-[Term]
-id: RS:0004949
-name: SD-Tg(ITGA2B-F8*)Mcwi
-synonym: "RGD ID: 126928141" RELATED []
-is_a: RS:0003511 ! SD transgenics
-created_by: sjwang
-creation_date: 2021-06-07T15:19:09Z
-
-[Term]
-id: RS:0004950
-name: GK/Wnsm
-synonym: "RGD ID: 127284837" RELATED []
-is_a: RS:0001299 ! GK
-created_by: sjwang
-creation_date: 2021-06-09T11:10:39Z
-
-[Term]
-id: RS:0004951
-name: F344-Nppcem1Kyo
-synonym: "RGD ID: 127284865" RELATED []
-is_a: RS:0004120 ! F344/Stm (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-06-14T12:49:39Z
-
-[Term]
-id: RS:0004953
-name: F344-Nppcem2Kyo
-synonym: "RGD ID: 127284868" RELATED []
-is_a: RS:0004120 ! F344/Stm (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-06-14T12:54:21Z
-
-[Term]
-id: RS:0004954
-name: F344-Nppcem3Kyo
-synonym: "RGD ID: 127284870" RELATED []
-is_a: RS:0004120 ! F344/Stm (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-06-14T12:57:44Z
-
-[Term]
-id: RS:0004955
-name: F344-Nppcem4Kyo
-synonym: "RGD ID: 127284872" RELATED []
-is_a: RS:0004120 ! F344/Stm (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-06-14T13:02:57Z
-
-[Term]
-id: RS:0004956
-name: SD-Mir31em1Sage
-synonym: "RGD ID: 127285380" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-06-17T16:04:23Z
-
-[Term]
-id: RS:0004957
-name: SHR-Cfbem1Tja
-synonym: "RGD ID: 127285404" RELATED []
-is_a: RS:0003825 ! SHR/NCrl (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-06-21T15:24:25Z
-
-[Term]
-id: RS:0004958
-name: SD-Abcc8em1Cgen
-synonym: "RGD ID: 127285409" RELATED []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-06-22T12:11:51Z
-
-[Term]
-id: RS:0004959
-name: SD-Adgrl3em1Huyc
-synonym: "RGD ID: 127285661" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-06-25T15:11:12Z
-
-[Term]
-id: RS:0004960
-name: SD-Trpa1em1Gne
-synonym: "RGD ID: 127285810" RELATED []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-01T14:55:48Z
-
-[Term]
-id: RS:0004961
-name: WM/Nem
-synonym: "RGD ID: 127338473" RELATED []
-is_a: RS:0001079 ! WM
-created_by: sjwang
-creation_date: 2021-07-07T15:38:51Z
-
-[Term]
-id: RS:0004962
-name: BDIX/Nem
-synonym: "RGD ID: 127338474" RELATED []
-is_a: RS:0000091 ! BDIX
-created_by: sjwang
-creation_date: 2021-07-07T15:45:54Z
-
-[Term]
-id: RS:0004963
-name: SD-Muc1em1Cgen
-synonym: "RGD ID: 127345097" RELATED []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-07-09T09:54:39Z
-
-[Term]
-id: RS:0004964
-name: F344-Angptl8em1Kyo-/-
-synonym: "RGD ID: 127345123" RELATED []
-is_a: RS:0004153 ! F344/Stm (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-09T12:27:24Z
-
-[Term]
-id: RS:0004965
-name: F344-Angptl8em1Kyo+/-
-synonym: "RGD ID: 127345124" RELATED []
-is_a: RS:0004153 ! F344/Stm (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-09T12:29:30Z
-
-[Term]
-id: RS:0004966
-name: F344-Angptl8em2Kyo-/-
-synonym: "RGD ID: 127345125" RELATED []
-is_a: RS:0004153 ! F344/Stm (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-09T12:31:09Z
-
-[Term]
-id: RS:0004967
-name: F344-Angptl8em2Kyo+/-
-synonym: "RGD ID: 127345126" RELATED []
-is_a: RS:0004153 ! F344/Stm (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-09T12:32:49Z
-
-[Term]
-id: RS:0004968
-name: SD-Wfs1em1Ptsn
-synonym: "RGD ID: 149735334" EXACT []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-07-15T16:31:38Z
-
-[Term]
-id: RS:0004969
-name: SD-Wfs1em2Ptsn
-synonym: "RGD ID: 149735336" EXACT []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-07-15T16:33:27Z
-
-[Term]
-id: RS:0004970
-name: SD-Wfs1em3Ptsn
-synonym: "RGD ID: 149735338" EXACT []
-is_a: RS:0004183 ! SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-07-15T16:35:03Z
-
-[Term]
-id: RS:0004971
-name: SD-Tg(Wnt1-cre/ERT2)Appsc
-synonym: "RGD ID: 149735356" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: sjwang
-creation_date: 2021-07-19T13:15:20Z
-
-[Term]
-id: RS:0004972
-name: SD-Tg(PDGFB-cre/ERT2)Appsc
-synonym: "RGD ID: 149735357" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T13:53:56Z
-
-[Term]
-id: RS:0004973
-name: SD-Tg(Olfr16-cre/ERT2)Appsc
-synonym: "RGD ID: 149735358" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T14:48:51Z
-
-[Term]
-id: RS:0004974
-name: SD-Tg(Mnx1-cre/ERT2)Appsc
-synonym: "RGD ID: 149735359" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T15:12:24Z
-
-[Term]
-id: RS:0004975
-name: SD-Tg(Mnx1-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781841" EXACT []
-is_a: RS:0004974 ! SD-Tg(Mnx1-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-07-19T15:18:54Z
-
-[Term]
-id: RS:0004976
-name: SD-Tg(Drd1-cre/ERT2)Appsc
-synonym: "RGD ID: 149735361" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T15:46:52Z
-
-[Term]
-id: RS:0004977
-name: SD-Tg(Drd1-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781842" EXACT []
-is_a: RS:0004976 ! SD-Tg(Drd1-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-07-19T15:49:29Z
-
-[Term]
-id: RS:0004978
-name: SD-Tg(Gad1-cre/ERT2)Appsc
-synonym: "RGD ID: 149735362" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T15:58:06Z
-
-[Term]
-id: RS:0004979
-name: SD-Tg(Gad1-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781843" EXACT []
-is_a: RS:0004978 ! SD-Tg(Gad1-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-07-19T15:59:59Z
-
-[Term]
-id: RS:0004980
-name: SD-Tg(GFAP-cre/ERT2)Appsc
-synonym: "RGD ID: 149735363" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T16:10:06Z
-
-[Term]
-id: RS:0004981
-name: SD-Tg(Tie2-cre/ERT2)Appsc
-synonym: "RGD ID: 149735364" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T16:23:52Z
-
-[Term]
-id: RS:0004982
-name: SD-Tg(SMHC-cre/ERT2)Appsc
-synonym: "RGD ID: 149735365" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T16:35:03Z
-
-[Term]
-id: RS:0004983
-name: SD-Tg(SMHC-cre/ERT2)AppscRrrc
-synonym: "RGD ID: 126781844" EXACT []
-is_a: RS:0004982 ! SD-Tg(SMHC-cre/ERT2)Appsc
-created_by: sjwang
-creation_date: 2021-07-19T16:37:55Z
-
-[Term]
-id: RS:0004984
-name: SD-Tg(CAG-GFP-LacZ)Appsc
-synonym: "RGD ID: 149735366" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: sjwang
-creation_date: 2021-07-19T16:43:42Z
-
-[Term]
-id: RS:0004985
-name: SD-Tg(CAG-GFP-LacZ)AppscRrrc
-synonym: "RGD ID: 126781845" EXACT []
-is_a: RS:0004984 ! SD-Tg(CAG-GFP-LacZ)Appsc
-created_by: sjwang
-creation_date: 2021-07-19T16:45:39Z
-
-[Term]
-id: RS:0004986
-name: SHR-C3em1Kyo
-synonym: "RGD ID: 149735371" EXACT []
-is_a: RS:0003823 ! SHR mutants
-created_by: sjwang
-creation_date: 2021-07-20T14:08:27Z
-
-[Term]
-id: RS:0004987
-name: LL/MavRrrcAek
-synonym: "RGD ID: 149735516" EXACT []
-is_a: RS:0000558 ! LL/MavRrrc
-created_by: sjwang
-creation_date: 2021-07-21T08:57:14Z
-
-[Term]
-id: RS:0004988
-name: LEXF10A/StmMcwi
-synonym: "RGD ID: 149735517" EXACT []
-is_a: RS:0000535 ! LEXF10A/Stm
-created_by: sjwang
-creation_date: 2021-07-21T11:35:24Z
-
-[Term]
-id: RS:0004989
-name: HXB4/IpcvMcwi
-synonym: "RGD ID: 149735518" EXACT []
-is_a: RS:0002016 ! HXB4/Ipcv
-created_by: sjwang
-creation_date: 2021-07-21T11:45:02Z
-
-[Term]
-id: RS:0004990
-name: HXB31/IpcvMcwi
-synonym: "RGD ID: 149735519" EXACT []
-is_a: RS:0002015 ! HXB31/Ipcv
-created_by: sjwang
-creation_date: 2021-07-21T11:52:48Z
-
-[Term]
-id: RS:0004991
-name: HXB2/IpcvMcwi
-synonym: "RGD ID: 149735520" EXACT []
-is_a: RS:0002005 ! HXB2/Ipcv
-created_by: sjwang
-creation_date: 2021-07-21T12:08:24Z
-
-[Term]
-id: RS:0004992
-name: HXB20/IpcvMcwi
-synonym: "RGD ID: 149735521" EXACT []
-is_a: RS:0002006 ! HXB20/Ipcv
-created_by: sjwang
-creation_date: 2021-07-21T12:14:50Z
-
-[Term]
-id: RS:0004993
-name: BN-Lx/CubMcwi
-synonym: "RGD ID: 38676495" EXACT []
-is_a: RS:0000116 ! BN-Lx/Cub
-created_by: sjwang
-creation_date: 2021-07-21T12:27:49Z
-
-[Term]
-id: RS:0004994
-name: BXH2/CubMcwi
-synonym: "RGD ID: 149735530" EXACT []
-is_a: RS:0001819 ! BXH2/Cub
-created_by: sjwang
-creation_date: 2021-07-21T12:33:41Z
-
-[Term]
-id: RS:0004995
-name: BXH3/CubMcwi
-synonym: "RGD ID: 149735533" EXACT []
-is_a: RS:0001820 ! BXH3/Cub
-created_by: sjwang
-creation_date: 2021-07-21T12:40:35Z
-
-[Term]
-id: RS:0004996
-name: LE-Tg(Pdyn-cre)2-9Koba
-synonym: "RGD ID: 149735557" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2021-07-22T09:39:45Z
-
-[Term]
-id: RS:0004997
-name: F344.LEA-Ugl/Okt
-synonym: "RGD ID: 149735558" EXACT []
-is_a: RS:0002659 ! F344 congenics
-created_by: sjwang
-creation_date: 2021-07-22T12:18:29Z
-
-[Term]
-id: RS:0004998
-name: F344.LEA-Idao/Okt
-synonym: "RGD ID: 149735559" EXACT []
-is_a: RS:0002659 ! F344 congenics
-created_by: sjwang
-creation_date: 2021-07-22T12:30:40Z
-
-[Term]
-id: RS:0004999
-name: LE-Gad1em15Yyan
-synonym: "RGD ID: 149735560" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2021-07-22T13:18:41Z
-
-[Term]
-id: RS:0005000
-name: LE-Gad2em24Yyan
-synonym: "RGD ID: 149735562" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2021-07-22T13:45:00Z
-
-[Term]
-id: RS:0005001
-name: SD- Ngly1em1Ta-/-
-synonym: "RGD ID: 39457950" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-07-22T15:52:02Z
-
-[Term]
-id: RS:0005002
-name: F344-Atg16l1em8Rrrc
-synonym: "RGD ID: 149735570" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2021-07-23T14:07:55Z
-
-[Term]
-id: RS:0005003
-name: LEW-Tg(Col2a1-luc,-mCherry)Rmpt
-synonym: "RGD ID: 149735896" EXACT []
-is_a: RS:0003510 ! LEW transgenics
-created_by: sjwang
-creation_date: 2021-07-28T11:18:09Z
-
-[Term]
-id: RS:0005004
-name: LEW-Tg(Col2a1-luc,-mCherry)RmptRrrc
-synonym: "RGD ID: 149735895" EXACT []
-is_a: RS:0005003 ! LEW-Tg(Col2a1-luc,-mCherry)Rmpt
-created_by: sjwang
-creation_date: 2021-07-28T11:20:30Z
-
-[Term]
-id: RS:0005005
-name: SD-Myh7bem1Blar+/+
-synonym: "RGD ID: 149735898" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-is_a: RS:0004624 ! SD wild type mutants
-created_by: sjwang
-creation_date: 2021-07-29T11:38:38Z
-
-[Term]
-id: RS:0005006
-name: RCCHan:WIST
-def: "Outbred Wistar Hanover rats" []
-synonym: "RGD ID: 149735906" EXACT []
-is_a: RS:0000462 ! outbred strain
-created_by: sjwang
-creation_date: 2021-08-03T10:45:07Z
-
-[Term]
-id: RS:0005007
-name: LCR/Tol
-synonym: "RGD ID: 39457699" EXACT []
-is_a: RS:0002319 ! LCR
-created_by: sjwang
-creation_date: 2021-08-18T15:06:44Z
-
-[Term]
-id: RS:0005008
-name: HCR/Tol
-synonym: "RGD ID: 39457701" EXACT []
-is_a: RS:0002302 ! HCR
-created_by: sjwang
-creation_date: 2021-08-18T15:11:37Z
-
-[Term]
-id: RS:0005009
-name: SHRSP.SHR-(rs149735373-rs106170276)/Utx
-synonym: "RGD ID: 150340617" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-08-19T09:30:32Z
-
-[Term]
-id: RS:0005010
-name: F344;SD-C3em1Linf
-synonym: "RGD ID: 19165133" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2021-08-19T15:53:40Z
-
-[Term]
-id: RS:0005011
-name: ACI.Cg.-Cdkn1bem4Musc
-synonym: "RGD ID: 126928150" EXACT []
-is_a: RS:0003467 ! ACI mutants
-created_by: sjwang
-creation_date: 2021-08-19T15:56:48Z
-
-[Term]
-id: RS:0005012
-name: SD-Leprem4Lizh
-synonym: "RGD ID: 21079475" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-19T15:59:37Z
-
-[Term]
-id: RS:0005013
-name: SD-Hamp em1Jfcol +/-
-synonym: "RGD ID: 36174030" EXACT []
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:08:34Z
-
-[Term]
-id: RS:0005014
-name: SD-Hamp em1Jfcol -/-
-synonym: "RGD ID: 36174220" EXACT []
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:10:55Z
-
-[Term]
-id: RS:0005015
-name: SD-Hamp em2Jfcol -/-
-synonym: "RGD ID: 36174222" EXACT []
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:14:09Z
-
-[Term]
-id: RS:0005016
-name: SD-Hamp em3Jfcol -/-
-synonym: "RGD ID: 36174224" EXACT []
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:17:18Z
-
-[Term]
-id: RS:0005017
-name: SD-Hamp em4Jfcol -/-
-synonym: "RGD ID: 36174226" EXACT []
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:20:08Z
-
-[Term]
-id: RS:0005018
-name: SD-Hamp em2Jfcol +/-
-synonym: "RGD ID: 36174221" EXACT []
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:22:23Z
-
-[Term]
-id: RS:0005019
-name: SD-Hamp em3Jfcol +/-
-synonym: "RGD ID: 36174223" EXACT []
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:26:00Z
-
-[Term]
-id: RS:0005020
-name: SD-Hamp em4Jfcol +/-
-synonym: "RGD ID: 36174225" EXACT []
-is_a: RS:0004623 ! SD heterozygous mutants
-created_by: sjwang
-creation_date: 2021-08-19T16:28:12Z
-
-[Term]
-id: RS:0005021
-name: SD-Cftrem1Ang
-synonym: "RGD ID: 126925992" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T08:05:54Z
-
-[Term]
-id: RS:0005022
-name: SD-Cftrem2Ang
-synonym: "RGD ID: 126925994" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T08:10:34Z
-
-[Term]
-id: RS:0005023
-name: SS-Rr1em3Mcwi
-synonym: "RGD ID: 25330342" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T09:49:45Z
-
-[Term]
-id: RS:0005024
-name: W-Gnrh1tm1(IRES-cre)Aeh
-synonym: "RGD ID: 35668859" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2021-08-20T10:26:42Z
-
-[Term]
-id: RS:0005025
-name: LE-Dyrk1aem1Mcwi
-synonym: "RGD ID: 40818253" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2021-08-20T10:45:58Z
-
-[Term]
-id: RS:0005026
-name: SHR-Camk2n1em1Tja-/-
-synonym: "RGD ID: 19259464" EXACT []
-is_a: RS:0003825 ! SHR/NCrl (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:00:53Z
-
-[Term]
-id: RS:0005027
-name: SD-Aqp4em1Hrt
-synonym: "RGD ID: 127284883" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:07:48Z
-
-[Term]
-id: RS:0005028
-name: LE-Cyfip1em1Sage+/-
-synonym: "RGD ID: 14985210" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:14:20Z
-
-[Term]
-id: RS:0005029
-name: SD-Rag1em1Rag2em1/Mlit
-synonym: "RGD ID: 38548914" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:28:54Z
-
-[Term]
-id: RS:0005030
-name: SD-Il2rgem1-/y/Mlit
-synonym: "RGD ID: 38548915" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:35:08Z
-
-[Term]
-id: RS:0005031
-name: SD-Rag1em1Rag2em1Il2rgem1-/y/Mlit
-synonym: "RGD ID: 38548916" EXACT []
-is_a: RS:0005029 ! SD-Rag1em1Rag2em1/Mlit
-is_a: RS:0005030 ! SD-Il2rgem1-/y/Mlit
-created_by: sjwang
-creation_date: 2021-08-20T11:39:57Z
-
-[Term]
-id: RS:0005032
-name: WKY-Dnd1ter/Ztm
-synonym: "RGD ID: 126777687" EXACT []
-is_a: RS:0004050 ! WKY mutants
-created_by: sjwang
-creation_date: 2021-08-20T11:47:13Z
-
-[Term]
-id: RS:0005033
-name: SHR-Zbtb16em1Ipcv+/-
-synonym: "RGD ID: 126848794" EXACT []
-is_a: RS:0003823 ! SHR mutants
-created_by: sjwang
-creation_date: 2021-08-20T12:01:08Z
-
-[Term]
-id: RS:0005034
-name: W-Cyp27b1em1Thka
-synonym: "RGD ID: 124713544" EXACT []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T12:41:29Z
-
-[Term]
-id: RS:0005035
-name: W-Vdrem1Thka
-synonym: "RGD ID: 124713546" EXACT []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T12:50:40Z
-
-[Term]
-id: RS:0005036
-name: W-Vdrem2Thka
-synonym: "RGD ID: 124713548" EXACT []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-08-20T12:53:25Z
-
-[Term]
-id: RS:0005037
-name: HHR/Hat
-synonym: "RGD ID: 38676459" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-08-20T12:58:43Z
-
-[Term]
-id: RS:0005038
-name: ACI.Cg.-Cdkn1bem1Musc
-synonym: "RGD ID: 126928146" EXACT []
-is_a: RS:0003467 ! ACI mutants
-created_by: sjwang
-creation_date: 2021-08-20T13:08:21Z
-
-[Term]
-id: RS:0005039
-name: SD-Rin1em1-/-Hcz
-synonym: "RGD ID: 126790547" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2021-08-20T13:13:12Z
-
-[Term]
-id: RS:0005040
-name: HiSER/Hat
-synonym: "RGD ID: 38676461" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2021-08-20T13:17:21Z
-
-[Term]
-id: RS:0005041
-name: SS-Tgfb1em3Mcwi+/+
-synonym: "RGD ID: 150340629" EXACT []
-is_a: RS:0002601 ! SS-Tgfb1em3Mcwi
-is_a: RS:0003397 ! SS/JrHsdMcwi Wild Type (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-08-24T09:07:55Z
-
-[Term]
-id: RS:0005042
-name: LEW-Myo15aci2/Ztm
-synonym: "RGD ID: 150404267" EXACT []
-is_a: RS:0003480 ! LEW mutants
-created_by: sjwang
-creation_date: 2021-09-03T15:46:52Z
-
-[Term]
-id: RS:0005043
-name: SS-Vwfem4Mcwi
-synonym: "RGD ID: 150429598" EXACT []
-is_a: RS:0003478 ! SS mutants
-created_by: sjwang
-creation_date: 2021-09-08T10:10:43Z
-
-[Term]
-id: RS:0005044
-name: MWF.SHR-(D6Rat1-D6Rat30)/Rkb
-synonym: "RGD ID: 150429601" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:08:14Z
-
-[Term]
-id: RS:0005045
-name: MWF.SHR-(D6Rat1-D6Rat106)/Rkb
-synonym: "RGD ID: 150429602" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:12:23Z
-
-[Term]
-id: RS:0005046
-name: MWF.SHR-(D6Rat1-D6Mit8)/Rkb
-synonym: "RGD ID: 150429603" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:14:21Z
-
-[Term]
-id: RS:0005047
-name: MWF.SHR-(D6Rat1-D6Rat121)/Rkb
-synonym: "RGD ID: 150429604" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:16:40Z
-
-[Term]
-id: RS:0005048
-name: MWF.SHR-(D6Rat1-D6Mgh4)/Rkb
-synonym: "RGD ID: 150429605" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:19:08Z
-
-[Term]
-id: RS:0005049
-name: MWF.SHR-(D6Rat1-D6Rat81)/Rkb
-synonym: "RGD ID: 150429606" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:21:16Z
-
-[Term]
-id: RS:0005050
-name: MWF.SHR-(D6Rat1-D6Rat115)/Rkb
-synonym: "RGD ID: 150429607" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:24:06Z
-
-[Term]
-id: RS:0005051
-name: MWF.SHR-(D6Rat1-D6Rat184)/Rkb
-synonym: "RGD ID: 150429608" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: sjwang
-creation_date: 2021-09-08T14:26:10Z
-
-[Term]
-id: RS:0005052
-name: SD-Add3em1Mcwi/ Roman
-synonym: "RGD ID: 150429615" EXACT []
-is_a: RS:0004248 ! Crl:SD (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-09-09T13:28:09Z
-
-[Term]
-id: RS:0005053
-name: FHH-Tg(CAG-Add3)McwiRoman
-synonym: "RGD ID: 150429614" EXACT []
-is_a: RS:0003112 ! FHH/EurMcwi transgenics
-created_by: sjwang
-creation_date: 2021-09-09T13:39:56Z
-
-[Term]
-id: RS:0005054
-name: FHH-Chr 1BN-Add3em2Mcwi /Roman
-synonym: "RGD ID: 150429618" EXACT []
-is_a: RS:0003494 ! FHH-Chr 1BN/Mcwi Homozygous (ZFN) mutants
-created_by: sjwang
-creation_date: 2021-09-09T14:33:09Z
-
-[Term]
-id: RS:0005055
-name: SD-Cyp2c11em1Nju
-synonym: "RGD ID: 150429707" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2021-09-17T15:56:34Z
 
 [Typedef]
 id: part_of
