@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.166
-date: 02:04:2022 20:13
+data-version: 6.162
+date: 12:02:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -23611,8 +23611,7 @@ creation_date: 2011-10-31T12:00:00Z
 id: RS:0002937
 name: HsdHlr:ZUC-Leprfa
 synonym: "RGD ID: 5508392" RELATED []
-synonym: "RS:0005080" RELATED []
-is_a: RS:0001835 ! ZUC
+is_a: RS:0000462 ! outbred strain
 created_by: RNigam
 creation_date: 2011-10-31T12:00:00Z
 
@@ -38895,7 +38894,7 @@ creation_date: 2019-02-18T13:07:42Z
 
 [Term]
 id: RS:0004677
-name: WI-Tg(Fos-LacZ)Bhope
+name: WI-Tg(Fos-LacZ)Hope
 synonym: "RGD ID: 14390083" EXACT []
 is_a: RS:0003514 ! W transgenics
 created_by: sjwang
@@ -42129,6 +42128,14 @@ created_by: sjwang
 creation_date: 2021-11-05T14:40:14Z
 
 [Term]
+id: RS:0005080
+name: Hsd:ZUC-Leprfa
+synonym: "RGD ID: 150520161" EXACT []
+is_a: RS:0001835 ! ZUC
+created_by: sjwang
+creation_date: 2021-11-05T15:05:35Z
+
+[Term]
 id: RS:0005081
 name: F344-ROSA26em1(AttP)Davis/Rrrc
 synonym: "RGD ID: 150520207" EXACT []
@@ -42537,78 +42544,6 @@ synonym: "RGD ID: 151356741" EXACT []
 is_a: RS:0003511 ! SD transgenics
 created_by: sjwang
 creation_date: 2022-02-11T11:33:04Z
-
-[Term]
-id: RS:0005132
-name: WI-Tg(Fos-LacZ)BhopeRrrc
-synonym: "RGD ID: 151356950" EXACT []
-is_a: RS:0004677 ! WI-Tg(Fos-LacZ)Bhope
-created_by: sjwang
-creation_date: 2022-02-21T09:03:17Z
-
-[Term]
-id: RS:0005133
-name: Sah:SD
-synonym: "RGD ID: 151356957" EXACT []
-is_a: RS:0000681 ! SD
-created_by: sjwang
-creation_date: 2022-02-21T13:35:53Z
-
-[Term]
-id: RS:0005134
-name: SD-Cftrem1Apb
-synonym: "RGD ID: 151356958" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2022-02-21T13:53:56Z
-
-[Term]
-id: RS:0005135
-name: SD-Cftrem2Apb
-synonym: "RGD ID: 151356959" RELATED []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2022-02-21T14:07:27Z
-
-[Term]
-id: RS:0005136
-name: RjOrl:LE
-synonym: "RGD ID: 151356971" EXACT []
-is_a: RS:0003821 ! LE (outbred)
-created_by: sjwang
-creation_date: 2022-02-21T16:54:34Z
-
-[Term]
-id: RS:0005137
-name: LE-Tg(cFos-eGFP)Bhope
-synonym: "RGD ID: 151356985" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2022-02-22T11:35:31Z
-
-[Term]
-id: RS:0005138
-name: LE-Tg(cFos-eGFP)BhopeRrrc
-synonym: "RGD ID: 151356988" EXACT []
-is_a: RS:0005137 ! LE-Tg(cFos-eGFP)Bhope
-created_by: sjwang
-creation_date: 2022-02-22T11:42:23Z
-
-[Term]
-id: RS:0005139
-name: SD-Slc9a6 em1Moro
-synonym: "RGD ID: 151664748" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-03-09T16:33:37Z
-
-[Term]
-id: RS:0005140
-name: WI-Tfap2cem1(tdTomato)Nips
-synonym: "RGD ID: 151665772" EXACT []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-04-01T10:44:28Z
 
 [Typedef]
 id: part_of

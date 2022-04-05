@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.166
-date: 02:04:2022 20:13
+data-version: 6.164
+date: 12:03:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -23611,8 +23611,7 @@ creation_date: 2011-10-31T12:00:00Z
 id: RS:0002937
 name: HsdHlr:ZUC-Leprfa
 synonym: "RGD ID: 5508392" RELATED []
-synonym: "RS:0005080" RELATED []
-is_a: RS:0001835 ! ZUC
+is_a: RS:0000462 ! outbred strain
 created_by: RNigam
 creation_date: 2011-10-31T12:00:00Z
 
@@ -42129,6 +42128,14 @@ created_by: sjwang
 creation_date: 2021-11-05T14:40:14Z
 
 [Term]
+id: RS:0005080
+name: Hsd:ZUC-Leprfa
+synonym: "RGD ID: 150520161" EXACT []
+is_a: RS:0001835 ! ZUC
+created_by: sjwang
+creation_date: 2021-11-05T15:05:35Z
+
+[Term]
 id: RS:0005081
 name: F344-ROSA26em1(AttP)Davis/Rrrc
 synonym: "RGD ID: 150520207" EXACT []
@@ -42601,14 +42608,6 @@ synonym: "RGD ID: 151664748" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2022-03-09T16:33:37Z
-
-[Term]
-id: RS:0005140
-name: WI-Tfap2cem1(tdTomato)Nips
-synonym: "RGD ID: 151665772" EXACT []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-04-01T10:44:28Z
 
 [Typedef]
 id: part_of
