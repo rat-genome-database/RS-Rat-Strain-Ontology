@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.170
-date: 18:06:2022 20:13
+data-version: 6.168
+date: 23:04:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -41084,7 +41084,7 @@ creation_date: 2021-05-24T16:48:44Z
 
 [Term]
 id: RS:0004949
-name: SD-F8em1Sage/Novo-Tg(ITGA2B-F8*)Mcwi
+name: SD-Tg(ITGA2B-F8*)Mcwi
 synonym: "RGD ID: 126928141" RELATED []
 is_a: RS:0003511 ! SD transgenics
 created_by: sjwang
@@ -42625,30 +42625,6 @@ synonym: "RGD ID: 151893484" EXACT []
 is_a: RS:0002199 ! SS/JrHsdMcwi transgenics
 created_by: sjwang
 creation_date: 2022-04-21T09:17:07Z
-
-[Term]
-id: RS:0005143
-name: SS-F8em2Mcwi
-synonym: "RGD ID: 152975964" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-06-03T12:38:08Z
-
-[Term]
-id: RS:0005144
-name: SS-F8em2Mcwi-Tg(ITGA2B-F8*)Mcwi
-synonym: "RGD ID: 152975965" EXACT []
-is_a: RS:0002199 ! SS/JrHsdMcwi transgenics
-created_by: sjwang
-creation_date: 2022-06-03T12:42:43Z
-
-[Term]
-id: RS:0005145
-name: W/Nov
-synonym: "RGD ID: 152995284" EXACT []
-is_a: RS:0000955 ! W
-created_by: sjwang
-creation_date: 2022-06-13T14:42:36Z
 
 [Typedef]
 id: part_of
