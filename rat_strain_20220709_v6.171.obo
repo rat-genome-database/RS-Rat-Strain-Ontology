@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.172
-date: 16:07:2022 20:13
+data-version: 6.171
+date: 09:07:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -42657,38 +42657,6 @@ synonym: "RGD ID: 152977766" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
 creation_date: 2022-07-06T10:15:44Z
-
-[Term]
-id: RS:0005147
-name: LE-Fxn em2Fara-/+
-synonym: "RGD ID: 152999000" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2022-07-15T16:07:44Z
-
-[Term]
-id: RS:0005148
-name: LE-Fxn em1Fara-/+
-synonym: "RGD ID: 152999001" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2022-07-15T16:29:52Z
-
-[Term]
-id: RS:0005149
-name: LE-Fxn em2Fara-/+/Rrrc
-synonym: "RGD ID: 152999002" EXACT []
-is_a: RS:0005147 ! LE-Fxn em2Fara-/+
-created_by: sjwang
-creation_date: 2022-07-15T16:40:20Z
-
-[Term]
-id: RS:0005150
-name: LE-Fxn em1Fara-/+/Rrrc
-synonym: "RGD ID: 152999003" EXACT []
-is_a: RS:0005148 ! LE-Fxn em1Fara-/+
-created_by: sjwang
-creation_date: 2022-07-15T16:45:58Z
 
 [Typedef]
 id: part_of
