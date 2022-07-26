@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.173
-date: 23:07:2022 20:13
+data-version: 6.172
+date: 16:07:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -38174,6 +38174,13 @@ created_by: sjwang
 creation_date: 2018-03-28T09:04:21Z
 
 [Term]
+id: RS:0004587
+name: LE-Tg(Cx3cr1-cre/ERT2)1Ottc
+synonym: "RGD ID: 13441556" RELATED []
+created_by: sjwang
+creation_date: 2018-04-20T10:38:43Z
+
+[Term]
 id: RS:0004588
 name: LE-Tg(Cx3cr1-cre/ERT2)3Ottc
 synonym: "RGD ID: 13441557" RELATED []
@@ -42682,14 +42689,6 @@ synonym: "RGD ID: 152999003" EXACT []
 is_a: RS:0005148 ! LE-Fxn em1Fara-/+
 created_by: sjwang
 creation_date: 2022-07-15T16:45:58Z
-
-[Term]
-id: RS:0005151
-name: SD-Aif1tm(EGFP)Apps/Mmmc
-synonym: "RGD ID: 152999023" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2022-07-18T16:31:27Z
 
 [Typedef]
 id: part_of
