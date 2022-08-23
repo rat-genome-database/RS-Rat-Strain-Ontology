@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.173
-date: 23:07:2022 20:13
+data-version: 6.174
+date: 20:08:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -42690,6 +42690,46 @@ synonym: "RGD ID: 152999023" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
 creation_date: 2022-07-18T16:31:27Z
+
+[Term]
+id: RS:0005152
+name: MR/NRrrc
+synonym: "RGD ID: 153323320" EXACT []
+is_a: RS:0000589 ! MR/N
+created_by: sjwang
+creation_date: 2022-08-15T16:27:18Z
+
+[Term]
+id: RS:0005153
+name: FXLE12/StmMcwi
+synonym: "RGD ID: 153323324" EXACT []
+is_a: RS:0000349 ! FXLE12/Stm
+created_by: sjwang
+creation_date: 2022-08-15T16:55:35Z
+
+[Term]
+id: RS:0005154
+name: FXLE15/StmMcwi
+synonym: "RGD ID: 153344518" EXACT []
+is_a: RS:0000352 ! FXLE15/Stm
+created_by: sjwang
+creation_date: 2022-08-19T10:10:57Z
+
+[Term]
+id: RS:0005155
+name: LEXF1C/StmMcwi
+synonym: "RGD ID: 153344519" EXACT []
+is_a: RS:0000540 ! LEXF1C/Stm
+created_by: sjwang
+creation_date: 2022-08-19T10:21:15Z
+
+[Term]
+id: RS:0005156
+name: LEXF6B/StmMcwi
+synonym: "RGD ID: 153344520" EXACT []
+is_a: RS:0000547 ! LEXF6B/Stm
+created_by: sjwang
+creation_date: 2022-08-19T10:26:20Z
 
 [Typedef]
 id: part_of
