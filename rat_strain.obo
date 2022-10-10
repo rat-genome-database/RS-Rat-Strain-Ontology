@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.174
-date: 20:08:2022 20:13
+data-version: 6.175
+date: 08:10:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -42730,6 +42730,78 @@ synonym: "RGD ID: 153344520" EXACT []
 is_a: RS:0000547 ! LEXF6B/Stm
 created_by: sjwang
 creation_date: 2022-08-19T10:26:20Z
+
+[Term]
+id: RS:0005157
+name: COP/HsdUwmRrrc
+synonym: "RGD ID: 155260360" EXACT []
+is_a: RS:0000184 ! COP
+created_by: sjwang
+creation_date: 2022-10-05T15:37:25Z
+
+[Term]
+id: RS:0005158
+name: SD-Tg(Sycp1-Cas9-eGFP)Synbl
+synonym: "RGD ID: 155260365" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: sjwang
+creation_date: 2022-10-06T13:56:01Z
+
+[Term]
+id: RS:0005159
+name: SD-Tg(Sycp1-Cas9-eGFP)SynblRrrc
+synonym: "RGD ID: 155260361" EXACT []
+is_a: RS:0005158 ! SD-Tg(Sycp1-Cas9-eGFP)Synbl
+created_by: sjwang
+creation_date: 2022-10-06T13:57:58Z
+
+[Term]
+id: RS:0005160
+name: SD-Tg(Ddx4-Cas9)Synbl
+synonym: "RGD ID: 155260366" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: sjwang
+creation_date: 2022-10-06T14:01:55Z
+
+[Term]
+id: RS:0005161
+name: SD-Tg(Ddx4-Cas9)SynblRrrc
+synonym: "RGD ID: 155260362" EXACT []
+is_a: RS:0005160 ! SD-Tg(Ddx4-Cas9)Synbl
+created_by: sjwang
+creation_date: 2022-10-06T14:04:18Z
+
+[Term]
+id: RS:0005162
+name: SD-Tg(Cyp2e1-CYP2E1*-Cas9)Synbl
+synonym: "RGD ID: 155260367" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: sjwang
+creation_date: 2022-10-06T14:06:04Z
+
+[Term]
+id: RS:0005163
+name: SD-Tg(Cyp2e1-CYP2E1*-Cas9)SynblRrrc
+synonym: "RGD ID: 155260363" EXACT []
+is_a: RS:0005162 ! SD-Tg(Cyp2e1-CYP2E1*-Cas9)Synbl
+created_by: sjwang
+creation_date: 2022-10-06T14:07:53Z
+
+[Term]
+id: RS:0005164
+name: SD-Tg(Cyp3a23-3a1-Cyp3A4*-Cas9)Synbl
+synonym: "RGD ID: 155260368" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: sjwang
+creation_date: 2022-10-06T14:09:51Z
+
+[Term]
+id: RS:0005165
+name: SD-Tg(Cyp3a23-3a1-Cyp3A4*-Cas9)SynblRrrc
+synonym: "RGD ID: 155260364" EXACT []
+is_a: RS:0005164 ! SD-Tg(Cyp3a23-3a1-Cyp3A4*-Cas9)Synbl
+created_by: sjwang
+creation_date: 2022-10-06T14:11:24Z
 
 [Typedef]
 id: part_of
