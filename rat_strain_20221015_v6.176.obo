@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.177
-date: 22:10:2022 20:13
+data-version: 6.176
+date: 15:10:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4855,7 +4855,7 @@ id: RS:0000694
 name: SD/A
 synonym: "RGD ID: 737933" RELATED []
 synonym: "Sprague-Dawley/A" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000681 ! SD
 
 [Term]
 id: RS:0000695
@@ -4892,7 +4892,7 @@ id: RS:0000700
 name: SD/Rij
 synonym: "RGD ID: 10037" RELATED []
 synonym: "Sprague-Dawley/Rij" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000681 ! SD
 
 [Term]
 id: RS:0000701
@@ -39197,7 +39197,6 @@ creation_date: 2019-06-18T15:51:35Z
 id: RS:0004715
 name: F344-Tg(CAG-loxP-STOP-loxP-ZsGreen)551Bryd
 synonym: "RGD ID: 14695054" EXACT []
-synonym: "RS:0004733" RELATED []
 is_a: RS:0004040 ! F344/NHsd transgenics
 created_by: sjwang
 creation_date: 2019-07-01T15:08:03Z
@@ -42459,6 +42458,13 @@ created_by: sjwang
 creation_date: 2021-11-29T16:58:41Z
 
 [Term]
+id: RS:0005123
+name: Taiep/Rrrc
+synonym: "RGD ID: 150526808" EXACT []
+created_by: sjwang
+creation_date: 2021-12-01T15:47:01Z
+
+[Term]
 id: RS:0005124
 name: SD-Artfm/Rrrc
 synonym: "RGD ID: 150526809" EXACT []
@@ -42828,14 +42834,6 @@ synonym: "RGD ID: 155269102" EXACT []
 is_a: RS:0004597 ! McwiWfsm:HS
 created_by: sjwang
 creation_date: 2022-10-12T16:19:03Z
-
-[Term]
-id: RS:0005170
-name: SD-Bmal1em1Mcwi
-synonym: "RGD ID: 155598601" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-10-18T15:53:37Z
 
 [Typedef]
 id: part_of
