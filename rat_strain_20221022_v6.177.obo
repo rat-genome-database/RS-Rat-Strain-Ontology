@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.178
-date: 29:10:2022 20:13
+data-version: 6.177
+date: 22:10:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -18968,7 +18968,7 @@ id: RS:0002383
 name: Taiep/Dun
 synonym: "RGD ID: 2317278" RELATED []
 synonym: "taiep" RELATED []
-is_a: RS:0005174 ! Taiep
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2010-06-21T12:00:00Z
 
@@ -42800,7 +42800,7 @@ creation_date: 2022-10-06T14:11:24Z
 id: RS:0005166
 name: Taiep/JosvRrrc
 synonym: "RGD ID: 153298963" EXACT []
-is_a: RS:0005174 ! Taiep
+is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2022-10-10T15:08:35Z
 
@@ -42836,46 +42836,6 @@ synonym: "RGD ID: 155598601" EXACT []
 is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2022-10-18T15:53:37Z
-
-[Term]
-id: RS:0005171
-name: SD-Ctnsem2Vjupk
-synonym: "RGD ID: 155630631" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-10-26T16:07:49Z
-
-[Term]
-id: RS:0005172
-name: SD-Ctnsem3Vjupk
-synonym: "RGD ID: 155630633" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-10-26T16:10:48Z
-
-[Term]
-id: RS:0005173
-name: SD-Ctnsem4Vjupk
-synonym: "RGD ID: 155630635" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-10-26T16:12:58Z
-
-[Term]
-id: RS:0005174
-name: Taiep
-synonym: "RGD ID: 155631259" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2022-10-27T10:06:04Z
-
-[Term]
-id: RS:0005175
-name: SD-Brca1em1Kyo
-synonym: "RGD ID: 155631261" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2022-10-27T13:57:01Z
 
 [Typedef]
 id: part_of
