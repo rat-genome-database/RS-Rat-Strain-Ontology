@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.179
-date: 05:11:2022 20:13
+data-version: 6.180
+date: 03:12:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43020,6 +43020,22 @@ synonym: "RGD ID: 155641251" EXACT []
 is_a: RS:0005167 ! F344-Tg(CAG-ACE2)057Bryd
 created_by: sjwang
 creation_date: 2022-11-04T15:53:50Z
+
+[Term]
+id: RS:0005194
+name: SD-Gcgtm1(IRES-iCre)Lrina
+synonym: "RGD ID: 155663559" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: sjwang
+creation_date: 2022-11-30T11:53:08Z
+
+[Term]
+id: RS:0005195
+name: SD-Gcgtm1(IRES-iCre)Lrina/Rrrc
+synonym: "RGD ID: 155663560" EXACT []
+is_a: RS:0005194 ! SD-Gcgtm1(IRES-iCre)Lrina
+created_by: sjwang
+creation_date: 2022-11-30T11:57:57Z
 
 [Typedef]
 id: part_of
