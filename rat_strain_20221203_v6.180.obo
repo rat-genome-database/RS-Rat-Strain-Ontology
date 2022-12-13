@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.181
-date: 10:12:2022 20:13
+data-version: 6.180
+date: 03:12:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -33566,10 +33566,10 @@ creation_date: 2015-10-08T02:54:02Z
 
 [Term]
 id: RS:0004039
-name: LE-Tg(ChAT-Cre)5.1DeisRrrc
+name: LE-Tg(ChAT-Cre)5.1Deis
 synonym: "RGD ID: 10401204" RELATED []
 synonym: "RRRC:00658" RELATED []
-is_a: RS:0005196 ! LE-Tg(ChAT-cre)5.1Deis
+is_a: RS:0003803 ! LE transgenics
 created_by: RNigam
 creation_date: 2015-10-08T02:55:27Z
 
@@ -42839,7 +42839,7 @@ creation_date: 2022-10-18T15:53:37Z
 
 [Term]
 id: RS:0005171
-name: CD-Ctnsem2Vjupk
+name: SD-Ctnsem2Vjupk
 synonym: "RGD ID: 155630631" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
@@ -42847,7 +42847,7 @@ creation_date: 2022-10-26T16:07:49Z
 
 [Term]
 id: RS:0005172
-name: CD-Ctnsem3Vjupk
+name: SD-Ctnsem3Vjupk
 synonym: "RGD ID: 155630633" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
@@ -42855,7 +42855,7 @@ creation_date: 2022-10-26T16:10:48Z
 
 [Term]
 id: RS:0005173
-name: CD-Ctnsem4Vjupk
+name: SD-Ctnsem4Vjupk
 synonym: "RGD ID: 155630635" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
@@ -43036,30 +43036,6 @@ synonym: "RGD ID: 155663560" EXACT []
 is_a: RS:0005194 ! SD-Gcgtm1(IRES-iCre)Lrina
 created_by: sjwang
 creation_date: 2022-11-30T11:57:57Z
-
-[Term]
-id: RS:0005196
-name: LE-Tg(ChAT-cre)5.1Deis
-synonym: "RGD ID: 155663675" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2022-12-05T16:47:30Z
-
-[Term]
-id: RS:0005197
-name: SHRSP/NgskMeltw
-synonym: "RGD ID: 155782877" EXACT []
-is_a: RS:0001446 ! SHRSP/Ngsk
-created_by: sjwang
-creation_date: 2022-12-07T11:05:28Z
-
-[Term]
-id: RS:0005198
-name: LE-Synpoem1Kmh
-synonym: "RGD ID: 155782907" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2022-12-09T10:47:30Z
 
 [Typedef]
 id: part_of
