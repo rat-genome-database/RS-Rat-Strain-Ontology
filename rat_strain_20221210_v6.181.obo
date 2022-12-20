@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.182
-date: 17:12:2022 20:13
+data-version: 6.181
+date: 10:12:2022 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -37046,7 +37046,7 @@ creation_date: 2017-06-15T12:40:02Z
 
 [Term]
 id: RS:0004451
-name: SD-Thtm1(cre)Sage
+name: SD-Thtm1(IRES-cre)Sage
 synonym: "RGD ID: 12905029" RELATED []
 synonym: "TGRA8400" RELATED []
 is_a: RS:0004247 ! Crl:SD mutants
@@ -37055,7 +37055,7 @@ creation_date: 2017-06-02T16:10:10Z
 
 [Term]
 id: RS:0004452
-name: SD-Slc6a3tm1(cre)Sage
+name: SD-Slc6a3tm1(IRES-cre)Sage
 synonym: "RGD ID: 12905031" RELATED []
 synonym: "TGRA8330" RELATED []
 is_a: RS:0004247 ! Crl:SD mutants
@@ -37064,7 +37064,7 @@ creation_date: 2017-06-02T16:13:15Z
 
 [Term]
 id: RS:0004453
-name: LE-Camk2atm1(cre)Sage
+name: LE-Camk2atm1(IRES-cre)Sage
 synonym: "RGD ID: 12905032" RELATED []
 synonym: "TGRL9170" RELATED []
 is_a: RS:0003485 ! Crl:LE mutants
@@ -37082,7 +37082,7 @@ creation_date: 2017-06-02T16:18:40Z
 
 [Term]
 id: RS:0004455
-name: LE-Viptm1(cre)Sage
+name: LE-Viptm1(T2A-cre)Sage
 synonym: "RGD ID: 12905034" RELATED []
 synonym: "TGRL9450" RELATED []
 is_a: RS:0003485 ! Crl:LE mutants
@@ -37091,7 +37091,7 @@ creation_date: 2017-06-02T16:20:15Z
 
 [Term]
 id: RS:0004456
-name: LE-Tph2tm1(cre)Sage
+name: LE-Tph2tm1(T2A-cre)Sage
 synonym: "RGD ID: 12905035" RELATED []
 synonym: "TGRL9590" RELATED []
 is_a: RS:0003485 ! Crl:LE mutants
@@ -37100,7 +37100,7 @@ creation_date: 2017-06-02T16:22:14Z
 
 [Term]
 id: RS:0004457
-name: LE-Htr3atm1(cre)Sage
+name: LE-Htr3atm1(T2A-cre)Sage
 synonym: "RGD ID: 12905036" RELATED []
 synonym: "TGRL9380" RELATED []
 is_a: RS:0003485 ! Crl:LE mutants
@@ -39260,7 +39260,7 @@ creation_date: 2019-07-10T15:40:19Z
 
 [Term]
 id: RS:0004723
-name: SD.DA-Kcnh2tm(CAG-EGFP)1Qly
+name: SD.DA-Kcnh2tm(FRT-CAG-EGFP-IRES-Pac-FRT)1Qly
 synonym: "RGD ID: 14695029" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
@@ -41672,7 +41672,7 @@ creation_date: 2021-08-20T09:49:45Z
 
 [Term]
 id: RS:0005024
-name: W-Gnrh1tm1(cre)Aeh
+name: W-Gnrh1tm1(IRES-cre)Aeh
 synonym: "RGD ID: 35668859" EXACT []
 is_a: RS:0003773 ! W mutants
 created_by: sjwang
@@ -43023,7 +43023,7 @@ creation_date: 2022-11-04T15:53:50Z
 
 [Term]
 id: RS:0005194
-name: SD-Gcgtm1(iCre)Lrina
+name: SD-Gcgtm1(IRES-iCre)Lrina
 synonym: "RGD ID: 155663559" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
@@ -43031,9 +43031,9 @@ creation_date: 2022-11-30T11:53:08Z
 
 [Term]
 id: RS:0005195
-name: SD-Gcgtm1(iCre)Lrina/Rrrc
+name: SD-Gcgtm1(IRES-iCre)Lrina/Rrrc
 synonym: "RGD ID: 155663560" EXACT []
-is_a: RS:0005194 ! SD-Gcgtm1(iCre)Lrina
+is_a: RS:0005194 ! SD-Gcgtm1(IRES-iCre)Lrina
 created_by: sjwang
 creation_date: 2022-11-30T11:57:57Z
 
