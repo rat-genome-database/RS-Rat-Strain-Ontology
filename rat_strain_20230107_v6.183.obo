@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.184
-date: 14:01:2023 20:13
+data-version: 6.183
+date: 07:01:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -1006,7 +1006,6 @@ is_a: RS:0000147 ! BN/Orl
 [Term]
 id: RS:0000149
 name: BN/Rij
-synonym: "RGD ID: 155804258" EXACT []
 is_a: RS:0000113 ! BN
 
 [Term]
