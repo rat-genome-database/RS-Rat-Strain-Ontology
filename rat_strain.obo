@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.184
-date: 14:01:2023 20:13
+data-version: 6.185
+date: 04:02:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4450,13 +4450,6 @@ is_a: RS:0000765 ! inbred strain
 id: RS:0000634
 name: OXYS/Nov
 synonym: "RGD ID: 68114" RELATED []
-is_a: RS:0000765 ! inbred strain
-
-[Term]
-id: RS:0000635
-name: P
-synonym: "alcohol-preferring" RELATED []
-synonym: "RGD ID: 634380" RELATED []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -9970,9 +9963,13 @@ is_a: RS:0002736 ! chromosome 4 congenic
 [Term]
 id: RS:0001377
 name: P/Iusm
+alt_id: RS:0000635
+synonym: "alcohol-preferring" RELATED []
 synonym: "iP" RELATED []
+synonym: "P" EXACT []
 synonym: "RGD ID: 1641867" RELATED []
-is_a: RS:0000635 ! P
+synonym: "RGD ID: 634380" RELATED []
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0001378
