@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.187
-date: 18:02:2023 20:13
+data-version: 6.186
+date: 11:02:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2830,7 +2830,7 @@ synonym: "Hydrocephalus Texas/Kyo" RELATED []
 synonym: "MDC-02-74" RELATED []
 synonym: "NBRP Rat No. 0006" RELATED []
 synonym: "RGD ID: 1302600" RELATED []
-is_a: RS:0000398 ! HTX
+is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000400
@@ -18230,6 +18230,7 @@ id: RS:0002285
 name: ZDF-Leprfa/Crl
 synonym: "RGD ID: 2311071" RELATED []
 is_a: RS:0002721 ! chromosome 5 coisogenic
+is_a: RS:0004405 ! ZDF-Leprfa/Drt
 created_by: RNigam
 creation_date: 2010-01-20T12:00:00Z
 
@@ -43097,156 +43098,6 @@ synonym: "RGD ID: 155900757" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
 creation_date: 2023-02-09T16:13:29Z
-
-[Term]
-id: RS:0005204
-name: HSRA/Ummc
-synonym: "RGD ID: 156212871" EXACT []
-is_a: RS:0000765 ! inbred strain
-created_by: sjwang
-creation_date: 2023-02-14T12:07:51Z
-
-[Term]
-id: RS:0005205
-name: MWF/HsdMcwi
-synonym: "RGD ID: 156340304" EXACT []
-is_a: RS:0000593 ! MWF/Hsd
-created_by: sjwang
-creation_date: 2023-02-14T14:42:50Z
-
-[Term]
-id: RS:0005206
-name: PVG/SeacMcwi
-synonym: "RGD ID: 156354230" EXACT []
-is_a: RS:0000647 ! PVG/Seac
-created_by: sjwang
-creation_date: 2023-02-14T14:58:51Z
-
-[Term]
-id: RS:0005207
-name: RCS/LavRrrcMcwi
-synonym: "RGD ID: 156362762" EXACT []
-is_a: RS:0000660 ! RCS/LavRrrc
-created_by: sjwang
-creation_date: 2023-02-14T15:12:03Z
-
-[Term]
-id: RS:0005208
-name: BDIX/NemOdaMcwi
-synonym: "RGD ID: 156368567" EXACT []
-is_a: RS:0001791 ! BDIX/NemOda
-created_by: sjwang
-creation_date: 2023-02-14T15:18:21Z
-
-[Term]
-id: RS:0005209
-name: BUF/MnaMcwi
-synonym: "RGD ID: 156403001" EXACT []
-is_a: RS:0000165 ! BUF/Mna
-created_by: sjwang
-creation_date: 2023-02-14T16:06:53Z
-
-[Term]
-id: RS:0005210
-name: HTX/KyoMcwi
-created_by: sjwang
-creation_date: 2023-02-14T16:18:36Z
-
-[Term]
-id: RS:0005211
-name: MR/HarMcwi
-synonym: "RGD ID: 156420138" EXACT []
-is_a: RS:0000588 ! MR/Har
-created_by: sjwang
-creation_date: 2023-02-15T11:59:17Z
-
-[Term]
-id: RS:0005212
-name: MNS/NMcwi
-synonym: "RGD ID: 156420139" EXACT []
-is_a: RS:0002070 ! MNS/N
-created_by: sjwang
-creation_date: 2023-02-15T12:15:37Z
-
-[Term]
-id: RS:0005213
-name: HXB1/IpcvMcwi
-synonym: "RGD ID: 156420144" EXACT []
-is_a: RS:0001998 ! HXB1/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T09:42:53Z
-
-[Term]
-id: RS:0005214
-name: HXB7/IpcvMcwi
-synonym: "RGD ID: 156420145" EXACT []
-is_a: RS:0002018 ! HXB7/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T10:16:28Z
-
-[Term]
-id: RS:0005215
-name: HXB13/IpcvMcwi
-synonym: "RGD ID: 156420146" EXACT []
-is_a: RS:0002000 ! HXB13/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T10:26:25Z
-
-[Term]
-id: RS:0005216
-name: HXB17/IpcvMcwi
-synonym: "RGD ID: 156420147" EXACT []
-is_a: RS:0002003 ! HXB17/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T10:30:36Z
-
-[Term]
-id: RS:0005217
-name: HXB18/IpcvMcwi
-synonym: "RGD ID: 156420148" EXACT []
-is_a: RS:0002004 ! HXB18/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T10:36:25Z
-
-[Term]
-id: RS:0005218
-name: HXB23/IpcvMcwi
-synonym: "RGD ID: 156420149" EXACT []
-is_a: RS:0002009 ! HXB23/Ipcv
-created_by: sjwang
-creation_date: 2023-02-16T11:17:15Z
-
-[Term]
-id: RS:0005219
-name: BXH6/CubMcwi
-synonym: "RGD ID: 156420150" EXACT []
-is_a: RS:0001822 ! BXH6/Cub
-created_by: sjwang
-creation_date: 2023-02-16T14:06:39Z
-
-[Term]
-id: RS:0005220
-name: ZDF-Leprfa/+/Crl
-synonym: "RGD ID: 156420151" EXACT []
-is_a: RS:0002721 ! chromosome 5 coisogenic
-created_by: sjwang
-creation_date: 2023-02-16T16:59:57Z
-
-[Term]
-id: RS:0005221
-name: Mlac:WR
-synonym: "RGD ID: 156420152" EXACT []
-is_a: RS:0001013 ! WI
-created_by: sjwang
-creation_date: 2023-02-17T10:45:21Z
-
-[Term]
-id: RS:0005222
-name: Mlac:SD
-synonym: "RGD ID: 156420153" EXACT []
-is_a: RS:0000681 ! SD
-created_by: sjwang
-creation_date: 2023-02-17T10:52:27Z
 
 [Typedef]
 id: part_of
