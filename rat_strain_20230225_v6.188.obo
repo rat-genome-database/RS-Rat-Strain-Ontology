@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.189
-date: 04:03:2023 20:13
+data-version: 6.188
+date: 25:02:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43503,22 +43503,6 @@ synonym: "RGD ID: 156430169" EXACT []
 is_a: RS:0005253 ! SD-Mecp2em1Sage
 created_by: sjwang
 creation_date: 2023-02-22T15:13:39Z
-
-[Term]
-id: RS:0005255
-name: FSL
-synonym: "RGD ID: 156430327" EXACT []
-is_a: RS:0000765 ! inbred strain
-created_by: sjwang
-creation_date: 2023-02-27T14:49:40Z
-
-[Term]
-id: RS:0005256
-name: FRL
-synonym: "RGD ID: 156430328" EXACT []
-is_a: RS:0000765 ! inbred strain
-created_by: sjwang
-creation_date: 2023-02-27T15:16:37Z
 
 [Typedef]
 id: part_of
