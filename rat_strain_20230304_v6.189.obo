@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.190
-date: 11:03:2023 20:13
+data-version: 6.189
+date: 04:03:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2755,13 +2755,13 @@ is_a: RS:0000387 ! HAA
 
 [Term]
 id: RS:0000389
-name: Iusd:HAD1
+name: HAD1
 synonym: "RGD ID: 631844" RELATED []
 is_a: RS:0000484 ! HAD
 
 [Term]
 id: RS:0000390
-name: Iusd:HAD2
+name: HAD2
 synonym: "RGD ID: 731187" RELATED []
 is_a: RS:0000484 ! HAD
 
@@ -2995,7 +2995,7 @@ is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000423
-name: Iusm:LAD1
+name: LAD1
 synonym: "Low Alcohol Drinking 1" RELATED []
 synonym: "RGD ID: 631845" RELATED []
 is_a: RS:0000485 ! LAD
@@ -3009,7 +3009,7 @@ is_a: RS:0000422 ! LAA
 
 [Term]
 id: RS:0000425
-name: Iusm:LAD2
+name: LAD2
 synonym: "Low Alcohol Drinking 2" RELATED []
 synonym: "RGD ID: 731188" RELATED []
 is_a: RS:0000485 ! LAD
@@ -3434,14 +3434,12 @@ creation_date: 2011-10-03T12:00:00Z
 id: RS:0000484
 name: HAD
 synonym: "high-alcohol-drinking" RELATED []
-synonym: "RGD ID: 156451369" EXACT []
-is_a: RS:0000462 ! outbred strain
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000485
 name: LAD
-synonym: "RGD ID: 156451370" EXACT []
-is_a: RS:0000462 ! outbred strain
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000486
@@ -4286,6 +4284,13 @@ synonym: "RGD ID: 1302677" RELATED []
 is_a: RS:0000608 ! NIG-III
 
 [Term]
+id: RS:0000610
+name: NP
+synonym: "alcohol-nonpreferring" RELATED []
+synonym: "RGD ID: 634381" RELATED []
+is_a: RS:0000765 ! inbred strain
+
+[Term]
 id: RS:0000611
 name: NP9
 synonym: "RGD ID: 10031" RELATED []
@@ -4866,12 +4871,8 @@ is_a: RS:0003813 ! Crlj:SD
 [Term]
 id: RS:0000698
 name: Hsd:SD
-alt_id: RS:0001453
-synonym: "RGD ID: 68140" RELATED []
 synonym: "RGD ID: 737903" RELATED []
 synonym: "Sprague Dawley/Hsd" RELATED []
-synonym: "SPRD/Hsd" EXACT []
-is_a: RS:0000462 ! outbred strain
 is_a: RS:0000681 ! SD
 
 [Term]
@@ -9947,14 +9948,10 @@ is_a: RS:0002325 ! NE
 
 [Term]
 id: RS:0001375
-name: Iusm:NP
-alt_id: RS:0000610
-synonym: "alcohol-nonpreferring" RELATED []
+name: NP/Iusm
 synonym: "iNP" RELATED []
-synonym: "NP" EXACT []
 synonym: "RGD ID: 1641873" RELATED []
-synonym: "RGD ID: 634381" RELATED []
-is_a: RS:0000462 ! outbred strain
+is_a: RS:0000610 ! NP
 
 [Term]
 id: RS:0001376
@@ -9965,14 +9962,14 @@ is_a: RS:0002736 ! chromosome 4 congenic
 
 [Term]
 id: RS:0001377
-name: Iusm:P
+name: P/Iusm
 alt_id: RS:0000635
 synonym: "alcohol-preferring" RELATED []
 synonym: "iP" RELATED []
 synonym: "P" EXACT []
 synonym: "RGD ID: 1641867" RELATED []
 synonym: "RGD ID: 634380" RELATED []
-is_a: RS:0000462 ! outbred strain
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0001378
@@ -10536,6 +10533,12 @@ synonym: "SPRD-Cu3.WKY-D5Rat190/D5Rat114" RELATED []
 synonym: "SPRD-Cu3.WKY-Mcstm1" RELATED []
 is_a: RS:0001451 ! SPRD/Ztm.WKY/Ztm
 is_a: RS:0002888 ! SPRD/Ztm.WKY/Ztm (chr 5)
+
+[Term]
+id: RS:0001453
+name: SPRD/Hsd
+synonym: "RGD ID: 68140" RELATED []
+is_a: RS:0000462 ! outbred strain
 
 [Term]
 id: RS:0001454
@@ -17907,15 +17910,13 @@ creation_date: 2010-01-20T12:00:00Z
 
 [Term]
 id: RS:0002254
-name: WIAR/Iar
-alt_id: RS:0002359
+name: WIST/Iar
 synonym: "MDC-02-87" RELATED []
 synonym: "NBRP Rat No: 0284" RELATED []
 synonym: "RGD ID: 2304222" RELATED []
-synonym: "WIAR" EXACT []
 synonym: "WIAR/Iar" RELATED []
 synonym: "Wistar-Imamichi" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0002359 ! WIAR
 created_by: RNigam
 creation_date: 2010-01-20T12:00:00Z
 
@@ -18756,6 +18757,13 @@ id: RS:0002358
 name: UPL
 synonym: "RGD ID: 13524998" RELATED []
 synonym: "Upjohn Pharmaceuticals Limited" RELATED []
+is_a: RS:0000765 ! inbred strain
+created_by: RNigam
+creation_date: 2010-01-28T12:00:00Z
+
+[Term]
+id: RS:0002359
+name: WIAR
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2010-01-28T12:00:00Z
