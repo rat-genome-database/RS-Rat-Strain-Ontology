@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.191
-date: 18:03:2023 20:13
+data-version: 6.190
+date: 11:03:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2755,13 +2755,13 @@ is_a: RS:0000387 ! HAA
 
 [Term]
 id: RS:0000389
-name: Iusm:HAD1
+name: Iusd:HAD1
 synonym: "RGD ID: 631844" RELATED []
 is_a: RS:0000484 ! HAD
 
 [Term]
 id: RS:0000390
-name: Iusm:HAD2
+name: Iusd:HAD2
 synonym: "RGD ID: 731187" RELATED []
 is_a: RS:0000484 ! HAD
 
@@ -35407,6 +35407,7 @@ id: RS:0004255
 name: SD-Pgrem2Soar
 synonym: "Pgr-d136(E1)" RELATED []
 synonym: "RGD ID: 11667079" RELATED []
+is_a: RS:0004181 ! SD (CRISPR/Cas9) mutants (chr 8)
 is_a: RS:0004199 ! HsdHot:SD (ZFN) mutants
 created_by: sjwang
 creation_date: 2017-01-20T15:56:40Z
@@ -43510,22 +43511,6 @@ synonym: "RGD ID: 156430328" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: sjwang
 creation_date: 2023-02-27T15:16:37Z
-
-[Term]
-id: RS:0005257
-name: Strain: SD-Tg(Oprm1-icre)1Ottc
-synonym: "RGD ID: 155641245" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: sjwang
-creation_date: 2023-03-15T09:46:53Z
-
-[Term]
-id: RS:0005258
-name: SD-Akt1em1Soar
-synonym: "RGD ID: 158013766" EXACT []
-is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-03-16T11:32:59Z
 
 [Typedef]
 id: part_of
