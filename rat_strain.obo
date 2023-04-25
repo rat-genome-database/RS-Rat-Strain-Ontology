@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.191
-date: 18:03:2023 20:13
+data-version: 6.192
+date: 22:04:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -14022,7 +14022,7 @@ creation_date: 2009-12-17T12:00:00Z
 
 [Term]
 id: RS:0001872
-name: F344-Adms/Kyo
+name: F344-Kcna1Adms/Kyo
 synonym: "autosomal dominant myokymia and seizures rat" RELATED []
 synonym: "Boo" RELATED []
 synonym: "F344-Ker/Kyo" RELATED []
@@ -43526,6 +43526,30 @@ synonym: "RGD ID: 158013766" EXACT []
 is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2023-03-16T11:32:59Z
+
+[Term]
+id: RS:0005259
+name: F344-Txn1 em1Kyo
+synonym: "RGD ID: 288084582" EXACT []
+is_a: RS:0003475 ! F344/NSlc mutants
+created_by: sjwang
+creation_date: 2023-04-19T12:19:03Z
+
+[Term]
+id: RS:0005260
+name: F344-Txn1m1Kyo
+synonym: "RGD ID: 288084580" EXACT []
+is_a: RS:0001869 ! F344/NSlc (ENU) mutants
+created_by: sjwang
+creation_date: 2023-04-19T12:23:06Z
+
+[Term]
+id: RS:0005261
+name: SD-Tg(Prp-DISC1)Uhg
+synonym: "RGD ID: 291492855" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: sjwang
+creation_date: 2023-04-19T14:04:51Z
 
 [Typedef]
 id: part_of
