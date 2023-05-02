@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.193
-date: 29:04:2023 20:13
+data-version: 6.192
+date: 22:04:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4867,8 +4867,8 @@ is_a: RS:0003813 ! Crlj:SD
 id: RS:0000698
 name: Hsd:SD
 alt_id: RS:0001453
-synonym: "RGD ID:68140" RELATED []
-synonym: "RGD ID: 737903" EXACT []
+synonym: "RGD ID: 68140" RELATED []
+synonym: "RGD ID: 737903" RELATED []
 synonym: "Sprague Dawley/Hsd" RELATED []
 synonym: "SPRD/Hsd" EXACT []
 is_a: RS:0000462 ! outbred strain
@@ -43550,22 +43550,6 @@ synonym: "RGD ID: 291492855" EXACT []
 is_a: RS:0003511 ! SD transgenics
 created_by: sjwang
 creation_date: 2023-04-19T14:04:51Z
-
-[Term]
-id: RS:0005262
-name: SD-Mertkem1Cgen
-synonym: "RGD ID: 329322880" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-04-24T16:08:24Z
-
-[Term]
-id: RS:0005263
-name: SD-Spon2em1Holi
-synonym: "RGD ID: 329333019" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: sjwang
-creation_date: 2023-04-26T10:40:57Z
 
 [Typedef]
 id: part_of
