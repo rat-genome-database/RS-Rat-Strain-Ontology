@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.194
-date: 06:05:2023 20:13
+data-version: 6.193
+date: 29:04:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4286,13 +4286,6 @@ synonym: "RGD ID: 1302677" RELATED []
 is_a: RS:0000608 ! NIG-III
 
 [Term]
-id: RS:0000610
-name: iNP/Iusm
-synonym: "inbred alcohol-nonpreferring" RELATED []
-synonym: "RGD ID: 634381" RELATED []
-is_a: RS:0000765 ! inbred strain
-
-[Term]
 id: RS:0000611
 name: NP9
 synonym: "RGD ID: 10031" RELATED []
@@ -4452,13 +4445,6 @@ is_a: RS:0000765 ! inbred strain
 id: RS:0000634
 name: OXYS/Nov
 synonym: "RGD ID: 68114" RELATED []
-is_a: RS:0000765 ! inbred strain
-
-[Term]
-id: RS:0000635
-name: iP/Iusm
-synonym: "inbred alcohol-preferring" RELATED []
-synonym: "RGD ID: 634380" RELATED []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -4885,6 +4871,7 @@ synonym: "RGD ID:68140" RELATED []
 synonym: "RGD ID: 737903" EXACT []
 synonym: "Sprague Dawley/Hsd" RELATED []
 synonym: "SPRD/Hsd" EXACT []
+is_a: RS:0000462 ! outbred strain
 is_a: RS:0000681 ! SD
 
 [Term]
@@ -9961,9 +9948,12 @@ is_a: RS:0002325 ! NE
 [Term]
 id: RS:0001375
 name: Iusm:NP
+alt_id: RS:0000610
 synonym: "alcohol-nonpreferring" RELATED []
+synonym: "iNP" RELATED []
 synonym: "NP" EXACT []
 synonym: "RGD ID: 1641873" RELATED []
+synonym: "RGD ID: 634381" RELATED []
 is_a: RS:0000462 ! outbred strain
 
 [Term]
@@ -9976,9 +9966,12 @@ is_a: RS:0002736 ! chromosome 4 congenic
 [Term]
 id: RS:0001377
 name: Iusm:P
+alt_id: RS:0000635
 synonym: "alcohol-preferring" RELATED []
+synonym: "iP" RELATED []
 synonym: "P" EXACT []
 synonym: "RGD ID: 1641867" RELATED []
+synonym: "RGD ID: 634380" RELATED []
 is_a: RS:0000462 ! outbred strain
 
 [Term]
@@ -35074,32 +35067,32 @@ creation_date: 2016-09-09T08:56:06Z
 
 [Term]
 id: RS:0004213
-name: iNP (ZFN) mutants
+name: NP (ZFN) mutants
 is_a: RS:0000461 ! mutant strain
 created_by: vpetri
 creation_date: 2016-09-09T09:07:40Z
 
 [Term]
 id: RS:0004214
-name: iNP-Npyem6Sage/Iusm
+name: NP/Iusm-Npyem6Sage
 synonym: "RGD ID: 11530028" RELATED []
-is_a: RS:0004213 ! iNP (ZFN) mutants
+is_a: RS:0004213 ! NP (ZFN) mutants
 created_by: vpetri
 creation_date: 2016-09-09T09:09:11Z
 
 [Term]
 id: RS:0004215
-name: iNP-Npyem6Sage +/-/Iusm
+name: NP/Iusm-Npyem6Sage +/-
 synonym: "RGD ID: 11531104" RELATED []
-is_a: RS:0004214 ! iNP-Npyem6Sage/Iusm
+is_a: RS:0004214 ! NP/Iusm-Npyem6Sage
 created_by: vpetri
 creation_date: 2016-09-09T09:09:52Z
 
 [Term]
 id: RS:0004216
-name: iNP-Npyem6Sage-/-/Iusm
+name: NP/Iusm-Npyem6Sage -/-
 synonym: "RGD ID: 11531106" RELATED []
-is_a: RS:0004214 ! iNP-Npyem6Sage/Iusm
+is_a: RS:0004214 ! NP/Iusm-Npyem6Sage
 created_by: vpetri
 creation_date: 2016-09-09T09:10:17Z
 
