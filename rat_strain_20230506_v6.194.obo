@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.195
-date: 20:05:2023 20:13
+data-version: 6.194
+date: 06:05:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43573,14 +43573,6 @@ synonym: "RGD ID: 329333019" EXACT []
 is_a: RS:0004523 ! SD (TALEN) mutants
 created_by: sjwang
 creation_date: 2023-04-26T10:40:57Z
-
-[Term]
-id: RS:0005264
-name: Ibd:WI
-synonym: "RGD ID: 329812004" EXACT []
-is_a: RS:0001013 ! WI
-created_by: sjwang
-creation_date: 2023-05-19T14:27:45Z
 
 [Typedef]
 id: part_of
