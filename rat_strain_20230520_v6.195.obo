@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 6.196
-date: 03:06:2023 20:13
+data-version: 6.195
+date: 20:05:2023 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: rat_strain_ontology
 ontology: rs
@@ -37629,7 +37629,7 @@ creation_date: 2017-08-15T14:24:58Z
 [Term]
 id: RS:0004522
 name: NTac:WKY Sleeping Beauty transgenics
-def: "NTac:WKY rat strains carrying mutated alleles induced by Sleeping Beauty system." [RGD_curators:<sjwang>]
+def: "NTac:WKY rat strains carrying mutated alleles induced by Sleeping Beauty system." [RGD curators:<sjwang>]
 is_a: RS:0004269 ! WKY transgenics
 created_by: sjwang
 creation_date: 2017-08-15T15:09:55Z
@@ -37637,7 +37637,7 @@ creation_date: 2017-08-15T15:09:55Z
 [Term]
 id: RS:0004523
 name: SD (TALEN) mutants
-def: "SD rat strains carrying mutated alleles induced by TALEN system." [RGD_curators:<sjwang>]
+def: "SD rat strains carrying mutated alleles induced by TALEN system." [RGD curators:<sjwang>]
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
 creation_date: 2017-08-15T16:08:58Z
@@ -37701,7 +37701,7 @@ creation_date: 2017-08-16T12:18:45Z
 [Term]
 id: RS:0004531
 name: Crl:SD transgenics
-def: "Crl:SD rat strains carrying DNA that has been stably introduced into the germline." [RGD_curators:<sjwang>]
+def: "Crl:SD rat strains carrying DNA that has been stably introduced into the germline." [RGD curators:<sjwang>]
 is_a: RS:0003511 ! SD transgenics
 created_by: sjwang
 creation_date: 2017-08-17T09:54:29Z
@@ -37709,7 +37709,7 @@ creation_date: 2017-08-17T09:54:29Z
 [Term]
 id: RS:0004532
 name: Crl:SD (Sleeping Beauty) transgenics
-def: "Crl:SD transgenics created by Sleeping Beauty  system." [RGD_curators:<sjwang>]
+def: "Crl:SD transgenics created by Sleeping Beauty  system." [RGD curators:<sjwang>]
 is_a: RS:0004531 ! Crl:SD transgenics
 created_by: sjwang
 creation_date: 2017-08-17T10:30:03Z
@@ -37725,7 +37725,7 @@ creation_date: 2017-08-17T14:48:12Z
 [Term]
 id: RS:0004534
 name: LEW/Crl transgenics
-def: "LEW/Crl rat strains carrying DNA that has been stably introduced into the germline." [RGD_curators:<sjwang>]
+def: "LEW/Crl rat strains carrying DNA that has been stably introduced into the germline." [RGD curators:<sjwang>]
 is_a: RS:0003510 ! LEW transgenics
 created_by: sjwang
 creation_date: 2017-08-17T15:21:46Z
@@ -37789,7 +37789,7 @@ creation_date: 2017-08-22T14:23:03Z
 [Term]
 id: RS:0004542
 name: SS-Chr 13BN  mutants
-def: "SS-Chr 13BN strains carrying mutated alleles are included in this branch." [RGD_curators:<sjwang>]
+def: "SS-Chr 13BN strains carrying mutated alleles are included in this branch." [RGD curators:<sjwang>]
 is_a: RS:0002769 ! chromosome 13 mutant
 is_a: RS:0003478 ! SS mutants
 created_by: sjwang
@@ -37798,7 +37798,7 @@ creation_date: 2017-08-23T15:56:55Z
 [Term]
 id: RS:0004543
 name: LEW/NCrl transgenics
-def: "LEW/NCrl rat strains carrying DNA that has been stably introduced into the germline." [RGD_curators:<sjwang>]
+def: "LEW/NCrl rat strains carrying DNA that has been stably introduced into the germline." [RGD curators:<sjwang>]
 is_a: RS:0003510 ! LEW transgenics
 created_by: sjwang
 creation_date: 2017-08-29T16:27:06Z
@@ -37850,7 +37850,7 @@ creation_date: 2017-09-07T15:07:16Z
 [Term]
 id: RS:0004549
 name: Gunn rats
-def: "This mutation was first observed in normal Wistar albino rats in a breeding colony at Cannaught Laboratories in 1934. Jaundice was evident at birth or shortly after and was persistent throughout life." [RGD_curators:<sjwang>]
+def: "This mutation was first observed in normal Wistar albino rats in a breeding colony at Cannaught Laboratories in 1934. Jaundice was evident at birth or shortly after and was persistent throughout life." [RGD curators:<sjwang>]
 synonym: "RGD ID: 13525002" RELATED []
 is_a: RS:0000464 ! segregating inbred strain
 created_by: sjwang
@@ -43581,54 +43581,6 @@ synonym: "RGD ID: 329812004" EXACT []
 is_a: RS:0001013 ! WI
 created_by: sjwang
 creation_date: 2023-05-19T14:27:45Z
-
-[Term]
-id: RS:0005265
-name: NHla:SD
-synonym: "RGD ID: 25824850" EXACT []
-is_a: RS:0001409 ! N:SD
-created_by: sjwang
-creation_date: 2023-05-23T09:30:25Z
-
-[Term]
-id: RS:0005266
-name: BDIV/lfzRrrc
-synonym: "RGD ID: 150521619" EXACT []
-is_a: RS:0000090 ! BDIV/lfz
-created_by: sjwang
-creation_date: 2023-05-25T14:37:49Z
-
-[Term]
-id: RS:0005267
-name: W;WIAR-Izumo1em1Osb
-synonym: "RGD ID: 329845586" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: sjwang
-creation_date: 2023-05-30T13:44:22Z
-
-[Term]
-id: RS:0005268
-name: WKY-Col4a5em1Matsu
-synonym: "RGD ID: 329845597" EXACT []
-is_a: RS:0004050 ! WKY mutants
-created_by: sjwang
-creation_date: 2023-05-30T16:33:45Z
-
-[Term]
-id: RS:0005269
-name: WKY-Col4a5em2Matsu
-synonym: "RGD ID: 329845599" EXACT []
-is_a: RS:0004050 ! WKY mutants
-created_by: sjwang
-creation_date: 2023-05-30T16:35:17Z
-
-[Term]
-id: RS:0005270
-name: WKY-Col4a5em3Matsu
-synonym: "RGD ID: 329845600" EXACT []
-is_a: RS:0004050 ! WKY mutants
-created_by: sjwang
-creation_date: 2023-05-30T16:36:49Z
 
 [Typedef]
 id: part_of
