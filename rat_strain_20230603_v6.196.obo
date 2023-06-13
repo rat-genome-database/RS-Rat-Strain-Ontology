@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.197
-date: 10:06:2023 20:13
+data-version: 6.196
+date: 03:06:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -4881,7 +4881,7 @@ is_a: RS:0003813 ! Crlj:SD
 id: RS:0000698
 name: Hsd:SD
 alt_id: RS:0001453
-synonym: "RGD:68140" RELATED []
+synonym: "RGD ID:68140" RELATED []
 synonym: "RGD ID: 737903" EXACT []
 synonym: "Sprague Dawley/Hsd" RELATED []
 synonym: "SPRD/Hsd" EXACT []
@@ -15800,6 +15800,9 @@ name: LE.AR-Ednrbsl/Okkm
 synonym: "LE.AR-sl" RELATED []
 synonym: "NBRP Rat No: 0557" RELATED []
 synonym: "RGD ID: 2314375" RELATED []
+is_a: RS:0000459 ! congenic strain
+is_a: RS:0001335 ! chromosome 15 congenic
+is_a: RS:0001767 ! AR-EdnrbslOkkm
 is_a: RS:0002669 ! LE.AR
 created_by: RNigam
 creation_date: 2010-01-08T12:00:00Z
@@ -21681,7 +21684,6 @@ creation_date: 2011-08-08T12:00:00Z
 id: RS:0002669
 name: LE.AR
 is_a: RS:0000459 ! congenic strain
-is_a: RS:0001335 ! chromosome 15 congenic
 created_by: RNigam
 creation_date: 2011-08-08T12:00:00Z
 
@@ -26192,10 +26194,11 @@ creation_date: 2012-04-04T12:00:00Z
 
 [Term]
 id: RS:0003209
-name: LE.AR-Ednrbsl/okkmHkv
+name: LE/Hkv.AR-Ednrbsl
 synonym: "LEH/Hkv-Ednrbsl" RELATED []
 synonym: "RGD ID: 6480220" RELATED []
-is_a: RS:0002042 ! LE.AR-Ednrbsl/Okkm
+is_a: RS:0000459 ! congenic strain
+is_a: RS:0003208 ! AR-Ednrbsl/Hkv
 created_by: RNigam
 creation_date: 2012-04-04T12:00:00Z
 
@@ -33410,7 +33413,7 @@ creation_date: 2015-08-26T12:12:42Z
 
 [Term]
 id: RS:0004021
-name: WI;WDB-Kiss1tm1Nips
+name: WI-Kiss1tm1Nips
 synonym: "RGD ID: 10059570" RELATED []
 is_a: RS:0004020 ! Crlj:WI mutants
 is_a: RS:0004022 ! Crlj:WI mutants (chr 13)
@@ -34544,7 +34547,7 @@ name: F344-TyrCKitH/Kyo
 synonym: "Black Fischer" RELATED []
 synonym: "NBRP Rat No: 0768" RELATED []
 synonym: "RGD ID: 11040971" RELATED []
-is_a: RS:0003472 ! F344 mutants
+is_a: RS:0004153 ! F344/Stm (CRISPR/Cas9) mutants
 is_a: RS:0004155 ! F344/Stm (CRISPR/Cas9) mutants (chr 1)
 is_a: RS:0004157 ! F344/Stm (CRISPR/Cas9) mutants (chr 14)
 created_by: rnigam
@@ -34567,7 +34570,7 @@ creation_date: 2016-03-24T11:00:19Z
 [Term]
 id: RS:0004155
 name: F344/Stm (CRISPR/Cas9) mutants (chr 1)
-is_a: RS:0003472 ! F344 mutants
+is_a: RS:0004154 ! F344 mutants (chr 1)
 created_by: rnigam
 creation_date: 2016-03-24T11:01:43Z
 
@@ -40754,7 +40757,7 @@ creation_date: 2021-04-15T12:49:03Z
 
 [Term]
 id: RS:0004910
-name: WI;WDB-Sall1tm4(tdTomato)Nips
+name: WI.WDB-Sall1tm4(tdTomato)Nips
 synonym: "RGD ID: 125097494" RELATED []
 is_a: RS:0003754 ! WDB mutants
 is_a: RS:0004020 ! Crlj:WI mutants
@@ -40763,7 +40766,7 @@ creation_date: 2021-04-15T13:04:23Z
 
 [Term]
 id: RS:0004911
-name: WI;WDB-Prdm14tm1(H2BVenus)Nips
+name: WI.WDB-Prdm14tm1(H2BVenus)Nips
 synonym: "RGD ID: 125097491" RELATED []
 is_a: RS:0003754 ! WDB mutants
 is_a: RS:0004020 ! Crlj:WI mutants
@@ -42806,7 +42809,7 @@ creation_date: 2022-10-11T12:36:58Z
 
 [Term]
 id: RS:0005168
-name: WI;WDB-ROSA26tm1(H2B-tdTomato)/Nips
+name: WI.WDB-ROSA26tm1(H2B-tdTomato)/Nips
 synonym: "RGD ID: 155269039" EXACT []
 is_a: RS:0003754 ! WDB mutants
 is_a: RS:0004020 ! Crlj:WI mutants
@@ -43626,93 +43629,6 @@ synonym: "RGD ID: 329845600" EXACT []
 is_a: RS:0004050 ! WKY mutants
 created_by: sjwang
 creation_date: 2023-05-30T16:36:49Z
-
-[Term]
-id: RS:0005271
-name: SHRSP.SHR-(D1Got82-D1Rat97)/Izm
-synonym: "RGD ID: 329848962" EXACT []
-is_a: RS:0003573 ! SHRSP.SHR-(D1Mgh5-D1Got87)/Izm
-created_by: sjwang
-creation_date: 2023-06-06T14:51:56Z
-
-[Term]
-id: RS:0005272
-name: WIC;WDB-Kiss1tm1(tdTomato)Nurep
-synonym: "RGD ID: 329848994" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2023-06-07T11:47:14Z
-
-[Term]
-id: RS:0005273
-name: WIC;WDB-Kiss1tm1Nurep
-synonym: "RGD ID: 329848995" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: sjwang
-creation_date: 2023-06-07T12:42:32Z
-
-[Term]
-id: RS:0005274
-name: LE-Tg(Drd2-cre)487-3Koba
-synonym: "RGD ID: 329848998" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2023-06-07T14:54:09Z
-
-[Term]
-id: RS:0005275
-name: LE-Tg(Drd2-cre)490-9Koba
-synonym: "RGD ID: 329848999" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: sjwang
-creation_date: 2023-06-07T14:56:44Z
-
-[Term]
-id: RS:0005276
-name: LE-Pvalbem2(cre)Koba
-synonym: "RGD ID: 329849003" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: sjwang
-creation_date: 2023-06-08T09:44:01Z
-
-[Term]
-id: RS:0005277
-name: LE;LE.AR-Ednrbsl/Kwb
-synonym: "RGD ID: 329849006" EXACT []
-is_a: RS:0003209 ! LE.AR-Ednrbsl/okkmHkv
-created_by: sjwang
-creation_date: 2023-06-08T15:03:54Z
-
-[Term]
-id: RS:0005278
-name: F344-TyrCKitH/Hkv
-synonym: "RGD ID: 329849009" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: sjwang
-creation_date: 2023-06-09T12:06:45Z
-
-[Term]
-id: RS:0005279
-name: F344-TyrCKitH.LEA-(Tel-D17Got10)/Hkv
-synonym: "RGD ID: 329849010" EXACT []
-is_a: RS:0004152 ! F344-TyrCKitH/Kyo
-created_by: sjwang
-creation_date: 2023-06-09T13:00:53Z
-
-[Term]
-id: RS:0005280
-name: SD-Fosem1Yossi
-synonym: "RGD ID: 329849011" EXACT []
-created_by: sjwang
-creation_date: 2023-06-09T13:21:27Z
-
-[Term]
-id: RS:0005281
-name: SD-Fosem1Yossi
-synonym: "RGD ID: 329849011" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-06-09T13:22:16Z
 
 [Typedef]
 id: part_of
