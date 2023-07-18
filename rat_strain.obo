@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.198
-date: 24:06:2023 20:13
+data-version: 6.199
+date: 15:07:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43144,6 +43144,8 @@ creation_date: 2023-02-14T16:06:53Z
 [Term]
 id: RS:0005210
 name: HTX/KyoMcwi
+synonym: "RGD ID: 156406412" EXACT []
+is_a: RS:0000399 ! HTX/Kyo
 created_by: sjwang
 creation_date: 2023-02-14T16:18:36Z
 
@@ -43700,19 +43702,68 @@ created_by: sjwang
 creation_date: 2023-06-09T13:00:53Z
 
 [Term]
-id: RS:0005280
-name: SD-Fosem1Yossi
-synonym: "RGD ID: 329849011" EXACT []
-created_by: sjwang
-creation_date: 2023-06-09T13:21:27Z
-
-[Term]
 id: RS:0005281
 name: SD-Fosem1Yossi
 synonym: "RGD ID: 329849011" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2023-06-09T13:22:16Z
+
+[Term]
+id: RS:0005282
+name: ACI.BBDP-(RT1u)/Sunn
+synonym: "RGD ID: 329951704" EXACT []
+is_a: RS:0002645 ! ACI/SegHsd congenics
+created_by: sjwang
+creation_date: 2023-07-10T15:38:29Z
+
+[Term]
+id: RS:0005283
+name: SD-Cited2em1Soar
+synonym: "RGD ID: 329951705" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: sjwang
+creation_date: 2023-07-10T16:34:32Z
+
+[Term]
+id: RS:0005284
+name: SD-Adrm1em1Uok
+synonym: "RGD ID: 329951706" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: sjwang
+creation_date: 2023-07-10T16:56:01Z
+
+[Term]
+id: RS:0005285
+name: WKY-Tg(CD68-GFP)Kjw
+synonym: "RGD ID: 329955364" EXACT []
+is_a: RS:0004269 ! WKY transgenics
+created_by: sjwang
+creation_date: 2023-07-11T13:49:17Z
+
+[Term]
+id: RS:0005286
+name: WKY-Tg(CD68-GFP)KjwRrrc
+synonym: "RGD ID: 329955365" EXACT []
+is_a: RS:0005285 ! WKY-Tg(CD68-GFP)Kjw
+created_by: sjwang
+creation_date: 2023-07-11T13:53:05Z
+
+[Term]
+id: RS:0005287
+name: SD-Serpina6em1Glha
+synonym: "RGD ID: 329955449" EXACT []
+is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
+created_by: sjwang
+creation_date: 2023-07-12T11:33:43Z
+
+[Term]
+id: RS:0005288
+name: SD-Serpina6em1Glha/Rrrc
+synonym: "RGD ID: 329955451" EXACT []
+is_a: RS:0005287 ! SD-Serpina6em1Glha
+created_by: sjwang
+creation_date: 2023-07-12T11:35:56Z
 
 [Typedef]
 id: part_of
