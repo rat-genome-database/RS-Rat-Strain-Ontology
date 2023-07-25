@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.200
-date: 22:07:2023 20:13
+data-version: 6.199
+date: 15:07:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43764,14 +43764,6 @@ synonym: "RGD ID: 329955451" EXACT []
 is_a: RS:0005287 ! SD-Serpina6em1Glha
 created_by: sjwang
 creation_date: 2023-07-12T11:35:56Z
-
-[Term]
-id: RS:0005289
-name: SD-Ace2em1(ACE2)Prem
-synonym: "RGD ID: 329955557" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-07-17T12:42:06Z
 
 [Typedef]
 id: part_of
