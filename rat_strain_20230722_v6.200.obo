@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.201
-date: 29:07:2023 20:13
+data-version: 6.200
+date: 22:07:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -39357,7 +39357,7 @@ creation_date: 2019-07-12T12:31:52Z
 
 [Term]
 id: RS:0004737
-name: WKY-Tg(Eef1a1-GFP)Tja
+name: WKY-Tg(Ef1a-GFP)Tja
 synonym: "RGD ID: 14695060" EXACT []
 is_a: RS:0004269 ! WKY transgenics
 created_by: sjwang
@@ -43772,30 +43772,6 @@ synonym: "RGD ID: 329955557" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2023-07-17T12:42:06Z
-
-[Term]
-id: RS:0005290
-name: Strain: SD-Tg(Myh6-cre)Lizh
-synonym: "RGD ID: 329969882" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: sjwang
-creation_date: 2023-07-26T12:54:48Z
-
-[Term]
-id: RS:0005291
-name: SD-Trim44em1Lizh
-synonym: "RGD ID: 329969883" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2023-07-26T12:56:36Z
-
-[Term]
-id: RS:0005292
-name: SD-Trim44em1Lizh,Tg(Myh6-cre)Lizh
-synonym: "RGD ID: 329969885" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: sjwang
-creation_date: 2023-07-26T12:57:57Z
 
 [Typedef]
 id: part_of
