@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.202
-date: 05:08:2023 20:13
+data-version: 6.201
+date: 29:07:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -12312,7 +12312,7 @@ is_a: RS:0003509 ! F344 transgenics
 
 [Term]
 id: RS:0001686
-name: SHR-Tg(EEF1A1-Cd36)10Ipcv
+name: SHR-Tg(Ef1a-Cd36)10Ipcv
 synonym: "RGD ID: 2302148" RELATED []
 synonym: "SHR/Ola-TgN(Ef1aCd36)10Ipcv" RELATED []
 synonym: "SHR-TG10" RELATED []
@@ -12325,7 +12325,7 @@ is_a: RS:0003513 ! SHR transgenics
 
 [Term]
 id: RS:0001688
-name: SHR-Tg(EEF1A1-Cd36)19Ipcv
+name: SHR-Tg(Ef1a-Cd36)19Ipcv
 synonym: "RGD ID: 2302149" RELATED []
 synonym: "SHR/Ola-TgN(Ef1aCd36)19Ipcv" RELATED []
 synonym: "SHR-TG19" RELATED []
@@ -12333,7 +12333,7 @@ is_a: RS:0001687 ! SHR/OlaIpcv transgenics
 
 [Term]
 id: RS:0001689
-name: SHR-Tg(EEF1A1-Cd36)93Ipcv
+name: SHR-Tg(Ef1a-Cd36)93Ipcv
 synonym: "RGD ID: 2302150" RELATED []
 synonym: "SHR/Ola-TgN(Ef1aCd36)93Ipcv" RELATED []
 synonym: "SHR-TG93" RELATED []
@@ -12341,7 +12341,7 @@ is_a: RS:0001687 ! SHR/OlaIpcv transgenics
 
 [Term]
 id: RS:0001690
-name: SHR-Tg(EEF1A1-Cd36)106Ipcv
+name: SHR-Tg(Ef1a-Cd36)106Ipcv
 synonym: "RGD ID: 2302151" RELATED []
 synonym: "SHR/Ola-TgN(Ef1aCd36)106Ipcv" RELATED []
 synonym: "SHR-TG106" RELATED []
@@ -15964,7 +15964,7 @@ creation_date: 2010-01-11T12:00:00Z
 
 [Term]
 id: RS:0002059
-name: LEW-Tg((ROSA)26Sor-lacZ)44JmskRrrc
+name: LEW-Tg((ROSA26)Sor-lacZ)44JmskRrrc
 synonym: "LEW-Tg(Gt(ROSA)26Sor-lacZ)44Jmsk" RELATED []
 synonym: "LEW-Tg(Rosa-LacZ)44Jmsk" RELATED []
 synonym: "NBRP Rat No: 0298" RELATED []
@@ -26439,7 +26439,7 @@ creation_date: 2012-05-04T12:00:00Z
 
 [Term]
 id: RS:0003236
-name: LEW-Tg((ROSA)26Sor-lacZ)15Jmsk
+name: LEW-Tg((ROSA26)Sor-lacZ)15Jmsk
 synonym: "LEW-Tg(Rosa-lacZ)15Jmsk" RELATED []
 synonym: "RGD ID: 6482292" RELATED []
 synonym: "RRRC:00297" RELATED []
@@ -28236,7 +28236,7 @@ creation_date: 2013-06-17T12:00:00Z
 
 [Term]
 id: RS:0003435
-name: SD-Tg((ROSA)26-EGFP)RehRrrc
+name: SD-Tg(ROSA26-EGFP)RehRrrc
 synonym: "RGD ID: 7245482" RELATED []
 synonym: "RRRC:00541" RELATED []
 synonym: "SDTgN(ROSA-EGFP)Reh" RELATED []
@@ -31846,7 +31846,7 @@ creation_date: 2014-11-03T02:30:20Z
 
 [Term]
 id: RS:0003841
-name: LE-Tg(EEF1A1-TetR)1Ottc
+name: LE-Tg(EF1a-TetR)1Ottc
 synonym: "RGD ID: 9588587" RELATED []
 synonym: "TgR - LE Tg(OTTC338) TetR L1" RELATED []
 is_a: RS:0004078 ! Ottc:LE transgenics
@@ -31855,7 +31855,7 @@ creation_date: 2014-11-03T02:31:04Z
 
 [Term]
 id: RS:0003842
-name: LE-Tg(EEF1A1-TetR)2Ottc
+name: LE-Tg(EF1a-TetR)2Ottc
 synonym: "RGD ID: 9588589" RELATED []
 synonym: "TgR - LE Tg(OTTC338) TetR L2" RELATED []
 is_a: RS:0004078 ! Ottc:LE transgenics
@@ -32617,7 +32617,7 @@ creation_date: 2015-07-13T02:19:57Z
 
 [Term]
 id: RS:0003925
-name: LE-Tg((ROSA)26Sor-CAG-tdTomato)24Jfhy
+name: LE-Tg((ROSA26)Sor-CAG-tdTomato)24Jfhy
 synonym: "NBRP Rat No: 0734" RELATED []
 synonym: "RGD ID: 10045580" RELATED []
 synonym: "Tg(RP23-244D9/CAG-neo-tdTomato)Jfhy" RELATED []
@@ -35589,7 +35589,7 @@ creation_date: 2017-01-27T15:02:46Z
 
 [Term]
 id: RS:0004278
-name: LE-Tg((ROSA)26Sor-CAG-tdTomato)9Jfhy
+name: LE-Tg((Rosa26)Sor-CAG-tdTomato)9Jfhy
 synonym: "RGD ID: 11561979" RELATED []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -35597,7 +35597,7 @@ creation_date: 2017-01-27T15:06:27Z
 
 [Term]
 id: RS:0004279
-name: LE-Tg((ROSA)26Sor-CAG-tdTomato)14Jfhy
+name: LE-Tg((Rosa26)Sor-CAG-tdTomato)14Jfhy
 synonym: "RGD ID: 11564343" RELATED []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -37593,7 +37593,7 @@ creation_date: 2017-08-11T11:21:57Z
 
 [Term]
 id: RS:0004518
-name: LE-ROSA26 em1(LTR-nLuc)Ottc
+name: LE-(ROSA)26 em1(LTR-nLuc)Ottc
 synonym: "RGD ID: 13208223" RELATED []
 is_a: RS:0004779 ! LE mutants
 created_by: sjwang
@@ -37601,7 +37601,7 @@ creation_date: 2017-08-11T11:42:11Z
 
 [Term]
 id: RS:0004519
-name: LE-ROSA26 em1(CAG-Cas9)Ottc
+name: LE-(ROSA)26 em1(CAG-Cas9)Ottc
 synonym: "RGD ID: 13208224" RELATED []
 is_a: RS:0004779 ! LE mutants
 created_by: sjwang
@@ -40103,7 +40103,7 @@ creation_date: 2020-10-01T16:51:28Z
 
 [Term]
 id: RS:0004828
-name: LE-Tg(Gt(ROSA)26Sor-CAG-COP4*C167A/YFP*)2Jfhy
+name: LE-Tg(Gt(ROSA26)Sor-CAG-COP4*C167A/YFP*)2Jfhy
 synonym: "RGD ID: 38599203" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -40111,7 +40111,7 @@ creation_date: 2020-10-01T16:54:30Z
 
 [Term]
 id: RS:0004829
-name: LE-Tg(Gt(ROSA)26Sor-CAG-COP4*C167A/YFP*)1Jfhy
+name: LE-Tg(Gt(ROSA26)Sor-CAG-COP4*C167A/YFP*)1Jfhy
 synonym: "RGD ID: 38599204" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -42012,7 +42012,7 @@ creation_date: 2021-10-07T16:50:17Z
 
 [Term]
 id: RS:0005067
-name: SHR-Tg(EEF1A1-Wars2)Ipcv
+name: SHR-Tg(Ef1a-Wars2)Ipcv
 synonym: "RGD ID: 150429988" EXACT []
 is_a: RS:0001687 ! SHR/OlaIpcv transgenics
 created_by: sjwang
@@ -42100,7 +42100,7 @@ creation_date: 2021-11-05T10:13:16Z
 
 [Term]
 id: RS:0005078
-name: SHR-Tg(EEF1A1-Folr1 )Ipcv
+name: SHR-Tg(Ef1a-Folr1 )Ipcv
 synonym: "RGD ID: 150520206" EXACT []
 is_a: RS:0001687 ! SHR/OlaIpcv transgenics
 created_by: sjwang
@@ -42494,7 +42494,7 @@ creation_date: 2022-01-28T11:37:30Z
 
 [Term]
 id: RS:0005129
-name: LE.Cg-ROSA26 em1(CAG-Cas9*D10A)Ottc
+name: LE.Cg-(ROSA26) em1(CAG-Cas9*D10A)Ottc
 synonym: "RGD ID: 13602097" EXACT []
 is_a: RS:0004779 ! LE mutants
 created_by: sjwang
@@ -42911,7 +42911,7 @@ creation_date: 2022-10-31T16:47:38Z
 
 [Term]
 id: RS:0005181
-name: LE-ROSA26em1(EEF1A1-TetR, Fos-iCre)/BhopeRrrc
+name: LE-ROSA26em1(EF1a-TetR, Fos-iCre)/BhopeRrrc
 synonym: "RGD ID: 151356946" EXACT []
 is_a: RS:0004779 ! LE mutants
 created_by: sjwang
@@ -43796,14 +43796,6 @@ synonym: "RGD ID: 329969885" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
 creation_date: 2023-07-26T12:57:57Z
-
-[Term]
-id: RS:0005293
-name: WKY-P2rx7em1Tja
-synonym: "RGD ID: 329955459" EXACT []
-is_a: RS:0004050 ! WKY mutants
-created_by: sjwang
-creation_date: 2023-08-04T15:19:47Z
 
 [Typedef]
 id: part_of
