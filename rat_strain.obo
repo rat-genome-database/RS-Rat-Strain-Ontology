@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.203
-date: 12:08:2023 20:13
+data-version: 6.204
+date: 09:09:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -23620,7 +23620,7 @@ creation_date: 2011-10-31T12:00:00Z
 
 [Term]
 id: RS:0002939
-name: FBNF1/Hsd
+name: F344BNF1/Hsd
 synonym: "RGD ID: 5508394" RELATED []
 is_a: RS:0002067 ! hybrid strain
 created_by: RNigam
@@ -32847,7 +32847,7 @@ creation_date: 2015-07-15T12:35:57Z
 
 [Term]
 id: RS:0003950
-name: WI-Foxn1em1NipsWI-Foxn1em2NipsF1/Nips
+name: WI-Foxn1em1Nips, Foxn1em2NipsF1
 synonym: "RGD ID: 10053603" RELATED []
 is_a: RS:0002067 ! hybrid strain
 created_by: RNigam
