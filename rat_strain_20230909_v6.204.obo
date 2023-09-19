@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.205
-date: 16:09:2023 20:13
+data-version: 6.204
+date: 09:09:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43812,22 +43812,6 @@ synonym: "RGD ID: 401717572" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2023-08-07T14:49:32Z
-
-[Term]
-id: RS:0005295
-name: WI-Nanos3em1(tdTomato)Nips
-synonym: "RGD ID: 401795481" EXACT []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-09-11T15:25:19Z
-
-[Term]
-id: RS:0005296
-name: CD-Slc30a10em1Sommu
-synonym: "RGD ID: 401795484" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: sjwang
-creation_date: 2023-09-11T16:08:53Z
 
 [Typedef]
 id: part_of
