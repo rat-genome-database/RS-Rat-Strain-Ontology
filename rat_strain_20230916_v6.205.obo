@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.206
-date: 23:09:2023 20:13
+data-version: 6.205
+date: 16:09:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -41704,7 +41704,7 @@ creation_date: 2021-08-20T11:14:20Z
 
 [Term]
 id: RS:0005029
-name: SD-Rag1/Rag2em1Mlit
+name: SD-Rag1em1Rag2em1/Mlit
 synonym: "RGD ID: 38548914" EXACT []
 is_a: RS:0004523 ! SD (TALEN) mutants
 created_by: sjwang
@@ -41720,9 +41720,9 @@ creation_date: 2021-08-20T11:35:08Z
 
 [Term]
 id: RS:0005031
-name: SD-Rag1/Rag2em1MlitIl2rgem1Mlit-/y
+name: SD-Rag1em1Rag2em1Il2rgem1-/y/Mlit
 synonym: "RGD ID: 38548916" EXACT []
-is_a: RS:0005029 ! SD-Rag1/Rag2em1Mlit
+is_a: RS:0005029 ! SD-Rag1em1Rag2em1/Mlit
 is_a: RS:0005030 ! SD-Il2rgem1-/y/Mlit
 created_by: sjwang
 creation_date: 2021-08-20T11:39:57Z
