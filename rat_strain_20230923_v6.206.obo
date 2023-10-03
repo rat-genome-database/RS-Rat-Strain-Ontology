@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.207
-date: 30:09:2023 20:13
+data-version: 6.206
+date: 23:09:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -10235,7 +10235,8 @@ synonym: "RGD ID: 2293729" RELATED []
 synonym: "SHR-Dca" RELATED []
 synonym: "SHR-dominant cataract" RELATED []
 synonym: "SHR-Gja8m1/Cub" RELATED []
-is_a: RS:0005077 ! SHR-Gja8m1+/-Cub
+is_a: RS:0002759 ! chromosome 2 mutant
+is_a: RS:0003886 ! SHR/OlaIpcv mutants
 
 [Term]
 id: RS:0001414
