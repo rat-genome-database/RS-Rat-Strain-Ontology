@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.208
-date: 14:10:2023 20:13
+data-version: 6.207
+date: 30:09:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -13493,10 +13493,19 @@ creation_date: 2009-12-15T12:00:00Z
 
 [Term]
 id: RS:0001816
-name: BXH12/Cub
+name: BXH12-1/Cub
 synonym: "BXH12" RELATED []
 synonym: "MDC-01-30" RELATED []
 synonym: "RGD ID: 2307139" RELATED []
+is_a: RS:0000169 ! BXH/Ipcv
+created_by: rnigam
+creation_date: 2009-12-15T12:00:00Z
+
+[Term]
+id: RS:0001817
+name: BXH12-2/Cub
+synonym: "BXH12-2a" RELATED []
+synonym: "RGD ID: 2307133" RELATED []
 is_a: RS:0000169 ! BXH/Ipcv
 created_by: rnigam
 creation_date: 2009-12-15T12:00:00Z
@@ -20653,7 +20662,7 @@ id: RS:0002551
 name: BXH12/CubPrin
 synonym: "BXH12/IpcvPrin" RELATED []
 synonym: "RGD ID: 5131097" RELATED []
-is_a: RS:0001816 ! BXH12/Cub
+is_a: RS:0000169 ! BXH/Ipcv
 created_by: RNigam
 creation_date: 2011-04-20T12:00:00Z
 
@@ -43471,7 +43480,7 @@ creation_date: 2023-02-21T12:07:51Z
 id: RS:0005252
 name: BXH12-1/CubMcwi
 synonym: "RGD ID: 156430110" EXACT []
-is_a: RS:0001816 ! BXH12/Cub
+is_a: RS:0001816 ! BXH12-1/Cub
 created_by: sjwang
 creation_date: 2023-02-21T12:17:26Z
 
@@ -43818,14 +43827,6 @@ synonym: "RGD ID: 401795484" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2023-09-11T16:08:53Z
-
-[Term]
-id: RS:0005297
-name: BXH13/CubMcwi
-synonym: "RGD ID: 401827899" EXACT []
-is_a: RS:0001818 ! BXH13/Cub
-created_by: sjwang
-creation_date: 2023-10-04T10:26:11Z
 
 [Typedef]
 id: part_of
