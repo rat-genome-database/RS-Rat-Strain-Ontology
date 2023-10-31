@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.208
-date: 14:10:2023 20:13
+data-version: 6.209
+date: 28:10:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43469,7 +43469,7 @@ creation_date: 2023-02-21T12:07:51Z
 
 [Term]
 id: RS:0005252
-name: BXH12-1/CubMcwi
+name: BXH12/CubMcwi
 synonym: "RGD ID: 156430110" EXACT []
 is_a: RS:0001816 ! BXH12/Cub
 created_by: sjwang
