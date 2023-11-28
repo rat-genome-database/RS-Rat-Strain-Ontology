@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.209
-date: 28:10:2023 20:13
+data-version: 6.210
+date: 25:11:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43826,6 +43826,46 @@ synonym: "RGD ID: 401827899" EXACT []
 is_a: RS:0001818 ! BXH13/Cub
 created_by: sjwang
 creation_date: 2023-10-04T10:26:11Z
+
+[Term]
+id: RS:0005298
+name: Crlj:CD(SD)
+synonym: "RGD ID: 11535955" EXACT []
+is_a: RS:0000064 ! Crl:CD(SD)
+created_by: shurjenw
+creation_date: 2023-11-21T12:19:53Z
+
+[Term]
+id: RS:0005299
+name: SD-Prl7b1tm1(cre)Soar
+synonym: "RGD ID: 401900746" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2023-11-21T14:54:59Z
+
+[Term]
+id: RS:0005300
+name: SD-Prl7b1tm1(cre)Soar/Rrrc
+synonym: "RGD ID: 401900748" EXACT []
+is_a: RS:0005299 ! SD-Prl7b1tm1(cre)Soar
+created_by: shurjenw
+creation_date: 2023-11-21T14:57:01Z
+
+[Term]
+id: RS:0005301
+name: SD-Prl7b1em1Soar
+synonym: "RGD ID: 401900749" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2023-11-21T15:00:35Z
+
+[Term]
+id: RS:0005302
+name: SD-Prl7b1em1Soar/Rrrc
+synonym: "RGD ID: 401900750" EXACT []
+is_a: RS:0005301 ! SD-Prl7b1em1Soar
+created_by: shurjenw
+creation_date: 2023-11-21T15:02:58Z
 
 [Typedef]
 id: part_of
