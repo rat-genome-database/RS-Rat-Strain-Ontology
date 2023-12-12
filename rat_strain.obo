@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.210
-date: 25:11:2023 20:13
+data-version: 6.211
+date: 09:12:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43866,6 +43866,38 @@ synonym: "RGD ID: 401900750" EXACT []
 is_a: RS:0005301 ! SD-Prl7b1em1Soar
 created_by: shurjenw
 creation_date: 2023-11-21T15:02:58Z
+
+[Term]
+id: RS:0005303
+name: SHHFcp/cp/MccGmiCrl
+synonym: "RGD ID: 401901198" EXACT []
+is_a: RS:0005306 ! SHHFcp/cp/Mcc
+created_by: shurjenw
+creation_date: 2023-12-05T15:10:30Z
+
+[Term]
+id: RS:0005304
+name: SHHFcp/+/MccGmiCrl
+synonym: "RGD ID: 401901199" EXACT []
+is_a: RS:0005305 ! SHHFcp/+/Mcc
+created_by: shurjenw
+creation_date: 2023-12-05T15:12:17Z
+
+[Term]
+id: RS:0005305
+name: SHHFcp/+/Mcc
+synonym: "RGD ID: 401901201" EXACT []
+is_a: RS:0000713 ! SHHF
+created_by: shurjenw
+creation_date: 2023-12-05T15:24:57Z
+
+[Term]
+id: RS:0005306
+name: SHHFcp/cp/Mcc
+synonym: "RGD ID: 401901202" EXACT []
+is_a: RS:0000713 ! SHHF
+created_by: shurjenw
+creation_date: 2023-12-05T15:32:21Z
 
 [Typedef]
 id: part_of
