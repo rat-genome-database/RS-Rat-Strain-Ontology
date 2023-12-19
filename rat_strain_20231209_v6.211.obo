@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.212
-date: 16:12:2023 20:13
+data-version: 6.211
+date: 09:12:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43898,14 +43898,6 @@ synonym: "RGD ID: 401901202" EXACT []
 is_a: RS:0000713 ! SHHF
 created_by: shurjenw
 creation_date: 2023-12-05T15:32:21Z
-
-[Term]
-id: RS:0005307
-name: SS-Mlycdem1Mcwi
-synonym: "RGD ID: 150520052" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2023-12-12T15:14:37Z
 
 [Typedef]
 id: part_of
