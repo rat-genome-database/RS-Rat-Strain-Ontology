@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.213
-date: 30:12:2023 20:13
+data-version: 6.212
+date: 16:12:2023 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43906,22 +43906,6 @@ synonym: "RGD ID: 150520052" EXACT []
 is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2023-12-12T15:14:37Z
-
-[Term]
-id: RS:0005308
-name: SD-Slc9a6 em1Moro/Rrrc
-synonym: "RGD ID: 401938647" EXACT []
-is_a: RS:0005139 ! SD-Slc9a6 em1Moro
-created_by: shurjenw
-creation_date: 2023-12-18T15:29:33Z
-
-[Term]
-id: RS:0005309
-name: CD-Slc30a10em1Sommu/Rrrc
-synonym: "RGD ID: 401938650" EXACT []
-is_a: RS:0005296 ! CD-Slc30a10em1Sommu
-created_by: shurjenw
-creation_date: 2023-12-19T10:37:15Z
 
 [Typedef]
 id: part_of
