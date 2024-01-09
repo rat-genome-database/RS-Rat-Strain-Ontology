@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 6.213
-date: 30:12:2023 20:13
+date: 06:01:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -38855,6 +38855,7 @@ creation_date: 2019-01-21T12:17:39Z
 [Term]
 id: RS:0004675
 name: WI-Slc6a4m1Hubr-/-
+synonym: "RGD ID: 14390067" EXACT []
 is_a: RS:0003465 ! Crl:WI mutants
 is_a: RS:0004618 ! W homozygous mutants
 created_by: sjwang
@@ -38863,6 +38864,7 @@ creation_date: 2019-02-18T12:04:42Z
 [Term]
 id: RS:0004676
 name: WI-Slc6a4m1Hubr+/-
+synonym: "RGD ID: 14390069" EXACT []
 is_a: RS:0003465 ! Crl:WI mutants
 is_a: RS:0004619 ! W heterozygous mutants
 created_by: sjwang
@@ -40796,7 +40798,7 @@ creation_date: 2021-04-16T16:03:04Z
 id: RS:0004916
 name: SD-Tg(GFAP-cre/ERT2)AppscRrrc
 synonym: "RGD ID: 56677892" RELATED []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
+is_a: RS:0004980 ! SD-Tg(GFAP-cre/ERT2)Appsc
 created_by: sjwang
 creation_date: 2021-04-21T15:46:21Z
 
