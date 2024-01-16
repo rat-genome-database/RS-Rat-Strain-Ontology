@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.214
-date: 13:01:2024 20:13
+data-version: 6.213
+date: 06:01:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43924,30 +43924,6 @@ synonym: "RGD ID: 401938650" EXACT []
 is_a: RS:0005296 ! CD-Slc30a10em1Sommu
 created_by: shurjenw
 creation_date: 2023-12-19T10:37:15Z
-
-[Term]
-id: RS:0005310
-name: SD-Ahrem1Iexas+/+
-synonym: "RGD ID: 401940198" EXACT []
-is_a: RS:0004624 ! SD wild type mutants
-created_by: shurjenw
-creation_date: 2024-01-08T11:50:23Z
-
-[Term]
-id: RS:0005311
-name: SD-Ahrem1Iexas+/-
-synonym: "RGD ID: 401940197" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-01-08T11:52:18Z
-
-[Term]
-id: RS:0005312
-name: SD-Ahrem1Iexas-/-
-synonym: "RGD ID: 401940195" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-01-08T11:56:39Z
 
 [Typedef]
 id: part_of
