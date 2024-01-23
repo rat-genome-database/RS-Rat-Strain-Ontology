@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.215
-date: 20:01:2024 20:13
+data-version: 6.214
+date: 13:01:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43948,14 +43948,6 @@ synonym: "RGD ID: 401940195" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2024-01-08T11:56:39Z
-
-[Term]
-id: RS:0005313
-name: LE-Tg(Thy1-GCaMP6f)8Rrrc
-synonym: "RGD ID: 401959229" EXACT []
-is_a: RS:0003803 ! LE transgenics
-created_by: shurjenw
-creation_date: 2024-01-17T14:18:43Z
 
 [Typedef]
 id: part_of
