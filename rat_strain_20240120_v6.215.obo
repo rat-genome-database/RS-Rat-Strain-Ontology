@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.216
-date: 27:01:2024 20:13
+data-version: 6.215
+date: 20:01:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43956,14 +43956,6 @@ synonym: "RGD ID: 401959229" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: shurjenw
 creation_date: 2024-01-17T14:18:43Z
-
-[Term]
-id: RS:0005314
-name: Cnc:SD
-synonym: "RGD ID: 401959606" EXACT []
-is_a: RS:0000681 ! SD
-created_by: shurjenw
-creation_date: 2024-01-26T14:24:50Z
 
 [Typedef]
 id: part_of
