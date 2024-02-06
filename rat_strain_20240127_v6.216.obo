@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.217
-date: 03:02:2024 20:13
+data-version: 6.216
+date: 27:01:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43964,30 +43964,6 @@ synonym: "RGD ID: 401959606" EXACT []
 is_a: RS:0000681 ! SD
 created_by: shurjenw
 creation_date: 2024-01-26T14:24:50Z
-
-[Term]
-id: RS:0005315
-name: Yxch:SD
-synonym: "RGD ID: 401960080" EXACT []
-is_a: RS:0000681 ! SD
-created_by: shurjenw
-creation_date: 2024-01-30T12:24:09Z
-
-[Term]
-id: RS:0005316
-name: ZSF1-Leprfa/cp/Crl
-synonym: "RGD ID: 401960101" EXACT []
-is_a: RS:0002288 ! ZSF1-Leprfa Leprcp/Crl
-created_by: shurjenw
-creation_date: 2024-01-31T11:00:14Z
-
-[Term]
-id: RS:0005317
-name: ZSF1-Leprlean/Crl
-synonym: "RGD ID: 401960104" EXACT []
-is_a: RS:0002288 ! ZSF1-Leprfa Leprcp/Crl
-created_by: shurjenw
-creation_date: 2024-01-31T11:01:53Z
 
 [Typedef]
 id: part_of
