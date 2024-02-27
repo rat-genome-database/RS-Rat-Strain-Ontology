@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.217
-date: 03:02:2024 20:13
+data-version: 6.218
+date: 24:02:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -43988,6 +43988,38 @@ synonym: "RGD ID: 401960104" EXACT []
 is_a: RS:0002288 ! ZSF1-Leprfa Leprcp/Crl
 created_by: shurjenw
 creation_date: 2024-01-31T11:01:53Z
+
+[Term]
+id: RS:0005318
+name: NTacSam:SD
+synonym: "RGD ID: 401976374" EXACT []
+is_a: RS:0001410 ! NTac:SD
+created_by: shurjenw
+creation_date: 2024-02-21T10:53:53Z
+
+[Term]
+id: RS:0005319
+name: SD-Crhtm1(Cre)Kji
+synonym: "RGD ID: 401976372" EXACT []
+is_a: RS:0003828 ! SD mutants
+created_by: shurjenw
+creation_date: 2024-02-22T15:52:58Z
+
+[Term]
+id: RS:0005320
+name: Cnc:WI
+synonym: "RGD ID: 401976436" EXACT []
+is_a: RS:0001013 ! WI
+created_by: shurjenw
+creation_date: 2024-02-22T16:47:29Z
+
+[Term]
+id: RS:0005321
+name: HsdOla:LIS
+synonym: "RGD ID: 401976445" EXACT []
+is_a: RS:0004568 ! LIS
+created_by: shurjenw
+creation_date: 2024-02-23T14:32:29Z
 
 [Typedef]
 id: part_of
