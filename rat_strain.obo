@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.221
-date: 20:04:2024 20:13
+data-version: 6.222
+date: 18:05:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44060,6 +44060,22 @@ synonym: "RGD ID: 405650195" EXACT []
 is_a: RS:0004624 ! SD wild type mutants
 created_by: shurjenw
 creation_date: 2024-04-18T11:28:04Z
+
+[Term]
+id: RS:0005328
+name: Wakil: bHR
+synonym: "RGD ID: 405847397" EXACT []
+is_a: RS:0000695 ! Crl:SD
+created_by: shurjenw
+creation_date: 2024-05-16T10:26:29Z
+
+[Term]
+id: RS:0005329
+name: Wakil: bLR
+synonym: "RGD ID: 405847400" EXACT []
+is_a: RS:0000695 ! Crl:SD
+created_by: shurjenw
+creation_date: 2024-05-16T10:38:20Z
 
 [Typedef]
 id: part_of
