@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.225
-date: 15:06:2024 20:13
+data-version: 6.222
+date: 18:05:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44076,118 +44076,6 @@ synonym: "RGD ID: 405847400" EXACT []
 is_a: RS:0000695 ! Crl:SD
 created_by: shurjenw
 creation_date: 2024-05-16T10:38:20Z
-
-[Term]
-id: RS:0005330
-name: OlaHsd:LE
-synonym: "RGD ID: 401959407" EXACT []
-is_a: RS:0003821 ! LE (outbred)
-created_by: shurjenw
-creation_date: 2024-05-20T15:15:21Z
-
-[Term]
-id: RS:0005331
-name: SD-Del(Yp)1Mcwi
-synonym: "RGD ID: 155663364" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-20T15:19:34Z
-
-[Term]
-id: RS:0005332
-name: SS-Del(1q)2Mcwi
-synonym: "RGD ID: 404976873" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-20T15:21:21Z
-
-[Term]
-id: RS:0005333
-name: SHR-Tti2em1Ipcv+/-
-synonym: "RGD ID: 405849381" EXACT []
-is_a: RS:0003886 ! SHR/OlaIpcv mutants
-created_by: shurjenw
-creation_date: 2024-05-24T09:36:35Z
-
-[Term]
-id: RS:0005334
-name: SHR-Tti2em1Ipcv+/+
-synonym: "RGD ID: 405849382" EXACT []
-is_a: RS:0003886 ! SHR/OlaIpcv mutants
-created_by: shurjenw
-creation_date: 2024-05-24T09:47:54Z
-
-[Term]
-id: RS:0005335
-name: SD-Tg(DNMT3A+) Feis
-synonym: "RGD ID: 405849385" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2024-05-24T11:36:51Z
-
-[Term]
-id: RS:0005336
-name: SD-Tg(DNMT3A-) Feis
-synonym: "RGD ID: 405849386" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2024-05-24T11:45:26Z
-
-[Term]
-id: RS:0005337
-name: WKY-Krtcap3em3-/-Mcwi
-synonym: "RGD ID: 19165362" EXACT []
-is_a: RS:0004024 ! WKY/NCrl (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-29T10:14:55Z
-
-[Term]
-id: RS:0005338
-name: SS-Xdhem1Mcwi
-synonym: "RGD ID: 14398479" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-29T13:40:33Z
-
-[Term]
-id: RS:0005339
-name: SS-Xdhem1Mcwi+/-
-synonym: "RGD ID: 405849408" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-29T14:20:19Z
-
-[Term]
-id: RS:0005340
-name: SS-Xdhem1Mcwi+/+
-synonym: "RGD ID: 405849409" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-29T14:21:57Z
-
-[Term]
-id: RS:0005341
-name: WKY-Krtcap3em3Mcwi+/+
-synonym: "RGD ID: 405849411" EXACT []
-is_a: RS:0004024 ! WKY/NCrl (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-05-29T15:46:23Z
-
-[Term]
-id: RS:0005342
-name: SD-Mir500 em1Cgen
-synonym: "RGD ID: 405850241" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: shurjenw
-creation_date: 2024-06-04T11:08:01Z
-
-[Term]
-id: RS:0005343
-name: Stock Tc(HSA21)1Yakaz
-synonym: "RGD ID: 405850257" EXACT []
-is_a: RS:0004472 ! transchromosomal strain
-created_by: shurjenw
-creation_date: 2024-06-10T12:48:31Z
 
 [Typedef]
 id: part_of

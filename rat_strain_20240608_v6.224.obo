@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.225
-date: 15:06:2024 20:13
+data-version: 6.224
+date: 08:06:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44180,14 +44180,6 @@ synonym: "RGD ID: 405850241" EXACT []
 is_a: RS:0004523 ! SD (TALEN) mutants
 created_by: shurjenw
 creation_date: 2024-06-04T11:08:01Z
-
-[Term]
-id: RS:0005343
-name: Stock Tc(HSA21)1Yakaz
-synonym: "RGD ID: 405850257" EXACT []
-is_a: RS:0004472 ! transchromosomal strain
-created_by: shurjenw
-creation_date: 2024-06-10T12:48:31Z
 
 [Typedef]
 id: part_of
