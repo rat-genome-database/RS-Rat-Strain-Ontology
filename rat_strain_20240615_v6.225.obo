@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.226
-date: 22:06:2024 20:13
+data-version: 6.225
+date: 15:06:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44188,22 +44188,6 @@ synonym: "RGD ID: 405850257" EXACT []
 is_a: RS:0004472 ! transchromosomal strain
 created_by: shurjenw
 creation_date: 2024-06-10T12:48:31Z
-
-[Term]
-id: RS:0005344
-name: SD-Foxo4em1Soar
-synonym: "RGD ID: 405855876" EXACT []
-is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-06-18T15:07:01Z
-
-[Term]
-id: RS:0005345
-name: SD-Foxo4em1Soar+/+
-synonym: "RGD ID: 405855877" EXACT []
-is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2024-06-18T15:08:35Z
 
 [Typedef]
 id: part_of
