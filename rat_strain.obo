@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.226
-date: 22:06:2024 20:13
+data-version: 6.227
+date: 13:07:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -82,6 +82,7 @@ is_a: RS:0000006 ! A990
 id: RS:0000012
 name: ACI
 synonym: "August Copenhagen Irish" RELATED []
+synonym: "RGD ID: 405878045" EXACT []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -1096,6 +1097,7 @@ is_a: RS:0000161 ! BS
 id: RS:0000163
 name: BUF
 synonym: "Buffalo" RELATED []
+synonym: "RGD ID: 405878046" EXACT []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -2819,6 +2821,7 @@ is_a: RS:0000765 ! inbred strain
 id: RS:0000398
 name: HTX
 synonym: "Hydrocephalus Texas" RELATED []
+synonym: "RGD ID: 405878047" EXACT []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -4138,6 +4141,7 @@ is_a: RS:0000584 ! MNRA
 id: RS:0000587
 name: MR
 synonym: "Maudsely reactive" RELATED []
+synonym: "RGD ID: 405878051" EXACT []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -18572,6 +18576,7 @@ creation_date: 2010-01-28T12:00:00Z
 [Term]
 id: RS:0002333
 name: RCS
+synonym: "RGD ID: 405878052" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2010-01-28T12:00:00Z
@@ -18771,6 +18776,7 @@ creation_date: 2010-01-28T12:00:00Z
 [Term]
 id: RS:0002362
 name: WN
+synonym: "RGD ID: 70458" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2010-01-28T12:00:00Z
@@ -24074,6 +24080,7 @@ creation_date: 2011-11-03T12:00:00Z
 id: RS:0003003
 name: LH
 synonym: "Lyon Hypertensive" RELATED []
+synonym: "RGD ID: 405878048" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2011-12-01T12:00:00Z
@@ -24082,6 +24089,7 @@ creation_date: 2011-12-01T12:00:00Z
 id: RS:0003004
 name: LL
 synonym: "Lyon hypotensive" RELATED []
+synonym: "RGD ID: 405878049" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2012-01-11T12:00:00Z
@@ -24089,6 +24097,7 @@ creation_date: 2012-01-11T12:00:00Z
 [Term]
 id: RS:0003005
 name: LN
+synonym: "RGD ID: 405878050" EXACT []
 is_a: RS:0000765 ! inbred strain
 created_by: RNigam
 creation_date: 2012-01-11T12:00:00Z
