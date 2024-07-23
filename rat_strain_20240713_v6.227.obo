@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.228
-date: 20:07:2024 20:13
+data-version: 6.227
+date: 13:07:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -850,7 +850,6 @@ is_a: RS:0002316 ! chromosome 9 congenic
 id: RS:0000125
 name: PD
 synonym: "polydactylous" RELATED []
-synonym: "RGD ID: 405878082" EXACT []
 is_a: RS:0000765 ! inbred strain
 
 [Term]
@@ -16253,6 +16252,7 @@ id: RS:0002088
 name: SHR.LxXBXH2/Cub
 synonym: "PXO/Cub" RELATED []
 is_a: RS:0000463 ! recombinant inbred strain
+is_a: RS:0001819 ! BXH2/Cub
 created_by: RNigam
 creation_date: 2010-01-11T12:00:00Z
 
