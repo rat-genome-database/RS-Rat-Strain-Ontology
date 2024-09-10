@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.231
-date: 07:09:2024 20:13
+data-version: 6.230
+date: 24:08:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -84,7 +84,6 @@ name: ACI
 synonym: "August Copenhagen Irish" RELATED []
 synonym: "RGD ID: 405878045" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000013
@@ -101,7 +100,6 @@ synonym: "Dark Agouti" RELATED []
 synonym: "Dark-agouti" RELATED []
 synonym: "RGD ID: 60997" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000015
@@ -109,7 +107,6 @@ name: SHR
 synonym: "RGD ID: 61000" RELATED []
 synonym: "Spontaneously Hypertensive Rat" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000016
@@ -126,7 +123,6 @@ synonym: "Fawn Hooded Hypertensive" RELATED []
 synonym: "FHR" RELATED []
 synonym: "RGD ID: 60993" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000018
@@ -629,7 +625,6 @@ id: RS:0000091
 name: BDIX
 synonym: "RGD ID: 61002" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000092
@@ -767,7 +762,6 @@ name: BN
 synonym: "Brown Norway" RELATED []
 synonym: "RGD ID: 60985" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000114
@@ -775,7 +769,6 @@ name: BN-Lx
 synonym: "Brown Norway with polydactyly-luxate" RELATED []
 synonym: "RGD ID: 61113" RELATED []
 is_a: RS:0003470 ! BN-Lx mutants
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000115
@@ -827,7 +820,6 @@ name: LEW
 synonym: "Lewis" RELATED []
 synonym: "RGD ID: 60999" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000122
@@ -860,7 +852,6 @@ name: PD
 synonym: "polydactylous" RELATED []
 synonym: "RGD ID: 405878082" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000126
@@ -1109,7 +1100,6 @@ name: BUF
 synonym: "Buffalo" RELATED []
 synonym: "RGD ID: 405878046" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000164
@@ -1152,7 +1142,6 @@ name: BXH/Ipcv
 synonym: "(BN-Lx/CubxSHR/OlaIpcv)F2" RELATED []
 synonym: "RGD ID: 61098" RELATED []
 is_a: RS:0000463 ! recombinant inbred strain
-is_a: RS:0005366 ! HRDP HXB/BXH Recombinant Inbred strain
 
 [Term]
 id: RS:0000170
@@ -1256,7 +1245,6 @@ name: COP
 synonym: "Copenhagen" RELATED []
 synonym: "RGD ID: 60998" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000185
@@ -1502,7 +1490,6 @@ synonym: "Fischer-344" RELATED []
 synonym: "Fischer Rat" RELATED []
 synonym: "RGD ID: 60994" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000216
@@ -1569,7 +1556,6 @@ name: PVG
 synonym: "Piebald Virol Glaxo" RELATED []
 synonym: "RGD ID: 61006" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000225
@@ -2459,7 +2445,6 @@ id: RS:0000347
 name: LE (inbred)
 synonym: "RGD ID: 60991" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000348
@@ -2839,7 +2824,6 @@ name: HTX
 synonym: "Hydrocephalus Texas" RELATED []
 synonym: "RGD ID: 405878047" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000399
@@ -2866,7 +2850,6 @@ id: RS:0000401
 name: HXB/Ipcv
 synonym: "RGD ID: 61099" RELATED []
 is_a: RS:0000463 ! recombinant inbred strain
-is_a: RS:0005366 ! HRDP HXB/BXH Recombinant Inbred strain
 
 [Term]
 id: RS:0000402
@@ -3373,7 +3356,6 @@ id: RS:0000473
 name: FXLE/Stm
 synonym: "RGD ID: 7244374" RELATED []
 is_a: RS:0000463 ! recombinant inbred strain
-is_a: RS:0005367 ! HRDP FXLE/LEXF  Recombinant Inbred
 
 [Term]
 id: RS:0000474
@@ -3782,7 +3764,6 @@ id: RS:0000534
 name: LEXF/Stm
 synonym: "RGD ID: 629500" RELATED []
 is_a: RS:0000463 ! recombinant inbred strain
-is_a: RS:0005367 ! HRDP FXLE/LEXF  Recombinant Inbred
 
 [Term]
 id: RS:0000535
@@ -4062,7 +4043,6 @@ id: RS:0000572
 name: M520
 synonym: "RGD ID: 68086" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000573
@@ -4118,7 +4098,6 @@ name: MNS
 synonym: "Milan Normotensive strain" RELATED []
 synonym: "RGD ID: 60992" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000581
@@ -4165,7 +4144,6 @@ name: MR
 synonym: "Maudsely reactive" RELATED []
 synonym: "RGD ID: 405878051" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000588
@@ -4211,7 +4189,6 @@ name: MWF
 synonym: "Munich Wistar Fromter" RELATED []
 synonym: "RGD ID: 68099" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000595
@@ -4761,7 +4738,6 @@ name: SBH
 synonym: "RGD ID: 68129" RELATED []
 synonym: "Sabra hypertensive" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000677
@@ -4777,7 +4753,6 @@ name: SBN
 synonym: "RGD ID: 68130" RELATED []
 synonym: "Sabra hypertension resistant" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000679
@@ -5243,7 +5218,6 @@ synonym: "RGD ID: 61103" RELATED []
 synonym: "Wistar Kyoto" RELATED []
 synonym: "Wistar-Kyoto" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000743
@@ -5372,7 +5346,6 @@ synonym: "MDC-01-80" RELATED []
 synonym: "RGD ID: 61010" RELATED []
 synonym: "Spontaneously Hypertensive Rat, Stroke Prone" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000760
@@ -5551,7 +5524,6 @@ synonym: "Dahl Salt-Resistant" RELATED []
 synonym: "RGD ID: 70453" RELATED []
 synonym: "Salt Resistant" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000785
@@ -5586,7 +5558,6 @@ synonym: "Dahl Salt-Sensitive" RELATED []
 synonym: "RGD ID: 69369" RELATED []
 synonym: "Salt Sensitive" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000790
@@ -6947,7 +6918,6 @@ id: RS:0000967
 name: WAG
 synonym: "RGD ID: 61008" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0000968
@@ -9442,7 +9412,6 @@ synonym: "Goto Kakizaki" RELATED []
 synonym: "Goto-Kakizaki" RELATED []
 synonym: "RGD ID: 13506737" RELATED []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 
 [Term]
 id: RS:0001300
@@ -18609,7 +18578,6 @@ id: RS:0002333
 name: RCS
 synonym: "RGD ID: 405878052" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 created_by: RNigam
 creation_date: 2010-01-28T12:00:00Z
 
@@ -24114,7 +24082,6 @@ name: LH
 synonym: "Lyon Hypertensive" RELATED []
 synonym: "RGD ID: 405878048" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 created_by: RNigam
 creation_date: 2011-12-01T12:00:00Z
 
@@ -24124,7 +24091,6 @@ name: LL
 synonym: "Lyon hypotensive" RELATED []
 synonym: "RGD ID: 405878049" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 created_by: RNigam
 creation_date: 2012-01-11T12:00:00Z
 
@@ -24133,7 +24099,6 @@ id: RS:0003005
 name: LN
 synonym: "RGD ID: 405878050" EXACT []
 is_a: RS:0000765 ! inbred strain
-is_a: RS:0005365 ! HRDP classic inbred strain
 created_by: RNigam
 creation_date: 2012-01-11T12:00:00Z
 
@@ -36131,7 +36096,7 @@ creation_date: 2017-02-21T13:24:39Z
 
 [Term]
 id: RS:0004343
-name: SS.Il2rgem1Mcwi
+name: SS-Il2rgem1Mcwi
 synonym: "RGD ID: 12790632" RELATED []
 is_a: RS:0004342 ! SS/JrHsdMcwi (TALEN) mutants
 created_by: sjwang
@@ -44272,192 +44237,6 @@ synonym: "RGD ID: 407445919" EXACT []
 is_a: RS:0000955 ! W
 created_by: shurjenw
 creation_date: 2024-08-22T09:25:13Z
-
-[Term]
-id: RS:0005349
-name: SS-Chr 3BN/Mcwi.SS congenics
-is_a: RS:0000459 ! congenic strain
-is_a: RS:0002785 ! chromosome 3 congenic
-created_by: shurjenw
-creation_date: 2024-08-29T15:43:52Z
-
-[Term]
-id: RS:0005350
-name: SS-Chr3BN.SS-(D3Rat222-D3Rat218)/Mcwi
-synonym: "RGD ID: 155782881" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T09:25:24Z
-
-[Term]
-id: RS:0005351
-name: SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791433" EXACT []
-is_a: RS:0004342 ! SS/JrHsdMcwi (TALEN) mutants
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T09:46:44Z
-
-[Term]
-id: RS:0005352
-name: SS-Chr 3BN.SS-(D3Mgh13-D3Rat218).l2rgem1/Mcwi
-synonym: "RGD ID: 155791439" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T09:52:08Z
-
-[Term]
-id: RS:0005353
-name: SS-Chr 3BN.Il2rgem1Mcwi/Mcwi
-synonym: "RGD ID: 155791425" EXACT []
-is_a: RS:0004342 ! SS/JrHsdMcwi (TALEN) mutants
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T10:17:51Z
-
-[Term]
-id: RS:0005354
-name: SS-Chr 3BN.SS-(D3Rat160-D3Rat218).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791437" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T10:27:30Z
-
-[Term]
-id: RS:0005355
-name: SS-Chr 3BN.SS-(D3Rat26-D3Rat218).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791436" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T10:45:57Z
-
-[Term]
-id: RS:0005356
-name: SS-Chr 3BN.SS-(D3Rat222-D3Mco33).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791435" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T10:55:27Z
-
-[Term]
-id: RS:0005357
-name: SS-Chr 3BN.SS-(D3Arb3-D3Rat93)( D3Rat78-D3Rat1)/Mcwi
-synonym: "RGD ID: 155782880" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T11:01:45Z
-
-[Term]
-id: RS:0005358
-name: SS-Chr 3BN.SS-(D3Arb3-D3Rat93)( D3Rat78-D3Rat1).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791431" EXACT []
-is_a: RS:0004342 ! SS/JrHsdMcwi (TALEN) mutants
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T11:12:58Z
-
-[Term]
-id: RS:0005359
-name: SS-Chr 3BN.SS-(D3Rat222-D3Got42).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791434" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T11:19:13Z
-
-[Term]
-id: RS:0005360
-name: SS-Chr 3BN.SS-(D3Rat 86-D3Rat218).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791440" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T11:22:52Z
-
-[Term]
-id: RS:0005361
-name: SS-Chr3BN.SS-(D3Rat26-D3Mgh30)/Mcwi
-synonym: "RGD ID: 155782879" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T11:32:21Z
-
-[Term]
-id: RS:0005362
-name: SS-Chr 3BN.SS-(D3Rat26-D3Mgh30).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791432" EXACT []
-is_a: RS:0004342 ! SS/JrHsdMcwi (TALEN) mutants
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2024-08-30T11:34:58Z
-
-[Term]
-id: RS:0005363
-name: SS-Chr 3BN.SS-(D3Rat164-D3Rat218).Il2rgem1/Mcwi
-synonym: "RGD ID: 155791438" EXACT []
-is_a: RS:0005351 ! SS-Chr 3BN.SS-(D3Rat222-D3Rat218).Il2rgem1/Mcwi
-created_by: shurjenw
-creation_date: 2024-08-30T11:44:19Z
-
-[Term]
-id: RS:0005364
-name: HRDP strain
-is_a: RS:0000457 ! rat strain
-created_by: shurjenw
-creation_date: 2024-08-30T15:24:50Z
-
-[Term]
-id: RS:0005365
-name: HRDP classic inbred strain
-is_a: RS:0005364 ! HRDP strain
-created_by: shurjenw
-creation_date: 2024-08-30T15:27:05Z
-
-[Term]
-id: RS:0005366
-name: HRDP HXB/BXH Recombinant Inbred strain
-is_a: RS:0005364 ! HRDP strain
-created_by: shurjenw
-creation_date: 2024-08-30T15:29:04Z
-
-[Term]
-id: RS:0005367
-name: HRDP FXLE/LEXF  Recombinant Inbred
-is_a: RS:0005364 ! HRDP strain
-created_by: shurjenw
-creation_date: 2024-08-30T15:31:40Z
-
-[Term]
-id: RS:0005368
-name: BN/Slacc
-synonym: "RGD ID: 407450403" EXACT []
-is_a: RS:0000113 ! BN
-created_by: shurjenw
-creation_date: 2024-09-04T10:35:18Z
-
-[Term]
-id: RS:0005369
-name: Liuch:WI
-synonym: "RGD ID: 407450412" EXACT []
-is_a: RS:0001013 ! WI
-created_by: shurjenw
-creation_date: 2024-09-05T10:39:55Z
-
-[Term]
-id: RS:0005370
-name: SD-Il6em1Yona-/-
-synonym: "RGD ID: 407450413" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-is_a: RS:0004622 ! SD homozygous mutants
-created_by: shurjenw
-creation_date: 2024-09-05T12:08:25Z
-
-[Term]
-id: RS:0005371
-name: SD-Il6em1Yona+/+
-synonym: "RGD ID: 407450414" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-is_a: RS:0004624 ! SD wild type mutants
-created_by: shurjenw
-creation_date: 2024-09-05T12:13:43Z
 
 [Typedef]
 id: part_of
