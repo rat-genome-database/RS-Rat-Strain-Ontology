@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.234
-date: 28:09:2024 20:13
+data-version: 6.231
+date: 07:09:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -2231,6 +2231,7 @@ synonym: "Fawn Hooded/HamSlc" RELATED []
 synonym: "NBRP Rat No. 0161" RELATED []
 synonym: "RGD ID: 1302696" RELATED []
 is_a: RS:0000316 ! FH
+is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000318
@@ -2615,6 +2616,7 @@ name: AI/Msik
 synonym: "NBRP Rat No: 0145" RELATED []
 synonym: "RGD ID: 1549810" RELATED []
 is_a: RS:0000002 ! AI
+is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000368
@@ -2814,7 +2816,8 @@ name: HOB/Snk
 synonym: "Hobble Rat" RELATED []
 synonym: "NBRP Rat No. 0085" RELATED []
 synonym: "RGD ID: 1302700" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002759 ! chromosome 2 mutant
 
 [Term]
 id: RS:0000396
@@ -2856,7 +2859,7 @@ synonym: "Hairless Wistar Yagi" RELATED []
 synonym: "MDC-02-75" RELATED []
 synonym: "NBRP Rat No. 0152" RELATED []
 synonym: "RGD ID: 1302718" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000401
@@ -3196,6 +3199,8 @@ synonym: "MDC-01-78" RELATED []
 synonym: "NBRP Rat No. 0042" RELATED []
 synonym: "RGD ID: 1302648" RELATED []
 is_a: RS:0000445 ! LEC
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002735 ! chromosome 16 mutant
 
 [Term]
 id: RS:0000447
@@ -3211,6 +3216,8 @@ synonym: "Long-Evans Cinnamon/Tj" RELATED []
 synonym: "NBRP Rat No. 0051" RELATED []
 synonym: "RGD ID: 1302721" RELATED []
 is_a: RS:0000445 ! LEC
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002735 ! chromosome 16 mutant
 
 [Term]
 id: RS:0000449
@@ -3344,7 +3351,7 @@ id: RS:0000469
 name: CVD/Opu
 synonym: "Cerebellar vermis defect rat" RELATED []
 synonym: "RGD ID: 1554303" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 
 [Term]
 id: RS:0000470
@@ -4982,6 +4989,7 @@ synonym: "NBRP Rat No. 0151" RELATED []
 synonym: "RGD ID: 1302698" RELATED []
 synonym: "RRRC:00066" RELATED []
 synonym: "spontaneous dwarf rat" RELATED []
+is_a: RS:0000461 ! mutant strain
 is_a: RS:0002342 ! SDR
 
 [Term]
@@ -5498,6 +5506,7 @@ name: SHRSP/Ta
 synonym: "NBRP Rat No. 0237" RELATED []
 synonym: "RGD ID: 1302606" RELATED []
 is_a: RS:0000759 ! SHRSP
+is_a: RS:0004236 ! SHRSP mutant
 
 [Term]
 id: RS:0000779
@@ -7942,7 +7951,8 @@ synonym: "MDC-02-35" RELATED []
 synonym: "NBRP Rat No. 0024" RELATED []
 synonym: "RGD ID: 1302726" RELATED []
 synonym: "zitter rat" RELATED []
-is_a: RS:0001102 ! ZI
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002742 ! chromosome 3 mutant
 
 [Term]
 id: RS:0001104
@@ -9563,6 +9573,7 @@ id: RS:0001318
 name: GRY/Idr
 synonym: "groggy rat" RELATED []
 synonym: "RGD ID: 1599759" RELATED []
+is_a: RS:0000461 ! mutant strain
 is_a: RS:0002300 ! GRY
 
 [Term]
@@ -15313,7 +15324,7 @@ name: OP/Jtt
 synonym: "NBRP Rat No: 0101" RELATED []
 synonym: "Opacitas" RELATED []
 synonym: "RGD ID: 2304038" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2010-01-07T12:00:00Z
 
@@ -15657,7 +15668,8 @@ synonym: "Kyoto circling rat" RELATED []
 synonym: "MCI" RELATED []
 synonym: "NBRP Rat No: 0440" RELATED []
 synonym: "RGD ID: 2306022" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002776 ! chromosome 20 mutant
 created_by: RNigam
 creation_date: 2010-01-08T12:00:00Z
 
@@ -16099,7 +16111,7 @@ synonym: "MPOD" RELATED []
 synonym: "Myeloperoxidase deficient rat" RELATED []
 synonym: "NBRP Rat No: 0372" RELATED []
 synonym: "RGD ID: 2304294" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2010-01-11T12:00:00Z
 
@@ -16110,7 +16122,8 @@ synonym: "MPR" RELATED []
 synonym: "MPR-Arsbabd/Iar" RELATED []
 synonym: "NBRP Rat No: 0474" RELATED []
 synonym: "RGD ID: 2306064" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
+is_a: RS:0002759 ! chromosome 2 mutant
 created_by: RNigam
 creation_date: 2010-01-11T12:00:00Z
 
@@ -16426,7 +16439,7 @@ name: RDW/UmeSlc
 synonym: "NBRP Rat No: 0163" RELATED []
 synonym: "rdw" RELATED []
 synonym: "RGD ID: 2303739" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2010-01-11T12:00:00Z
 
@@ -16738,7 +16751,7 @@ name: SERC/Kyo
 synonym: "NBRP Rat No: 0370" RELATED []
 synonym: "RGD ID: 2304281" RELATED []
 synonym: "SER Control" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2010-01-12T12:00:00Z
 
@@ -19844,6 +19857,7 @@ synonym: "HA-WKY" RELATED []
 synonym: "NBRP Rat No: 0612" RELATED []
 synonym: "RGD ID: 4142544" RELATED []
 is_a: RS:0000742 ! WKY
+is_a: RS:0004050 ! WKY mutants
 created_by: RNigam
 creation_date: 2010-12-14T12:00:00Z
 
@@ -26585,7 +26599,7 @@ creation_date: 2012-07-12T12:00:00Z
 id: RS:0003249
 name: WT/Jtt
 synonym: "RGD ID: 2303759" RELATED []
-is_a: RS:0000765 ! inbred strain
+is_a: RS:0000461 ! mutant strain
 created_by: RNigam
 creation_date: 2012-07-12T12:00:00Z
 
@@ -30599,6 +30613,7 @@ id: RS:0003699
 name: F344.WI-Tg(Nanog-GFP-PuroR)Kyo
 synonym: "NBRP Rat No: 0637" RELATED []
 synonym: "RGD ID: 8552239" RELATED []
+is_a: RS:0000428 ! F344/Stm
 is_a: RS:0003698 ! WI-Tg(Nanog-GFP-PuroR)22Kyo
 created_by: RNigam
 creation_date: 2014-04-22T01:06:55Z
@@ -32574,7 +32589,7 @@ synonym: "B2" RELATED []
 synonym: "NBRP Rat No: 0727" RELATED []
 synonym: "RGD ID: 10043826" RELATED []
 synonym: "SHR-B2/Kpo" RELATED []
-is_a: RS:0000015 ! SHR
+is_a: RS:0003823 ! SHR mutants
 created_by: RNigam
 creation_date: 2015-06-10T02:18:54Z
 
@@ -32584,7 +32599,7 @@ name: SHR/2Kpo
 synonym: "NBRP Rat No: 0728" RELATED []
 synonym: "RGD ID: 10043828" RELATED []
 synonym: "SHR-C/Kpo" RELATED []
-is_a: RS:0000015 ! SHR
+is_a: RS:0003823 ! SHR mutants
 created_by: RNigam
 creation_date: 2015-06-10T02:20:34Z
 
@@ -37869,6 +37884,7 @@ id: RS:0004550
 name: SS.ZUC-Leprfa-/-/Slc
 synonym: "RGD ID: 13432148" RELATED []
 is_a: RS:0000459 ! congenic strain
+is_a: RS:0002409 ! SS/JrSeac
 created_by: sjwang
 creation_date: 2017-09-21T14:39:59Z
 
@@ -37886,6 +37902,7 @@ id: RS:0004552
 name: SS.ZUC-Leprfa+/+/Slc
 synonym: "RGD ID: 13432151" RELATED []
 is_a: RS:0000459 ! congenic strain
+is_a: RS:0002409 ! SS/JrSeac
 created_by: sjwang
 creation_date: 2017-09-21T14:44:58Z
 
@@ -39587,6 +39604,7 @@ creation_date: 2019-10-09T09:38:49Z
 id: RS:0004763
 name: Wpk
 synonym: "RGD ID: 14995941" RELATED []
+is_a: RS:0000765 ! inbred strain
 is_a: RS:0003773 ! W mutants
 created_by: sjwang
 creation_date: 2019-11-01T14:41:26Z
@@ -39993,7 +40011,7 @@ creation_date: 2020-09-04T10:57:47Z
 
 [Term]
 id: RS:0004813
-name: CrlFfyb:SD
+name: CrlFvetFfyb:SD
 synonym: "RGD ID: 13208540" EXACT []
 is_a: RS:0000695 ! Crl:SD
 created_by: sjwang
@@ -44440,22 +44458,6 @@ is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 is_a: RS:0004624 ! SD wild type mutants
 created_by: shurjenw
 creation_date: 2024-09-05T12:13:43Z
-
-[Term]
-id: RS:0005372
-name: WKYLEWF1/Ebv
-synonym: "RGD ID: 407550225" EXACT []
-is_a: RS:0002067 ! hybrid strain
-created_by: shurjenw
-creation_date: 2024-09-23T14:49:59Z
-
-[Term]
-id: RS:0005373
-name: Slacc:SD
-synonym: "RGD ID: 407570623" EXACT []
-is_a: RS:0000681 ! SD
-created_by: shurjenw
-creation_date: 2024-09-24T14:22:29Z
 
 [Typedef]
 id: part_of
