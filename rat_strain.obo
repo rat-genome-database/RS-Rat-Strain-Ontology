@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.236
-date: 09:11:2024 20:13
+data-version: 6.237
+date: 30:11:2024 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44512,6 +44512,14 @@ synonym: "RGD ID: 408364982" EXACT []
 is_a: RS:0003773 ! W mutants
 created_by: shurjenw
 creation_date: 2024-11-08T15:48:24Z
+
+[Term]
+id: RS:0005381
+name: LE-Pink1em1Davis
+synonym: "RGD ID: 401827145" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2024-11-26T15:28:03Z
 
 [Typedef]
 id: part_of
