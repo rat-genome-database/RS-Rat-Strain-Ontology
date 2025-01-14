@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.238
-date: 07:12:2024 20:13
+data-version: 6.239
+date: 11:01:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44528,6 +44528,14 @@ synonym: "RGD ID: 529435545" EXACT []
 is_a: RS:0002067 ! hybrid strain
 created_by: shurjenw
 creation_date: 2024-12-05T16:09:14Z
+
+[Term]
+id: RS:0005383
+name: CrlNctr:CD(SD)
+synonym: "RGD ID: 596938164" EXACT []
+is_a: RS:0000064 ! Crl:CD(SD)
+created_by: shurjenw
+creation_date: 2025-01-06T11:58:38Z
 
 [Typedef]
 id: part_of
