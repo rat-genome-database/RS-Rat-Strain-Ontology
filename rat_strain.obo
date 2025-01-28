@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.239
-date: 11:01:2025 20:13
+data-version: 6.240
+date: 25:01:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44536,6 +44536,14 @@ synonym: "RGD ID: 596938164" EXACT []
 is_a: RS:0000064 ! Crl:CD(SD)
 created_by: shurjenw
 creation_date: 2025-01-06T11:58:38Z
+
+[Term]
+id: RS:0005384
+name: SD-Eml1tish/Scrb
+synonym: "RGD ID: 597538479" EXACT []
+is_a: RS:0003828 ! SD mutants
+created_by: shurjenw
+creation_date: 2025-01-23T10:01:49Z
 
 [Typedef]
 id: part_of
