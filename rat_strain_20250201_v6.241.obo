@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.242
-date: 08:02:2025 20:13
+data-version: 6.241
+date: 01:02:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -15383,6 +15383,16 @@ created_by: RNigam
 creation_date: 2010-01-08T12:00:00Z
 
 [Term]
+id: RS:0001996
+name: HCR/Mco
+synonym: "High-capacity runners" RELATED []
+synonym: "High endurance running capacity" RELATED []
+synonym: "RGD ID: 2314397" RELATED []
+is_a: RS:0002302 ! HCR
+created_by: RNigam
+creation_date: 2010-01-08T12:00:00Z
+
+[Term]
 id: RS:0001997
 name: HER/Wkmt
 synonym: "Hotaka Epileptic Rat" RELATED []
@@ -15785,6 +15795,16 @@ id: RS:0002040
 name: Kini:DA,PVG-G12
 synonym: "RGD ID: 2306784" RELATED []
 is_a: RS:0001340 ! advanced intercross line
+created_by: RNigam
+creation_date: 2010-01-08T12:00:00Z
+
+[Term]
+id: RS:0002041
+name: LCR/Mco
+synonym: "Low-capacity runners" RELATED []
+synonym: "Low endurance running capacity" RELATED []
+synonym: "RGD ID: 2314396" RELATED []
+is_a: RS:0002319 ! LCR
 created_by: RNigam
 creation_date: 2010-01-08T12:00:00Z
 
@@ -33721,41 +33741,41 @@ creation_date: 2015-10-21T02:12:31Z
 
 [Term]
 id: RS:0004059
-name: HCR/1Tol
+name: HCR/1Mco
 synonym: "HCR/Mco g5" RELATED []
 synonym: "High-capacity runners; generation 5" RELATED []
 synonym: "RGD ID: 10402160" RELATED []
-is_a: RS:0005008 ! HCR/Tol
+is_a: RS:0001996 ! HCR/Mco
 created_by: RNigam
 creation_date: 2015-10-21T02:13:31Z
 
 [Term]
 id: RS:0004060
-name: HCR/2Tol
+name: HCR/2Mco
 synonym: "HCR/Mco g26" RELATED []
 synonym: "High-capacity runners; generation 26" RELATED []
 synonym: "RGD ID: 10402163" RELATED []
-is_a: RS:0005008 ! HCR/Tol
+is_a: RS:0001996 ! HCR/Mco
 created_by: RNigam
 creation_date: 2015-10-21T02:14:29Z
 
 [Term]
 id: RS:0004061
-name: LCR/1Tol
+name: LCR/1Mco
 synonym: "LCR/Mco g5" RELATED []
 synonym: "Low-capacity runners; generation 5" RELATED []
 synonym: "RGD ID: 10402165" RELATED []
-is_a: RS:0005007 ! LCR/Tol
+is_a: RS:0002041 ! LCR/Mco
 created_by: RNigam
 creation_date: 2015-10-21T02:15:27Z
 
 [Term]
 id: RS:0004062
-name: LCR/2Tol
+name: LCR/2Mco
 synonym: "LCR/Mco g26" RELATED []
 synonym: "Low-capacity runners; generation 26" RELATED []
 synonym: "RGD ID: 10402167" RELATED []
-is_a: RS:0005007 ! LCR/Tol
+is_a: RS:0002041 ! LCR/Mco
 created_by: RNigam
 creation_date: 2015-10-21T02:16:10Z
 
@@ -41519,11 +41539,6 @@ creation_date: 2021-08-03T10:45:07Z
 [Term]
 id: RS:0005007
 name: LCR/Tol
-alt_id: RS:0002041
-synonym: "LCR/Mco" EXACT []
-synonym: "Low-capacity runners" RELATED []
-synonym: "Low endurance running capacity" RELATED []
-synonym: "RGD ID: 2314396" RELATED []
 synonym: "RGD ID: 39457699" EXACT []
 is_a: RS:0002319 ! LCR
 created_by: sjwang
@@ -41532,11 +41547,6 @@ creation_date: 2021-08-18T15:06:44Z
 [Term]
 id: RS:0005008
 name: HCR/Tol
-alt_id: RS:0001996
-synonym: "HCR/Mco" EXACT []
-synonym: "High-capacity runners" RELATED []
-synonym: "High endurance running capacity" RELATED []
-synonym: "RGD ID: 2314397" RELATED []
 synonym: "RGD ID: 39457701" EXACT []
 is_a: RS:0002302 ! HCR
 created_by: sjwang
@@ -44558,22 +44568,6 @@ synonym: "RGD ID: 597538592" EXACT []
 is_a: RS:0003511 ! SD transgenics
 created_by: shurjenw
 creation_date: 2025-01-30T11:17:09Z
-
-[Term]
-id: RS:0005388
-name: HCR-mtLCR/Tol
-synonym: "RGD ID: 39457683" EXACT []
-is_a: RS:0001431 ! conplastic strain
-created_by: shurjenw
-creation_date: 2025-02-04T16:14:30Z
-
-[Term]
-id: RS:0005389
-name: LCR-mtHCR/Tol
-synonym: "RGD ID: 39457682" EXACT []
-is_a: RS:0001431 ! conplastic strain
-created_by: shurjenw
-creation_date: 2025-02-04T16:16:15Z
 
 [Typedef]
 id: part_of
