@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.242
-date: 08:02:2025 20:13
+data-version: 6.243
+date: 01:03:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44574,6 +44574,14 @@ synonym: "RGD ID: 39457682" EXACT []
 is_a: RS:0001431 ! conplastic strain
 created_by: shurjenw
 creation_date: 2025-02-04T16:16:15Z
+
+[Term]
+id: RS:0005390
+name: Pha:WI
+synonym: "RGD ID: 597830029" EXACT []
+is_a: RS:0001013 ! WI
+created_by: shurjenw
+creation_date: 2025-02-24T09:41:48Z
 
 [Typedef]
 id: part_of
