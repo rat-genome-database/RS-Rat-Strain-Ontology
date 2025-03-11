@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.244
-date: 08:03:2025 20:13
+data-version: 6.243
+date: 01:03:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44582,26 +44582,6 @@ synonym: "RGD ID: 597830029" EXACT []
 is_a: RS:0001013 ! WI
 created_by: shurjenw
 creation_date: 2025-02-24T09:41:48Z
-
-[Term]
-id: RS:0005391
-name: BBDP.BBDR-(Zfp786-Aoc1)/Ulund
-def: "This congenic strain was developed by intercross breeding using diabetic prone (DP) and diabetic resistant (DR) BB rats. This diabetes susceptible congenic rat strain has the DP genome background carrying the transferred genome fragment from DR rats. This congenic rat carries Gimap4 and Gimap5 from DR rats." []
-synonym: "RGD ID: 597830140" EXACT []
-synonym: "sBBM" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2025-03-06T11:06:43Z
-
-[Term]
-id: RS:0005392
-name: BBDP.BBDR-(Gimap1-Aoc1)/Ulund
-def: "This diabetic resistant congenic strain was developed by sister-brother breeding of heterozygote sBBM (BBDP.BBDR-(Zfp786-Aoc1)/Ulund, RGD:597830140 ). The congenic rat carries Gimap5 from DR." []
-synonym: "RGD ID: 597830141" EXACT []
-synonym: "xshBBM" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2025-03-06T11:09:54Z
 
 [Typedef]
 id: part_of
