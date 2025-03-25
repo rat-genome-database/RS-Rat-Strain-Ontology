@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.244
-date: 08:03:2025 20:13
+data-version: 6.245
+date: 22:03:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -42536,7 +42536,7 @@ creation_date: 2022-02-21T13:35:53Z
 id: RS:0005134
 name: SD-Cftrem1Apb
 synonym: "RGD ID: 151356958" EXACT []
-is_a: RS:0003828 ! SD mutants
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2022-02-21T13:53:56Z
 
@@ -42544,7 +42544,7 @@ creation_date: 2022-02-21T13:53:56Z
 id: RS:0005135
 name: SD-Cftrem2Apb
 synonym: "RGD ID: 151356959" RELATED []
-is_a: RS:0003828 ! SD mutants
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2022-02-21T14:07:27Z
 
@@ -44602,6 +44602,14 @@ synonym: "xshBBM" EXACT []
 is_a: RS:0000459 ! congenic strain
 created_by: shurjenw
 creation_date: 2025-03-06T11:09:54Z
+
+[Term]
+id: RS:0005393
+name: SD-Cftrem1Wpick
+synonym: "RGD ID: 598092487" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-03-18T15:13:36Z
 
 [Typedef]
 id: part_of
