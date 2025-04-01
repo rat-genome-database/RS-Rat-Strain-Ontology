@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.246
-date: 29:03:2025 20:13
+data-version: 6.245
+date: 22:03:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44610,22 +44610,6 @@ synonym: "RGD ID: 598092487" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-03-18T15:13:36Z
-
-[Term]
-id: RS:0005394
-name: SD-Lgals3em1Dfult
-synonym: "RGD ID: 598092509" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-03-24T13:24:24Z
-
-[Term]
-id: RS:0005395
-name: SD-Pbkem1Dfult
-synonym: "RGD ID: 598092510" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-03-24T13:29:51Z
 
 [Typedef]
 id: part_of
