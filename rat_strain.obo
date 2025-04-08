@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 6.246
-date: 29:03:2025 20:13
+date: 05:04:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -32686,12 +32686,11 @@ creation_date: 2015-07-13T02:38:43Z
 
 [Term]
 id: RS:0003932
-name: W-Dmdem1Kykn
+name: WIC-Dmdem1Kykn
 synonym: "Dystrophin mutated rat (Out of Frame-1)" RELATED []
 synonym: "NBRP Rat No: 0779" RELATED []
 synonym: "RGD ID: 10045593" RELATED []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-is_a: RS:0003933 ! W (CRISPR/Cas9) mutants (chr X)
+is_a: RS:0003773 ! W mutants
 created_by: RNigam
 creation_date: 2015-07-13T02:39:20Z
 
@@ -34628,11 +34627,11 @@ creation_date: 2016-03-24T11:17:54Z
 
 [Term]
 id: RS:0004163
-name: W-Dmdem2Kykn
+name: WIC-Dmdem2Kykn
 synonym: "Dystrophin mutated rat (In-Frame-1)" RELATED []
 synonym: "NBRP Rat No: 0780" RELATED []
 synonym: "RGD ID: 11040980" RELATED []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
+is_a: RS:0003773 ! W mutants
 created_by: rnigam
 creation_date: 2016-03-24T11:19:53Z
 
@@ -34645,11 +34644,11 @@ creation_date: 2016-03-24T11:20:55Z
 
 [Term]
 id: RS:0004165
-name: W-Dmdem3Kykn
+name: WIC-Dmdem3Kykn
 synonym: "Dystrophin mutated rat (In-Frame-2)" RELATED []
 synonym: "NBRP Rat No: 0781" RELATED []
 synonym: "RGD ID: 11040985" RELATED []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
+is_a: RS:0003773 ! W mutants
 created_by: rnigam
 creation_date: 2016-03-24T11:21:40Z
 
@@ -39259,7 +39258,7 @@ creation_date: 2019-07-10T15:48:36Z
 
 [Term]
 id: RS:0004725
-name: SD.DA-Pex1Tm(G843D-FRT-CAG-Pac-FRT)1Qly
+name: SD.DA-Pex1tm(G843D-FRT-CAG-Pac-FRT)1Qly
 synonym: "RGD ID: 14695030" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: sjwang
@@ -44626,6 +44625,214 @@ synonym: "RGD ID: 598092510" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-03-24T13:29:51Z
+
+[Term]
+id: RS:0005396
+name: DA-Lystbg/Slc
+synonym: "RGD ID: 598092522" EXACT []
+is_a: RS:0003725 ! DA mutants
+created_by: shurjenw
+creation_date: 2025-03-31T10:23:00Z
+
+[Term]
+id: RS:0005397
+name: Slc:WSRC-KitWs
+synonym: "RGD ID: 598092524" EXACT []
+is_a: RS:0000461 ! mutant strain
+created_by: shurjenw
+creation_date: 2025-03-31T11:50:15Z
+
+[Term]
+id: RS:0005398
+name: SD-C5ar1em22Taoki
+synonym: "RGD ID: 598092525" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:02:43Z
+
+[Term]
+id: RS:0005399
+name: SD-Rnf213em1Taoki
+synonym: "RGD ID: 598092526" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:24:38Z
+
+[Term]
+id: RS:0005400
+name: W-Gpr143em19Gosh
+synonym: "RGD ID: 598092593" EXACT []
+is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:27:26Z
+
+[Term]
+id: RS:0005401
+name: F344.VF-Dop1avf/Omu
+synonym: "RGD ID: 598092595" EXACT []
+is_a: RS:0002660 ! F344/DuCrlCrlj congenics
+created_by: shurjenw
+creation_date: 2025-03-31T12:30:57Z
+
+[Term]
+id: RS:0005402
+name: SD-Tmem130em1Taoki
+synonym: "RGD ID: 598092597" EXACT []
+is_a: RS:0003828 ! SD mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:35:11Z
+
+[Term]
+id: RS:0005403
+name: F344-Nox1em1Shmo
+synonym: "RGD ID: 598092598" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:38:49Z
+
+[Term]
+id: RS:0005404
+name: F344-Cybbem1Shmo
+synonym: "RGD ID: 598092601" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:44:38Z
+
+[Term]
+id: RS:0005405
+name: F344-Nox4em1Shmo
+synonym: "RGD ID: 598092602" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:46:37Z
+
+[Term]
+id: RS:0005406
+name: F344-Cybbem1ShmoNox1em1ShmoNox4em1Shmo
+synonym: "RGD ID: 598092603" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T12:48:52Z
+
+[Term]
+id: RS:0005407
+name: F344.MES-Cybames/Shmo
+synonym: "RGD ID: 598092604" EXACT []
+is_a: RS:0002659 ! F344 congenics
+created_by: shurjenw
+creation_date: 2025-03-31T13:55:48Z
+
+[Term]
+id: RS:0005408
+name: W-Tg(Dbh-tTA,-cre)2_7Fusa
+synonym: "RGD ID: 598092605" EXACT []
+is_a: RS:0003514 ! W transgenics
+created_by: shurjenw
+creation_date: 2025-03-31T15:26:06Z
+
+[Term]
+id: RS:0005409
+name: W-Tg(Dbh-tTA,-cre)5_4Fusa
+synonym: "RGD ID: 598092606" EXACT []
+is_a: RS:0003514 ! W transgenics
+created_by: shurjenw
+creation_date: 2025-03-31T15:29:31Z
+
+[Term]
+id: RS:0005410
+name: W-Tg(Dbh-tTA,-cre)5_9Fusa
+synonym: "RGD ID: 598092607" EXACT []
+is_a: RS:0003514 ! W transgenics
+created_by: shurjenw
+creation_date: 2025-03-31T15:31:47Z
+
+[Term]
+id: RS:0005411
+name: LE-Them1(cre)Koba
+synonym: "RGD ID: 598092592" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-03-31T15:34:32Z
+
+[Term]
+id: RS:0005412
+name: LE-Them2-1(cre)Koba
+synonym: "RGD ID: 598092591" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-03-31T15:40:07Z
+
+[Term]
+id: RS:0005413
+name: LE-Them2-2(cre)Koba
+synonym: "RGD ID: 598092588" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-03-31T15:42:39Z
+
+[Term]
+id: RS:0005414
+name: SD.LIS-ROSA26tm1(CAG-RCaMP2)Ksak
+synonym: "RGD ID: 598092586" EXACT []
+is_a: RS:0003828 ! SD mutants
+created_by: shurjenw
+creation_date: 2025-03-31T15:55:45Z
+
+[Term]
+id: RS:0005415
+name: SD.LIS-Actbtm1(CAG-GCaMP8)Ksak
+synonym: "RGD ID: 598092585" EXACT []
+is_a: RS:0003828 ! SD mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:05:22Z
+
+[Term]
+id: RS:0005416
+name: LE-Sstem1(cre)Bfdi
+synonym: "RGD ID: 598092583" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:07:48Z
+
+[Term]
+id: RS:0005417
+name: LE-Calcaem4(cre)Daiyi
+synonym: "RGD ID: 598092582" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:10:37Z
+
+[Term]
+id: RS:0005418
+name: LE-Tg(Tac1-cre)3-2Koba
+synonym: "RGD ID: 598092579" EXACT []
+is_a: RS:0003803 ! LE transgenics
+created_by: shurjenw
+creation_date: 2025-03-31T16:12:57Z
+
+[Term]
+id: RS:0005419
+name: F344-Hspa8m1Kyo
+synonym: "RGD ID: 598092575" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:15:52Z
+
+[Term]
+id: RS:0005420
+name: F344-Hspa8em1Opu
+synonym: "RGD ID: 598092574" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:20:25Z
+
+[Term]
+id: RS:0005421
+name: F344-Hspa8em2Opu
+synonym: "RGD ID: 598092577" EXACT []
+is_a: RS:0003472 ! F344 mutants
+created_by: shurjenw
+creation_date: 2025-03-31T16:23:41Z
 
 [Typedef]
 id: part_of
