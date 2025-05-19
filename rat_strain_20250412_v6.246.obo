@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.249
-date: 17:05:2025 20:13
+data-version: 6.246
+date: 12:04:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -40719,7 +40719,7 @@ creation_date: 2021-04-15T11:35:42Z
 
 [Term]
 id: RS:0004907
-name: W-Mkxem1Asah
+name: WI-Mkxem1Asah
 synonym: "RGD ID: 126777684" RELATED []
 is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
 created_by: sjwang
@@ -42051,9 +42051,9 @@ creation_date: 2021-10-15T10:39:52Z
 
 [Term]
 id: RS:0005072
-name: SD-Gfapem1Mes+/- /Rrrc
+name: SD-Gfapem1Mes /Rrrc
 synonym: "RGD ID: 150519895" EXACT []
-is_a: RS:0005434 ! SD-Gfapem1Mes+/-
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: sjwang
 creation_date: 2021-10-15T12:55:54Z
 
@@ -42629,7 +42629,7 @@ creation_date: 2022-06-13T14:42:36Z
 
 [Term]
 id: RS:0005146
-name: LE-Tg(Drd2-Il2RA/YFP*)1Koba
+name: LE-Tg(Drd2-Il2RA/YFP)1Koba
 synonym: "RGD ID: 152977766" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: sjwang
@@ -43048,7 +43048,7 @@ creation_date: 2022-12-07T11:05:28Z
 id: RS:0005198
 name: LE-Synpoem1Kmh
 synonym: "RGD ID: 155782907" EXACT []
-is_a: RS:0004244 ! Crl:LE (CRIPSR/Cas9) mutant
+is_a: RS:0004779 ! LE mutants
 created_by: sjwang
 creation_date: 2022-12-09T10:47:30Z
 
@@ -44512,7 +44512,7 @@ creation_date: 2024-11-26T15:28:03Z
 
 [Term]
 id: RS:0005382
-name: Wakil:bHRbLRF1
+name: Wakil:bHRxbLRF1
 synonym: "RGD ID: 529435545" EXACT []
 is_a: RS:0002067 ! hybrid strain
 created_by: shurjenw
@@ -44833,142 +44833,6 @@ synonym: "RGD ID: 598092577" EXACT []
 is_a: RS:0003472 ! F344 mutants
 created_by: shurjenw
 creation_date: 2025-03-31T16:23:41Z
-
-[Term]
-id: RS:0005422
-name: LEW-Col7a1em1Jtol-/-
-synonym: "RGD ID: 598130079" EXACT []
-is_a: RS:0003977 ! LEW (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-04-15T13:15:49Z
-
-[Term]
-id: RS:0005423
-name: CD-Tg(RNECO-180E22)737Arno
-synonym: "RGD ID: 155663368" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: shurjenw
-creation_date: 2025-04-17T14:20:07Z
-
-[Term]
-id: RS:0005424
-name: CD-Tg(RNECO-180E22)424Arno
-synonym: "RGD ID: 155663366" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: shurjenw
-creation_date: 2025-04-17T14:24:37Z
-
-[Term]
-id: RS:0005425
-name: CD-Tg(RNECO-180E22)208Arno
-synonym: "RGD ID: 155663365" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: shurjenw
-creation_date: 2025-04-17T14:26:10Z
-
-[Term]
-id: RS:0005426
-name: CD-Tg(RNECO-180E22)733Arno
-synonym: "RGD ID: 155663367" EXACT []
-is_a: RS:0004133 ! Crl:CD(SD) transgenics
-created_by: shurjenw
-creation_date: 2025-04-17T14:28:09Z
-
-[Term]
-id: RS:0005427
-name: DA;CD-Tg(RNECO-180E22)733Arno/Mcwi
-synonym: "RGD ID: 404976872" EXACT []
-is_a: RS:0000465 ! transgenic strain
-created_by: shurjenw
-creation_date: 2025-04-17T14:32:32Z
-
-[Term]
-id: RS:0005428
-name: Wakil:bHRbLRF2
-synonym: "RGD ID: 598136401" EXACT []
-is_a: RS:0002067 ! hybrid strain
-created_by: shurjenw
-creation_date: 2025-04-18T09:31:21Z
-
-[Term]
-id: RS:0005429
-name: F344.Cg-Foxn1rnu-/+/Jcl
-synonym: "RGD ID: 126790472" EXACT []
-is_a: RS:0002659 ! F344 congenics
-created_by: shurjenw
-creation_date: 2025-04-25T11:04:54Z
-
-[Term]
-id: RS:0005430
-name: W-Mkxem2Asah
-synonym: "RGD ID: 598154597" EXACT []
-is_a: RS:0003931 ! W (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-04-30T13:18:39Z
-
-[Term]
-id: RS:0005431
-name: SD-Tg(TOR1A)Tot
-synonym: "RGD ID: 598154611" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2025-04-30T16:16:29Z
-
-[Term]
-id: RS:0005432
-name: SD-Tg(TOR1ADYT1)Tot
-synonym: "RGD ID: 598154612" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2025-04-30T16:18:07Z
-
-[Term]
-id: RS:0005433
-name: F344-ApcPirc/UwmRrrc
-synonym: "RGD ID: 598973841" EXACT []
-is_a: RS:0001236 ! F344-ApcPirc/Uwm
-created_by: shurjenw
-creation_date: 2025-05-11T07:25:59Z
-
-[Term]
-id: RS:0005434
-name: SD-Gfapem1Mes+/-
-synonym: "RGD ID: 598973845" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-05-12T15:12:23Z
-
-[Term]
-id: RS:0005435
-name: SD-Gfapem1Mes+/+
-synonym: "RGD ID: 598973846" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-05-12T15:28:46Z
-
-[Term]
-id: RS:0005436
-name: LE-Synpoem2Kmh
-synonym: "RGD ID: 616335891" EXACT []
-is_a: RS:0004244 ! Crl:LE (CRIPSR/Cas9) mutant
-created_by: shurjenw
-creation_date: 2025-05-13T11:32:52Z
-
-[Term]
-id: RS:0005437
-name: SD-ROSA26 em1(CAG-DdCBE-Mt-co3/Ilas
-synonym: "RGD ID: 616335894" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-05-14T11:36:08Z
-
-[Term]
-id: RS:0005438
-name: SD-ROSA26 em1(CAG-DdCBE-Mt-co3, NeuN-Cre/Ilas
-synonym: "RGD ID: 616336063" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-05-14T11:44:05Z
 
 [Typedef]
 id: part_of
