@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 6.249
-date: 17:05:2025 20:13
+date: 31:05:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -12507,7 +12507,7 @@ name: Scr:sP
 synonym: "RGD ID: 2302666" RELATED []
 synonym: "Sardinian alcohol-preferring rats" RELATED []
 synonym: "sP/Scr" RELATED []
-is_a: RS:0000462 ! outbred strain
+is_a: RS:0005439 ! sP
 
 [Term]
 id: RS:0001708
@@ -44969,6 +44969,22 @@ synonym: "RGD ID: 616336063" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-05-14T11:44:05Z
+
+[Term]
+id: RS:0005439
+name: sP
+synonym: "RGD ID: 616362803" EXACT []
+is_a: RS:0000462 ! outbred strain
+created_by: shurjenw
+creation_date: 2025-05-21T12:26:29Z
+
+[Term]
+id: RS:0005440
+name: sNP
+synonym: "RGD ID: 616362805" EXACT []
+is_a: RS:0000462 ! outbred strain
+created_by: shurjenw
+creation_date: 2025-05-21T12:28:22Z
 
 [Typedef]
 id: part_of
