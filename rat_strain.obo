@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.249
-date: 31:05:2025 20:13
+data-version: 6.250
+date: 14:06:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -44985,6 +44985,30 @@ synonym: "RGD ID: 616362805" EXACT []
 is_a: RS:0000462 ! outbred strain
 created_by: shurjenw
 creation_date: 2025-05-21T12:28:22Z
+
+[Term]
+id: RS:0005441
+name: WKY-Adcy3em2Mcwi
+synonym: "RGD ID: 19165364" EXACT []
+is_a: RS:0004024 ! WKY/NCrl (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-06-09T11:21:58Z
+
+[Term]
+id: RS:0005442
+name: WKY-Adcy3em3Mcwi
+synonym: "RGD ID: 19165366" EXACT []
+is_a: RS:0004024 ! WKY/NCrl (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-06-09T11:23:59Z
+
+[Term]
+id: RS:0005443
+name: SD-CdCSem1Bcgen
+synonym: "RGD ID: 616390066" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-06-10T14:35:10Z
 
 [Typedef]
 id: part_of
