@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.251
-date: 21:06:2025 20:13
+data-version: 6.250
+date: 14:06:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45004,35 +45004,11 @@ creation_date: 2025-06-09T11:23:59Z
 
 [Term]
 id: RS:0005443
-name: SD-CdCSem1Bcgen+/-
+name: SD-CdCSem1Bcgen
 synonym: "RGD ID: 616390066" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-06-10T14:35:10Z
-
-[Term]
-id: RS:0005444
-name: SD-CdCSem1Bcgen+/+
-synonym: "RGD ID: 616572761" EXACT []
-is_a: RS:0004624 ! SD wild type mutants
-created_by: shurjenw
-creation_date: 2025-06-17T11:53:57Z
-
-[Term]
-id: RS:0005445
-name: BXH10/CubMcwi
-synonym: "RGD ID: 616572806" EXACT []
-is_a: RS:0001814 ! BXH10/Cub
-created_by: shurjenw
-creation_date: 2025-06-19T09:07:34Z
-
-[Term]
-id: RS:0005446
-name: HXB5/IpcvMcwi
-synonym: "RGD ID: 616572805" EXACT []
-is_a: RS:0002017 ! HXB5/Ipcv
-created_by: shurjenw
-creation_date: 2025-06-19T09:09:38Z
 
 [Typedef]
 id: part_of
