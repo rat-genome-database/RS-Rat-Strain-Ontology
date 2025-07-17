@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.251
-date: 21:06:2025 20:13
+data-version: 6.252
+date: 12:07:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45033,6 +45033,38 @@ synonym: "RGD ID: 616572805" EXACT []
 is_a: RS:0002017 ! HXB5/Ipcv
 created_by: shurjenw
 creation_date: 2025-06-19T09:09:38Z
+
+[Term]
+id: RS:0005447
+name: SS-Del(2q)1Mcwi -/-
+synonym: "RGD ID: 401938598" EXACT []
+is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-07-07T16:48:28Z
+
+[Term]
+id: RS:0005448
+name: SS-Del(2q)1Mcwi +/+
+synonym: "RGD ID: 617148292" EXACT []
+is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-07-07T16:56:18Z
+
+[Term]
+id: RS:0005449
+name: LE-Elovl4 em1cgen-/-
+synonym: "RGD ID: 617154644" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-07-09T10:54:36Z
+
+[Term]
+id: RS:0005450
+name: LE-Elovl4 em1cgen-/+
+synonym: "RGD ID: 617154642" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-07-09T10:56:30Z
 
 [Typedef]
 id: part_of
