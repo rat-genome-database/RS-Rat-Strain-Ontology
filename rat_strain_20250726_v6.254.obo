@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.255
-date: 02:08:2025 20:13
+data-version: 6.254
+date: 26:07:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45081,22 +45081,6 @@ synonym: "RGD ID: 617256277" EXACT []
 is_a: RS:0003803 ! LE transgenics
 created_by: shurjenw
 creation_date: 2025-07-24T09:33:39Z
-
-[Term]
-id: RS:0005453
-name: SD-Slc5a9em1Mcwi
-synonym: "RGD ID: 617301241" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-07-28T11:01:50Z
-
-[Term]
-id: RS:0005454
-name: SD-Slc5a10em1Mcwi
-synonym: "RGD ID: 617301243" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-07-28T11:05:12Z
 
 [Typedef]
 id: part_of
