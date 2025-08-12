@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.256
-date: 09:08:2025 20:13
+data-version: 6.255
+date: 02:08:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45097,54 +45097,6 @@ synonym: "RGD ID: 617301243" EXACT []
 is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-07-28T11:05:12Z
-
-[Term]
-id: RS:0005455
-name: Tc(HSA4-UGT2)Yakaz
-synonym: "RGD ID: 625776930" EXACT []
-is_a: RS:0004472 ! transchromosomal strain
-created_by: shurjenw
-creation_date: 2025-08-05T13:08:18Z
-
-[Term]
-id: RS:0005456
-name: Tc(HSA7-CYP3A)Yakaz
-synonym: "RGD ID: 625776931" EXACT []
-is_a: RS:0004472 ! transchromosomal strain
-created_by: shurjenw
-creation_date: 2025-08-05T15:49:07Z
-
-[Term]
-id: RS:0005457
-name: WI-Ugt2em1Yakaz
-synonym: "RGD ID: 625777899" EXACT []
-is_a: RS:0003946 ! Crlj:WI (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-08-06T10:36:21Z
-
-[Term]
-id: RS:0005458
-name: WI-Cyp3aem58Yakaz
-synonym: "RGD ID: 625777901" EXACT []
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: shurjenw
-creation_date: 2025-08-06T12:58:39Z
-
-[Term]
-id: RS:0005459
-name: WI-Cyp3aem65Yakaz
-synonym: "RGD ID: 625777902" EXACT []
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: shurjenw
-creation_date: 2025-08-06T13:00:43Z
-
-[Term]
-id: RS:0005460
-name: WI-Nr1i2em1Yakaz
-synonym: "RGD ID: 625777904" EXACT []
-is_a: RS:0004020 ! Crlj:WI mutants
-created_by: shurjenw
-creation_date: 2025-08-06T14:20:09Z
 
 [Typedef]
 id: part_of
