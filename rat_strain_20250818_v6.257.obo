@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.258
-date: 30:08:2025 20:13
+data-version: 6.257
+date: 18:08:2025 09:26
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45147,70 +45147,6 @@ synonym: "RGD ID: 625777904" EXACT []
 is_a: RS:0004020 ! Crlj:WI mutants
 created_by: shurjenw
 creation_date: 2025-08-06T14:20:09Z
-
-[Term]
-id: RS:0005461
-name: WI-Tg(Avp-CHRM3*-mCherry)Tuch
-synonym: "RGD ID: 626168247" EXACT []
-is_a: RS:0002243 ! Crlj:WI transgenics
-created_by: shurjenw
-creation_date: 2025-08-28T12:06:45Z
-
-[Term]
-id: RS:0005462
-name: LE-Csf1rem1Prdns
-synonym: "rgd id: 626168248" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2025-08-28T12:49:06Z
-
-[Term]
-id: RS:0005463
-name: SD-Peg3em1Soar
-synonym: "RGD ID: 626168261" EXACT []
-is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-08-29T08:48:44Z
-
-[Term]
-id: RS:0005464
-name: LE-Pdynem(iCre)1Ottc
-synonym: "RGD ID: 405100724" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2025-08-29T09:28:06Z
-
-[Term]
-id: RS:0005465
-name: LE-Pdynem(iCre)2Ottc
-synonym: "RGD ID: 405100725" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2025-08-29T09:33:34Z
-
-[Term]
-id: RS:0005466
-name: LE-ROSA26 em1(CAG-Ghsr)Ottc
-synonym: "RGD ID: 405100723" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2025-08-29T10:07:59Z
-
-[Term]
-id: RS:0005467
-name: SD-Del(Sult1a1-Spn)/YahIcsOrl
-synonym: "RGD ID: 626168268" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-08-29T12:49:21Z
-
-[Term]
-id: RS:0005468
-name: SD-Dp(Sult1a1-Spn)/YahIcsOrl
-synonym: "RGD ID: 626168271" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-08-29T12:52:24Z
 
 [Typedef]
 id: part_of
