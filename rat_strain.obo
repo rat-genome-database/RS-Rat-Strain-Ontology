@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 6.258
-date: 30:08:2025 20:13
+date: 06:09:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45159,7 +45159,7 @@ creation_date: 2025-08-28T12:06:45Z
 [Term]
 id: RS:0005462
 name: LE-Csf1rem1Prdns
-synonym: "rgd id: 626168248" EXACT []
+synonym: "RGD ID: 626168248" EXACT []
 is_a: RS:0004779 ! LE mutants
 created_by: shurjenw
 creation_date: 2025-08-28T12:49:06Z
@@ -45211,6 +45211,79 @@ synonym: "RGD ID: 626168271" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-08-29T12:52:24Z
+
+[Term]
+id: RS:0005469
+name: SD-Foxn1rnuTg(Rho-S334X)3LavRrrc
+synonym: "RGD ID: 626189117" EXACT []
+is_a: RS:0000689 ! SD-Tg(Rho*S334X)3Lav
+created_by: shurjenw
+creation_date: 2025-09-03T10:17:13Z
+
+[Term]
+id: RS:0005470
+name: SD-Foxn1rnuTg((Rho-S334X)3,CAG-tdTomato)1010Mjsuc
+synonym: "RGD ID: 626189121" EXACT []
+is_a: RS:0004183 ! SD (ZFN) mutants
+is_a: RS:0005469 ! SD-Foxn1rnuTg(Rho-S334X)3LavRrrc
+created_by: shurjenw
+creation_date: 2025-09-03T11:04:24Z
+
+[Term]
+id: RS:0005471
+name: LE-Cdkl5em1Sidb
+synonym: "RGD ID: 626170603" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-09-03T15:17:54Z
+
+[Term]
+id: RS:0005472
+name: LE-Grin2aem1Sidb
+synonym: "RGD ID: 626170601" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-09-03T15:19:37Z
+
+[Term]
+id: RS:0005473
+name: LE-Syngap1em1Sidb
+synonym: "RGD ID: 626170599" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-09-03T15:21:37Z
+
+[Term]
+id: RS:0005474
+name: LE-Syngap1em2Sidb
+synonym: "RGD ID: 626170595" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-09-03T15:24:12Z
+
+[Term]
+id: RS:0005475
+name: SD-Gnalem2Hpng
+synonym: "RGD ID: 626419677" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-05T09:46:28Z
+
+[Term]
+id: RS:0005476
+name: SD-Gnalem3Hpng
+synonym: "RGD ID: 626419679" EXACT []
+is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-05T09:59:30Z
+
+[Term]
+id: RS:0005477
+name: SD-Tg(Thy1-APP*)BWevn
+synonym: "RGD ID: 626168255" EXACT []
+is_a: RS:0003511 ! SD transgenics
+created_by: shurjenw
+creation_date: 2025-09-05T11:57:39Z
 
 [Typedef]
 id: part_of
