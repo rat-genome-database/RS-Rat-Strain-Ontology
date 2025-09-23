@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.258
-date: 06:09:2025 20:13
+data-version: 6.259
+date: 20:09:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -500,7 +500,7 @@ is_a: RS:0000061 ! BB
 id: RS:0000071
 name: BBDP/Rhw
 synonym: "RGD ID: 10002" RELATED []
-is_a: RS:0001155 ! BBDP
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000072
@@ -512,7 +512,7 @@ is_a: RS:0001181 ! BBDP/Wor
 id: RS:0000073
 name: BBDR/Rhw
 synonym: "RGD ID: 10003" RELATED []
-is_a: RS:0001154 ! BBDR
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000074
@@ -534,7 +534,7 @@ is_a: RS:0003291 ! BBDR/Rhw.BBDP/Rhw (chr 4)
 id: RS:0000076
 name: BBDR/Wor
 synonym: "RGD ID: 1304487" RELATED []
-is_a: RS:0001154 ! BBDR
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0000077
@@ -8313,13 +8313,15 @@ is_a: RS:0002784 ! chromosome 2 congenic
 id: RS:0001154
 name: BBDR
 synonym: "BB DR" RELATED []
-is_a: RS:0000765 ! inbred strain
+synonym: "RGD ID: 626469568" EXACT []
+is_a: RS:0000462 ! outbred strain
 
 [Term]
 id: RS:0001155
 name: BBDP
 synonym: "BB DP" RELATED []
-is_a: RS:0000765 ! inbred strain
+synonym: "RGD ID: 626469567" EXACT []
+is_a: RS:0000462 ! outbred strain
 
 [Term]
 id: RS:0001156
@@ -8521,7 +8523,7 @@ is_a: RS:0002354 ! BBDP/WorSunn.WF (chr 8)
 id: RS:0001181
 name: BBDP/Wor
 synonym: "RGD ID: 41412186" RELATED []
-is_a: RS:0001155 ! BBDP
+is_a: RS:0000765 ! inbred strain
 
 [Term]
 id: RS:0001182
@@ -45284,6 +45286,94 @@ synonym: "RGD ID: 626168255" EXACT []
 is_a: RS:0003511 ! SD transgenics
 created_by: shurjenw
 creation_date: 2025-09-05T11:57:39Z
+
+[Term]
+id: RS:0005478
+name: Nifdc:WI
+synonym: "RGD ID: 626469547" EXACT []
+is_a: RS:0001013 ! WI
+created_by: shurjenw
+creation_date: 2025-09-15T13:36:41Z
+
+[Term]
+id: RS:0005479
+name: SD-Thbdem1Soar
+synonym: "RGD ID: 626469553" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-16T17:39:21Z
+
+[Term]
+id: RS:0005480
+name: SD-Phlda2em1Soar
+synonym: "RGD ID: 626469555" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-16T17:54:30Z
+
+[Term]
+id: RS:0005481
+name: SD-Admem1Soar
+synonym: "RGD ID: 626469556" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-17T11:52:39Z
+
+[Term]
+id: RS:0005482
+name: SD-Taf7lem1Soar
+synonym: "RGD ID: 626469557" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-17T12:06:05Z
+
+[Term]
+id: RS:0005483
+name: SD-Tfap2cem2Soar
+synonym: "RGD ID: 626469560" RELATED []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-17T12:32:00Z
+
+[Term]
+id: RS:0005484
+name: SD-Tfap2cem1Soar
+synonym: "RGD ID: 626469558" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-17T12:33:57Z
+
+[Term]
+id: RS:0005485
+name: SD-Tbx21em1Sage
+synonym: "RGD ID: 626469804" EXACT []
+is_a: RS:0004183 ! SD (ZFN) mutants
+created_by: shurjenw
+creation_date: 2025-09-18T09:56:06Z
+
+[Term]
+id: RS:0005486
+name: SD-Fstl3em1Soa
+synonym: "RGD ID: 628359018" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-19T16:30:35Z
+
+[Term]
+id: RS:0005487
+name: SD-Lifrem1Soar
+synonym: "RGD ID: 628359017" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-19T16:33:12Z
+
+[Term]
+id: RS:0005488
+name: SD-Epas1em1Soar
+synonym: "RGD ID: 628359016" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2025-09-19T16:35:16Z
 
 [Typedef]
 id: part_of
