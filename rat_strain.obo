@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.262
-date: 15:11:2025 20:13
+data-version: 6.263
+date: 06:12:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45430,6 +45430,30 @@ synonym: "RGD ID: 629006641" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2025-11-11T13:21:41Z
+
+[Term]
+id: RS:0005496
+name: LE-Drd2em1(Cre)Rrrc
+synonym: "RGD ID: 629020173" EXACT []
+is_a: RS:0004779 ! LE mutants
+created_by: shurjenw
+creation_date: 2025-12-01T11:53:50Z
+
+[Term]
+id: RS:0005497
+name: SD-Fahem3McwiIl2rgem2McwiRag1em6Mcwi
+synonym: "RGD ID: 401824639" EXACT []
+is_a: RS:0004247 ! Crl:SD mutants
+created_by: shurjenw
+creation_date: 2025-12-02T14:39:14Z
+
+[Term]
+id: RS:0005498
+name: SD.SD-Fahem3McwiIl2rgem2McwiRag1em6Mcwi/Mcwi
+synonym: "RGD ID: 401824640" EXACT []
+is_a: RS:0000459 ! congenic strain
+created_by: shurjenw
+creation_date: 2025-12-02T14:51:27Z
 
 [Typedef]
 id: part_of
