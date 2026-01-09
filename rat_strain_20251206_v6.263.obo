@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.264
-date: 03:01:2026 20:13
+data-version: 6.263
+date: 06:12:2025 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45454,46 +45454,6 @@ synonym: "RGD ID: 401824640" EXACT []
 is_a: RS:0000459 ! congenic strain
 created_by: shurjenw
 creation_date: 2025-12-02T14:51:27Z
-
-[Term]
-id: RS:0005499
-name: SHR/OlaIpcv-mtF344/Crl
-synonym: "RGD ID: 629136826" EXACT []
-is_a: RS:0001431 ! conplastic strain
-created_by: shurjenw
-creation_date: 2025-12-22T12:21:24Z
-
-[Term]
-id: RS:0005500
-name: CD-Dmdem1Gene
-synonym: "RGD ID: 629142768" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-12-29T11:24:19Z
-
-[Term]
-id: RS:0005501
-name: CD-Dmdem1Gene+/+
-synonym: "RGD ID: 629142769" EXACT []
-is_a: RS:0004624 ! SD wild type mutants
-created_by: shurjenw
-creation_date: 2025-12-29T11:34:44Z
-
-[Term]
-id: RS:0005502
-name: SS-Rrg2em1Mcwi
-synonym: "RGD ID: 629142772" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-12-30T10:08:08Z
-
-[Term]
-id: RS:0005503
-name: SS-Rrg3em1Mcwi
-synonym: "RGD ID: 629142773" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2025-12-30T10:15:49Z
 
 [Typedef]
 id: part_of
