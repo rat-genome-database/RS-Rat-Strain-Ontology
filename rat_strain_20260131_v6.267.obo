@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.268
-date: 07:02:2026 20:13
+data-version: 6.267
+date: 31:01:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45175,7 +45175,7 @@ creation_date: 2025-08-29T08:48:44Z
 
 [Term]
 id: RS:0005464
-name: LE-Pdynem1(iCre)Ottc
+name: LE-Pdynem(iCre)1Ottc
 synonym: "RGD ID: 405100724" EXACT []
 is_a: RS:0004779 ! LE mutants
 created_by: shurjenw
@@ -45541,22 +45541,6 @@ synonym: "RGD ID: 632517841" EXACT []
 is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-01-30T09:24:56Z
-
-[Term]
-id: RS:0005510
-name: SD-Dbhem1(cre)Xyan
-synonym: "RGD ID: 632518356" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-06T10:48:54Z
-
-[Term]
-id: RS:0005511
-name: SD-(ROSA)26 Sorem1(CAG-tdTomato)Cya
-synonym: "RGD ID: 632518357" EXACT []
-is_a: RS:0004247 ! Crl:SD mutants
-created_by: shurjenw
-creation_date: 2026-02-06T11:31:14Z
 
 [Typedef]
 id: part_of
