@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.269
-date: 14:02:2026 20:13
+data-version: 6.268
+date: 07:02:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -40158,8 +40158,8 @@ creation_date: 2020-11-16T09:27:36Z
 
 [Term]
 id: RS:0004836
-name: WAG-Cd247em9Mcwi
-synonym: "RGD ID: 152985692" EXACT []
+name: WAG-mutant
+synonym: "RGD ID: 27372878" EXACT []
 is_a: RS:0000461 ! mutant strain
 created_by: sjwang
 creation_date: 2020-11-16T09:33:32Z
@@ -45557,102 +45557,6 @@ synonym: "RGD ID: 632518357" EXACT []
 is_a: RS:0004247 ! Crl:SD mutants
 created_by: shurjenw
 creation_date: 2026-02-06T11:31:14Z
-
-[Term]
-id: RS:0005512
-name: NShjh:SD
-synonym: "RGD ID: 632518377" EXACT []
-is_a: RS:0001409 ! N:SD
-created_by: shurjenw
-creation_date: 2026-02-10T12:56:46Z
-
-[Term]
-id: RS:0005513
-name: SD-Mpoem1Lempo
-synonym: "RGD ID: 632518398" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-12T13:00:15Z
-
-[Term]
-id: RS:0005514
-name: SS-Sdhaem1Mcwi
-synonym: "RGD ID: 13506177" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T13:58:55Z
-
-[Term]
-id: RS:0005515
-name: SD-Galtem3Mcwi
-synonym: "RGD ID: 13441560" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T14:08:08Z
-
-[Term]
-id: RS:0005516
-name: SS-ROSA26em1(CAG-tdTomato)1Sage/Mcwi
-synonym: "RGD ID: 25394534" EXACT []
-is_a: RS:0003479 ! SS/JrHsdMcwi mutants
-created_by: shurjenw
-creation_date: 2026-02-13T15:22:43Z
-
-[Term]
-id: RS:0005517
-name: SD-Gsapem2mcwi
-synonym: "RGD ID: 153297754" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T15:57:36Z
-
-[Term]
-id: RS:0005518
-name: SD-Ager em2Mcwi
-synonym: "RGD ID: 152998993" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:01:35Z
-
-[Term]
-id: RS:0005519
-name: SD-Ager em1Mcwi
-synonym: "RGD ID: 152998995" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:05:16Z
-
-[Term]
-id: RS:0005520
-name: SD-Adh5em1Mcwi
-synonym: "RGD ID: 152998996" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:07:32Z
-
-[Term]
-id: RS:0005521
-name: SD-Gsapem2mcwi
-synonym: "RGD ID: 153297754" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:09:43Z
-
-[Term]
-id: RS:0005522
-name: SD-Ghrhem1Mcwi
-synonym: "RGD ID: 329849114" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:14:37Z
-
-[Term]
-id: RS:0005523
-name: SD-Tlr4em6Mcwi
-synonym: "RGD ID: 404976869" EXACT []
-is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-02-13T16:17:57Z
 
 [Typedef]
 id: part_of
