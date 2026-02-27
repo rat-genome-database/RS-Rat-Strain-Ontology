@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.270
-date: 21:02:2026 20:13
+data-version: 6.269
+date: 14:02:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -38828,7 +38828,7 @@ creation_date: 2018-11-26T10:09:13Z
 
 [Term]
 id: RS:0004672
-name: LEW-Glp1rem1Mcwi
+name: Lew-Glp1rem1Mcwi
 synonym: "RGD ID: 13800749" EXACT []
 is_a: RS:0003976 ! LEW/NCrl mutants
 is_a: RS:0003977 ! LEW (CRISPR/Cas9) mutants
@@ -38950,7 +38950,7 @@ creation_date: 2019-03-22T11:40:01Z
 
 [Term]
 id: RS:0004686
-name: LEW-Glp1rem2Mcwi
+name: Lew-Glp1rem2Mcwi
 synonym: "RGD ID: 14394488" EXACT []
 is_a: RS:0003976 ! LEW/NCrl mutants
 is_a: RS:0003977 ! LEW (CRISPR/Cas9) mutants
@@ -38959,7 +38959,7 @@ creation_date: 2019-03-22T13:34:14Z
 
 [Term]
 id: RS:0004687
-name: LEW-Glp1rem3Mcwi
+name: Lew-Glp1rem3Mcwi
 synonym: "RGD ID: 14394491" EXACT []
 is_a: RS:0003976 ! LEW/NCrl mutants
 is_a: RS:0003977 ! LEW (CRISPR/Cas9) mutants
@@ -45653,22 +45653,6 @@ synonym: "RGD ID: 404976869" EXACT []
 is_a: RS:0004491 ! Crl:SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-02-13T16:17:57Z
-
-[Term]
-id: RS:0005524
-name: SD-Tg(NR3C2*)Frje
-synonym: "RGD ID: 632522749" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2026-02-19T12:32:02Z
-
-[Term]
-id: RS:0005525
-name: SD-Tg(NR3C2*)-/-Frje
-synonym: "RGD ID: 632522750" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2026-02-19T12:34:44Z
 
 [Typedef]
 id: part_of
