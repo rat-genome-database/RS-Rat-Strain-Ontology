@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.271
-date: 07:03:2026 20:13
+data-version: 6.272
+date: 04:04:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45693,6 +45693,14 @@ synonym: "RGD ID: 124715482" EXACT []
 is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-03-06T16:28:09Z
+
+[Term]
+id: RS:0005529
+name: SD-Adamts13em1Soar
+synonym: "RGD ID: 645122461" EXACT []
+is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
+created_by: shurjenw
+creation_date: 2026-04-03T10:26:41Z
 
 [Typedef]
 id: part_of
