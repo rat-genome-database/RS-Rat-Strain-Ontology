@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.274
-date: 18:04:2026 20:13
+data-version: 6.273
+date: 11:04:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -45747,14 +45747,6 @@ is_a: RS:0002739 ! chromosome Y consomic
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-04-10T10:18:53Z
-
-[Term]
-id: RS:0005535
-name: SD-Rag2em2HeraIl2rgem1Hera/Crl
-synonym: "RGD ID: 645123288" EXACT []
-is_a: RS:0003828 ! SD mutants
-created_by: shurjenw
-creation_date: 2026-04-16T11:39:08Z
 
 [Typedef]
 id: part_of
