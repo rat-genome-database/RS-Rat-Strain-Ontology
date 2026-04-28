@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 6.275
-date: 25:04:2026 20:13
+data-version: 6.274
+date: 18:04:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -10266,14 +10266,14 @@ is_a: RS:0005077 ! SHR-Gja8m1+/-Cub
 
 [Term]
 id: RS:0001414
-name: SHR-Tg(Thy1-MAPT*)318
+name: SHR-Tg(Thy1-MAPT)318
 synonym: "Axon transgenic rat line 318" RELATED []
 synonym: "RGD ID: 2290298" RELATED []
 is_a: RS:0003513 ! SHR transgenics
 
 [Term]
 id: RS:0001415
-name: SHR-Tg(Thy1-MAPT*)72
+name: SHR-Tg(Thy1-MAPT)72
 synonym: "Axon transgenic rat line 72" RELATED []
 synonym: "RGD ID: 2290299" RELATED []
 is_a: RS:0003513 ! SHR transgenics
@@ -28249,7 +28249,7 @@ creation_date: 2013-06-17T12:00:00Z
 
 [Term]
 id: RS:0003436
-name: SD-Tg(Chat-tTA)Xgx
+name: SD-Tg(Chat-tTA)
 synonym: "RGD ID: 7245488" RELATED []
 synonym: "RRRC:00632" RELATED []
 is_a: RS:0003511 ! SD transgenics
@@ -28258,7 +28258,7 @@ creation_date: 2013-06-17T12:00:00Z
 
 [Term]
 id: RS:0003437
-name: SD-Tg(TRE-TARDBP-M337V)Xgx
+name: SD-Tg(TRE-TARDBP-M337V)
 synonym: "RGD ID: 7245494" RELATED []
 synonym: "RRRC:00633" RELATED []
 synonym: "TRE-TDP43-M337V" RELATED []
@@ -45755,30 +45755,6 @@ synonym: "RGD ID: 645123288" EXACT []
 is_a: RS:0003828 ! SD mutants
 created_by: shurjenw
 creation_date: 2026-04-16T11:39:08Z
-
-[Term]
-id: RS:0005536
-name: SD-Tg(Chat-tTA)(TRE-TARDBP-M337V)Alea
-synonym: "RGD ID: 645123330" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2026-04-22T12:00:36Z
-
-[Term]
-id: RS:0005537
-name: SHR-Tg(Thy1-MAPT*)24
-synonym: "RGD ID: 645135160" EXACT []
-is_a: RS:0003513 ! SHR transgenics
-created_by: shurjenw
-creation_date: 2026-04-23T13:02:58Z
-
-[Term]
-id: RS:0005538
-name: WI-Tg(Camk2a-MAPTP301S)Accu
-synonym: "RGD ID: 645135167" EXACT []
-is_a: RS:0003514 ! W transgenics
-created_by: shurjenw
-creation_date: 2026-04-23T16:18:42Z
 
 [Typedef]
 id: part_of
