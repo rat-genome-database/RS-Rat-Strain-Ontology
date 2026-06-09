@@ -1,15 +1,15 @@
 format-version: 1.2
-data-version: releases/2026-06-06
-date: 06:06:2026 20:13
+data-version: releases/2026-05-30
+date: 30:05:2026 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: rat_strain_ontology
 ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-06-06" xsd:string
+property_value: owl:versionInfo "2026-05-30" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -44969,7 +44969,7 @@ creation_date: 2025-05-13T11:32:52Z
 
 [Term]
 id: RS:0005437
-name: SD-ROSA26 em1(CAG-DdCBE-Mt-co3)/Ilas
+name: SD-ROSA26 em1(CAG-DdCBE-Mt-co3/Ilas
 synonym: "RGD ID: 616335894" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
@@ -46112,206 +46112,6 @@ synonym: "RGD ID: 730454712" EXACT []
 is_a: RS:0000459 ! congenic strain
 created_by: shurjenw
 creation_date: 2026-05-29T15:45:31Z
-
-[Term]
-id: RS:0005580
-name: SS-Chr3BN.SS-(D3Rat154-D3Mgh30)/Mcwi
-synonym: "RGD ID: 155782910" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T13:55:29Z
-
-[Term]
-id: RS:0005581
-name: SS-Chr3BN.SS-(D3Rat154-D3Mgh30)/McwiCberg
-synonym: "RGD ID: 730454720" EXACT []
-is_a: RS:0005580 ! SS-Chr3BN.SS-(D3Rat154-D3Mgh30)/Mcwi
-created_by: shurjenw
-creation_date: 2026-06-01T14:00:34Z
-
-[Term]
-id: RS:0005582
-name: SS-Chr3BN.SS-(D3Rat26-D3Rat14)/Mcwi
-synonym: "RGD ID: 155782911" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T14:09:53Z
-
-[Term]
-id: RS:0005583
-name: SS-Chr3BN.SS-(D3Rat26 - D3Rat14)/McwiCberg
-synonym: "RGD ID: 730454721" EXACT []
-is_a: RS:0005582 ! SS-Chr3BN.SS-(D3Rat26-D3Rat14)/Mcwi
-created_by: shurjenw
-creation_date: 2026-06-01T14:14:26Z
-
-[Term]
-id: RS:0005584
-name: SS-Chr3BN.SS-(D3Rat12-D3Mgh30)/Mcwi
-synonym: "RGD ID: 155782913" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T14:39:37Z
-
-[Term]
-id: RS:0005585
-name: SS-Chr3BN.SS-(D3Rat12-D3Mgh30)/McwiCberg
-synonym: "RGD ID: 730454722" EXACT []
-is_a: RS:0005584 ! SS-Chr3BN.SS-(D3Rat12-D3Mgh30)/Mcwi
-created_by: shurjenw
-creation_date: 2026-06-01T14:44:29Z
-
-[Term]
-id: RS:0005586
-name: SS-Chr3BN.SS-(D3Rat26-D3Rat217)/Mcwi
-synonym: "RGD ID: 155782915" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T14:58:44Z
-
-[Term]
-id: RS:0005587
-name: SS-Chr3BN.SS-(D3Rat26-D3Rat217)/McwiCberg
-synonym: "RGD ID: 730454723" EXACT []
-is_a: RS:0005586 ! SS-Chr3BN.SS-(D3Rat26-D3Rat217)/Mcwi
-created_by: shurjenw
-creation_date: 2026-06-01T15:02:34Z
-
-[Term]
-id: RS:0005588
-name: SS/HsdMcwiCberg
-synonym: "RGD ID: 730454724" EXACT []
-is_a: RS:0000811 ! SS/JrHsdMcwi
-created_by: shurjenw
-creation_date: 2026-06-01T15:10:40Z
-
-[Term]
-id: RS:0005589
-name: SS-Chr 3BN/McwiCberg
-synonym: "RGD ID: 730454725" EXACT []
-is_a: RS:0000803 ! SS-Chr 3BN/Mcwi
-created_by: shurjenw
-creation_date: 2026-06-01T15:19:39Z
-
-[Term]
-id: RS:0005590
-name: SS-Chr3BN.SS-(D3Rat26-D3Rat5)/Mcwi
-synonym: "RGD ID: 155782912" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T15:30:37Z
-
-[Term]
-id: RS:0005591
-name: SS-Chr3BN.SS-(D3Rat21-D3Mgh30)/Mcwi
-synonym: "RGD ID: 155782914" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T15:35:10Z
-
-[Term]
-id: RS:0005592
-name: SS-Chr3BN.SS-(D3Arb22-D3Mgh30)/Mcwi
-synonym: "RGD ID: 155782909" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-01T15:38:30Z
-
-[Term]
-id: RS:0005593
-name: F344-Mocosem1Tua
-synonym: "RGD ID: 730466367" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: shurjenw
-creation_date: 2026-06-02T09:50:44Z
-
-[Term]
-id: RS:0005594
-name: F344-Mocosem2Tua
-synonym: "RGD ID: 730466369" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: shurjenw
-creation_date: 2026-06-02T10:46:25Z
-
-[Term]
-id: RS:0005595
-name: SS-Chr3BNSS-(D3Rat189-D3Rat6)/McwiCberg
-synonym: "RGD ID: 730466370" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-02T11:03:23Z
-
-[Term]
-id: RS:0005596
-name: SS-Chr3BNSS-(DRat93-D3Rat138)/McwiCberg
-synonym: "RGD ID: 730466371" EXACT []
-is_a: RS:0005349 ! SS-Chr 3BN/Mcwi.SS congenics
-created_by: shurjenw
-creation_date: 2026-06-02T11:10:10Z
-
-[Term]
-id: RS:0005597
-name: LIS-Epb42em1Snhr
-synonym: "RGD ID: 730466372" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-06-02T11:59:25Z
-
-[Term]
-id: RS:0005598
-name: WIC-Gpr75em1Nurep
-synonym: "RGD ID: 730466373" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: shurjenw
-creation_date: 2026-06-02T13:15:05Z
-
-[Term]
-id: RS:0005599
-name: WIC-Gpr75em2Nurep
-synonym: "RGD ID: 730466375" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: shurjenw
-creation_date: 2026-06-02T13:18:57Z
-
-[Term]
-id: RS:0005600
-name: WIC-Gpr75em3Nurep
-synonym: "RGD ID: 730466376" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: shurjenw
-creation_date: 2026-06-02T13:21:00Z
-
-[Term]
-id: RS:0005601
-name: W-Ccl12em1Larc
-synonym: "RGD ID: 730466377" EXACT []
-is_a: RS:0003773 ! W mutants
-created_by: shurjenw
-creation_date: 2026-06-02T13:31:24Z
-
-[Term]
-id: RS:0005602
-name: CD.SD-Del(Yp)1McwiArno
-synonym: "RGD ID: 730466418" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-06-05T13:14:09Z
-
-[Term]
-id: RS:0005603
-name: CD-Rrg1em6Arno
-synonym: "RGD ID: 730466419" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-05T13:30:52Z
-
-[Term]
-id: RS:0005604
-name: CD-Rrg1em7Arno
-synonym: "RGD ID: 730466420" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-05T13:38:26Z
 
 [Typedef]
 id: part_of
