@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-13
-date: 13:06:2026 20:13
+data-version: releases/2026-06-06
+date: 06:06:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-06-13" xsd:string
+property_value: owl:versionInfo "2026-06-06" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -46312,62 +46312,6 @@ synonym: "RGD ID: 730466420" EXACT []
 is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-06-05T13:38:26Z
-
-[Term]
-id: RS:0005605
-name: CD-Rrg1em3Arno
-synonym: "RGD ID: 617212673" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-08T13:04:16Z
-
-[Term]
-id: RS:0005606
-name: CD-Rrg1em2Arno
-synonym: "RGD ID: 617212672" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-08T13:08:47Z
-
-[Term]
-id: RS:0005607
-name: CD.SS-Rrg1em1Mcwi
-synonym: "RGD ID: 730466365" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-06-08T13:22:37Z
-
-[Term]
-id: RS:0005608
-name: CD.SS-Rrg1em5Mcwi/Arno
-synonym: "RGD ID: 730466366" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-06-08T13:28:39Z
-
-[Term]
-id: RS:0005609
-name: LE-Grin2aem2Sidb
-synonym: "RGD ID: 736530097" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2026-06-11T16:35:14Z
-
-[Term]
-id: RS:0005610
-name: SS-Ccl2em1-/-Mcwi
-synonym: "RGD ID: 736530100" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-12T14:57:33Z
-
-[Term]
-id: RS:0005611
-name: SS-Ccl2em1+/+Mcwi
-synonym: "RGD ID: 736530102" EXACT []
-is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-12T15:02:17Z
 
 [Typedef]
 id: part_of
