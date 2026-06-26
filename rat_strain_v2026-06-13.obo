@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-20
-date: 20:06:2026 20:13
+data-version: releases/2026-06-13
+date: 13:06:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-06-20" xsd:string
+property_value: owl:versionInfo "2026-06-13" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -3540,9 +3540,9 @@ is_a: RS:0003213 ! LEW.1AV1.DA (chr 10)
 
 [Term]
 id: RS:0000497
-name: LEW.1F/HanZtm
+name: LEW.1F
 synonym: "RGD ID: 631581" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002738 ! chromosome 20 congenic
 
 [Term]
 id: RS:0000498
@@ -10543,7 +10543,7 @@ is_a: RS:0002347 ! SLA
 
 [Term]
 id: RS:0001449
-name: SPRD/HanZtm
+name: SPRD/Ztm
 synonym: "MDC-03-20" RELATED []
 synonym: "RGD ID: 737962" RELATED []
 synonym: "SPRD/Han" RELATED []
@@ -13806,7 +13806,7 @@ name: DA.LEW.RT1f-(D20Wox15-D20Wox13)/Rhd
 synonym: "DA.I F- male rat Swe spleen" RELATED []
 synonym: "MDC-03-18" RELATED []
 synonym: "RGD ID: 2307301" RELATED []
-is_a: RS:0000497 ! LEW.1F/HanZtm
+is_a: RS:0000497 ! LEW.1F
 is_a: RS:0002656 ! DA/ZtmRhd.LEW1F
 created_by: rnigam
 creation_date: 2009-12-17T12:00:00Z
@@ -37964,7 +37964,7 @@ creation_date: 2017-11-21T15:25:57Z
 
 [Term]
 id: RS:0004563
-name: SD-Tg(Htt*)/SvhZtm
+name: SD-Tg(Htt*)
 synonym: "RGD ID: 13452382" RELATED []
 synonym: "tgHD51" RELATED []
 is_a: RS:0003511 ! SD transgenics
@@ -46368,30 +46368,6 @@ synonym: "RGD ID: 736530102" EXACT []
 is_a: RS:0003960 ! SS/JrHsdMcwi (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-06-12T15:02:17Z
-
-[Term]
-id: RS:0005612
-name: LEW.1AR1-Tg(UBC-eGFP)3Vim
-synonym: "RGD ID: 736686280" EXACT []
-is_a: RS:0003510 ! LEW transgenics
-created_by: shurjenw
-creation_date: 2026-06-18T14:49:39Z
-
-[Term]
-id: RS:0005613
-name: DA-Tg(UBC-eGFP)3Vim
-synonym: "RGD ID: 736686282" EXACT []
-is_a: RS:0000465 ! transgenic strain
-created_by: shurjenw
-creation_date: 2026-06-18T15:01:12Z
-
-[Term]
-id: RS:0005614
-name: LEW-Tg(UBC-eGFP)3Vim
-synonym: "RGD ID: 736686283" EXACT []
-is_a: RS:0003510 ! LEW transgenics
-created_by: shurjenw
-creation_date: 2026-06-18T17:14:40Z
 
 [Typedef]
 id: part_of
