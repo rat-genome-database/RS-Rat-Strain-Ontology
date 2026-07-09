@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-04
-date: 04:07:2026 20:13
+data-version: releases/2026-06-27
+date: 27:06:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-07-04" xsd:string
+property_value: owl:versionInfo "2026-06-27" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -46408,77 +46408,6 @@ synonym: "RGD ID: 736686881" EXACT []
 is_a: RS:0003725 ! DA mutants
 created_by: shurjenw
 creation_date: 2026-06-23T13:56:44Z
-
-[Term]
-id: RS:0005617
-name: LE-Appem(APP*)Cya
-synonym: "RGD ID: 645123298" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2026-06-30T10:36:05Z
-
-[Term]
-id: RS:0005618
-name: LE-Cx3cr1em1(iCre)Ottc
-synonym: "RGD ID: 635961626" EXACT []
-created_by: shurjenw
-creation_date: 2026-06-30T13:47:33Z
-
-[Term]
-id: RS:0005619
-name: LE-Cx3cr1em1(iCre)Ottc
-synonym: "RGD ID: 635961626" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2026-06-30T13:51:23Z
-
-[Term]
-id: RS:0005620
-name: SD-Cx3cr1em1(iCre)Ottc
-synonym: "RGD ID: 636001986" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-30T13:54:12Z
-
-[Term]
-id: RS:0005621
-name: SD-Aif1em1(iCre)Ottc
-synonym: "RGD ID: 636018640" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-30T13:58:36Z
-
-[Term]
-id: RS:0005622
-name: LE-Aif1em1(iCre)Ottc
-synonym: "RGD ID: 636040739" EXACT []
-is_a: RS:0004779 ! LE mutants
-created_by: shurjenw
-creation_date: 2026-06-30T14:01:06Z
-
-[Term]
-id: RS:0005623
-name: SD-Slc30a3 em1(iCre)Ottc
-synonym: "RGD ID: 636068386" EXACT []
-is_a: RS:0003954 ! SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-06-30T14:03:27Z
-
-[Term]
-id: RS:0005624
-name: SD-Tg(COIN-ChRm-V5-ERa-Kv2.1)1Ottc
-synonym: "RGD ID: 636269097" EXACT []
-is_a: RS:0003511 ! SD transgenics
-created_by: shurjenw
-creation_date: 2026-06-30T14:06:48Z
-
-[Term]
-id: RS:0005625
-name: SD-Plac1em1Soar
-synonym: "RGD ID: 736705835" EXACT []
-is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
-created_by: shurjenw
-creation_date: 2026-07-01T15:04:57Z
 
 [Typedef]
 id: part_of
