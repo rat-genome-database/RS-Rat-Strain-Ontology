@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-11
-date: 11:07:2026 20:13
+data-version: releases/2026-07-04
+date: 04:07:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-07-11" xsd:string
+property_value: owl:versionInfo "2026-07-04" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -46479,111 +46479,6 @@ synonym: "RGD ID: 736705835" EXACT []
 is_a: RS:0004503 ! HsdHot:SD (CRISPR/Cas9) mutants
 created_by: shurjenw
 creation_date: 2026-07-01T15:04:57Z
-
-[Term]
-id: RS:0005626
-name: AZK/Misiv
-synonym: "RGD ID: 150526804" EXACT []
-is_a: RS:0000765 ! inbred strain
-created_by: shurjenw
-creation_date: 2026-07-08T10:03:33Z
-
-[Term]
-id: RS:0005627
-name: MNS/Ztm
-synonym: "RGD ID: 736711749" EXACT []
-is_a: RS:0000580 ! MNS
-created_by: shurjenw
-creation_date: 2026-07-08T16:20:36Z
-
-[Term]
-id: RS:0005628
-name: LEW.1AR1-iddm-Tg(UBC-eGFP)Ztm
-synonym: "RGD ID: 736705810" EXACT []
-is_a: RS:0001353 ! LEW.1AR1-iddm/Ztm
-is_a: RS:0003510 ! LEW transgenics
-created_by: shurjenw
-creation_date: 2026-07-09T13:54:02Z
-
-[Term]
-id: RS:0005629
-name: LEW.Cg-RT1a-Tg(UBC-eGFP)3VimZtm
-synonym: "RGD ID: 736705812" EXACT []
-is_a: RS:0003510 ! LEW transgenics
-created_by: shurjenw
-creation_date: 2026-07-09T14:22:37Z
-
-[Term]
-id: RS:0005630
-name: Ztm:NZNU-Foxn1rnu-N
-synonym: "RGD ID: 736705813" EXACT []
-is_a: RS:0000462 ! outbred strain
-created_by: shurjenw
-creation_date: 2026-07-09T14:43:43Z
-
-[Term]
-id: RS:0005631
-name: BH.6A(LEW)/Won
-synonym: "RGD ID: 736705814" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T14:54:52Z
-
-[Term]
-id: RS:0005632
-name: BDIX/UlmHanZtm
-synonym: "RGD ID: 736711763" EXACT []
-is_a: RS:0000092 ! BDIX/Han
-created_by: shurjenw
-creation_date: 2026-07-09T15:08:32Z
-
-[Term]
-id: RS:0005633
-name: LEW.1W/HanZtm
-synonym: "RGD ID: 736705802" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T15:49:32Z
-
-[Term]
-id: RS:0005634
-name: LEW.1AR2/HanZtm
-synonym: "RGD ID: 736705801" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T15:53:26Z
-
-[Term]
-id: RS:0005635
-name: LEW.1WR1/HanZtm
-synonym: "RGD ID: 736705800" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T16:08:30Z
-
-[Term]
-id: RS:0005636
-name: LEW.1C/HanZtm
-synonym: "RGD ID: 736705799" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T16:19:08Z
-
-[Term]
-id: RS:0005637
-name: LEW.1K/HanZtm
-synonym: "RGD ID: 736705797" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-09T16:28:53Z
-
-[Term]
-id: RS:0005638
-name: LEW.1AV1-iddm/HanZtm
-synonym: "RGD ID: 736686883" EXACT []
-is_a: RS:0000491 ! LEW.1AV1
-created_by: shurjenw
-creation_date: 2026-07-09T16:34:27Z
 
 [Typedef]
 id: part_of
