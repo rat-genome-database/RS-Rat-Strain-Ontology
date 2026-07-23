@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-18
-date: 18:07:2026 20:13
+data-version: releases/2026-07-11
+date: 11:07:2026 20:13
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-07-18" xsd:string
+property_value: owl:versionInfo "2026-07-11" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -3561,7 +3561,7 @@ is_a: RS:0002784 ! chromosome 2 congenic
 
 [Term]
 id: RS:0000500
-name: LEW.BN
+name: LEW/Rj.BN/Rj
 is_a: RS:0000459 ! congenic strain
 
 [Term]
@@ -3569,56 +3569,56 @@ id: RS:0000501
 name: LEW.BN-(D10Got9-D10Rat2)/Rj
 synonym: "LEW.BNc10A" RELATED []
 synonym: "RGD ID: 1331820" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000502
 name: LEW.BN-(D10Mgh7-D10Rat27)/Rj
 synonym: "LEW.BNc10F" RELATED []
 synonym: "RGD ID: 1331826" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000503
 name: LEW.BN-(D10Rat173-D10Rat133)/Rj
 synonym: "LEW.BNc10I" RELATED []
 synonym: "RGD ID: 1331831" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000504
 name: LEW.BN-(D10Rat32-D10Rat133)/Rj
 synonym: "LEW.BNc10G" RELATED []
 synonym: "RGD ID: 1331811" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000505
 name: LEW.BN-(D10Rat43-D10Mco4)/Rj
 synonym: "LEW.BNc10D" RELATED []
 synonym: "RGD ID: 1331818" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000506
 name: LEW.BN-(D10Rat43-D10Rat27)/Rj
 synonym: "LEW.BNc10B" RELATED []
 synonym: "RGD ID: 1331823" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000507
 name: LEW.BN-(D10Rat83-D10Rat133)/Rj
 synonym: "LEW.BNc10C" RELATED []
 synonym: "RGD ID: 1331812" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000508
 name: LEW.BN-(D10Wox26-D10Arb4)/Rj
 synonym: "LEW.BNc10H" RELATED []
 synonym: "RGD ID: 1331821" RELATED []
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0000509
@@ -9835,7 +9835,7 @@ is_a: RS:0001352 ! LEW.1AR1/Ztm
 [Term]
 id: RS:0001354
 name: LEW/Rj.BN/Rj
-is_a: RS:0000500 ! LEW.BN
+is_a: RS:0000500 ! LEW/Rj.BN/Rj
 
 [Term]
 id: RS:0001355
@@ -13796,7 +13796,7 @@ name: DA.Cg-Foxn1rnu Lystbg/Slc
 synonym: "DA/Slc-bg rnu" RELATED []
 synonym: "NBRP Rat No: 0478" RELATED []
 synonym: "RGD ID: 2306059" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 created_by: rnigam
 creation_date: 2009-12-16T12:00:00Z
 
@@ -21584,7 +21584,7 @@ creation_date: 2011-08-04T12:00:00Z
 [Term]
 id: RS:0002655
 name: DA/ZtmRhd congenics
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 created_by: rnigam
 creation_date: 2011-08-04T12:00:00Z
 
@@ -21762,6 +21762,13 @@ creation_date: 2011-08-08T12:00:00Z
 [Term]
 id: RS:0002680
 name: BB.WOKW
+is_a: RS:0000459 ! congenic strain
+created_by: rnigam
+creation_date: 2011-08-10T12:00:00Z
+
+[Term]
+id: RS:0002681
+name: DA congenics
 is_a: RS:0000459 ! congenic strain
 created_by: rnigam
 creation_date: 2011-08-10T12:00:00Z
@@ -35960,7 +35967,7 @@ creation_date: 2017-02-21T11:04:00Z
 id: RS:0004326
 name: DA.KHW-(RT1-Db1-RT1-DMb)
 synonym: "RGD ID: 12743645" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 created_by: sjwang
 creation_date: 2017-02-21T11:11:32Z
 
@@ -35976,7 +35983,7 @@ creation_date: 2017-02-21T11:17:42Z
 id: RS:0004328
 name: DA.F-(Tesb-RT1-DMb)
 synonym: "RGD ID: 12743650" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 created_by: sjwang
 creation_date: 2017-02-21T11:20:44Z
 
@@ -35992,7 +35999,7 @@ creation_date: 2017-02-21T11:22:43Z
 id: RS:0004330
 name: DA.KHW-(RT1-DMa-Mln)
 synonym: "RGD ID: 12743652" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 created_by: sjwang
 creation_date: 2017-02-21T11:24:25Z
 
@@ -40304,7 +40311,7 @@ creation_date: 2021-02-04T15:17:02Z
 id: RS:0004854
 name: DA.W-Ncf1W/Rhd
 synonym: "RGD ID: 41404723" RELATED []
-is_a: RS:0000459 ! congenic strain
+is_a: RS:0002681 ! DA congenics
 is_a: RS:0003986 ! DA/OlaHsd mutants
 created_by: sjwang
 creation_date: 2021-02-08T13:45:32Z
@@ -46411,6 +46418,13 @@ created_by: shurjenw
 creation_date: 2026-06-30T10:36:05Z
 
 [Term]
+id: RS:0005618
+name: LE-Cx3cr1em1(iCre)Ottc
+synonym: "RGD ID: 635961626" EXACT []
+created_by: shurjenw
+creation_date: 2026-06-30T13:47:33Z
+
+[Term]
 id: RS:0005619
 name: LE-Cx3cr1em1(iCre)Ottc
 synonym: "RGD ID: 635961626" EXACT []
@@ -46570,382 +46584,6 @@ synonym: "RGD ID: 736686883" EXACT []
 is_a: RS:0000491 ! LEW.1AV1
 created_by: shurjenw
 creation_date: 2026-07-09T16:34:27Z
-
-[Term]
-id: RS:0005639
-name: BN.1L(F344)/HanZtm
-synonym: "RGD ID: 736705803" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-13T16:14:38Z
-
-[Term]
-id: RS:0005640
-name: LEW.1Nn(BN)/HanZtm
-synonym: "RGD ID: 736705804" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-13T16:22:25Z
-
-[Term]
-id: RS:0005641
-name: LEW.1A(AVN)/HanZtm
-synonym: "RGD ID: 736705805" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-13T16:26:44Z
-
-[Term]
-id: RS:0005642
-name: LEW.1D(BDV)/HanZtm
-synonym: "RGD ID: 736705806" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-13T16:37:21Z
-
-[Term]
-id: RS:0005643
-name: WAG.LEW-Foxn1rnu/HanZtm
-synonym: "RGD ID: 736705832" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-13T17:01:35Z
-
-[Term]
-id: RS:0005644
-name: LEW.1AR1-Foxn1rnu/Ztm
-synonym: "RGD ID: 736705833" EXACT []
-is_a: RS:0001352 ! LEW.1AR1/Ztm
-created_by: shurjenw
-creation_date: 2026-07-14T10:10:21Z
-
-[Term]
-id: RS:0005645
-name: LEW.1WR2/HanZtm
-synonym: "RGD ID: 736705834" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-14T10:17:21Z
-
-[Term]
-id: RS:0005646
-name: DXER/HanZtm
-synonym: "RGD ID: 736711754" EXACT []
-is_a: RS:0000472 ! DXE
-created_by: shurjenw
-creation_date: 2026-07-14T10:59:18Z
-
-[Term]
-id: RS:0005647
-name: LXBR/HanZtm
-synonym: "RGD ID: 736711755" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-14T11:25:49Z
-
-[Term]
-id: RS:0005648
-name: LXB8/HanZtm
-synonym: "RGD ID: 736711756" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-14T13:01:40Z
-
-[Term]
-id: RS:0005649
-name: LXB19/HanZtm
-synonym: "RGD ID: 736711757" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-14T13:05:14Z
-
-[Term]
-id: RS:0005650
-name: LXB21/HanZtm
-synonym: "RGD ID: 736711758" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-15T09:50:01Z
-
-[Term]
-id: RS:0005651
-name: LEW.BH-RT1lv3/Won
-synonym: "RGD ID: 736711762" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T09:56:32Z
-
-[Term]
-id: RS:0005652
-name: LXB26/HanZtm
-synonym: "RGD ID: 736711759" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-15T10:03:34Z
-
-[Term]
-id: RS:0005653
-name: LXB27/HanZtm
-synonym: "RGD ID: 736711760" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-15T10:06:55Z
-
-[Term]
-id: RS:0005654
-name: LXB30/HanZtm
-synonym: "RGD ID: 736711761" EXACT []
-is_a: RS:0000569 ! LXB
-created_by: shurjenw
-creation_date: 2026-07-15T10:22:30Z
-
-[Term]
-id: RS:0005655
-name: LEW.NIG-III-RT1Q/Won
-synonym: "RGD ID: 736705840" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T10:24:58Z
-
-[Term]
-id: RS:0005656
-name: DA-Foxn1rnu-N/HanZtm
-synonym: "RGD ID: 736706833" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T10:30:50Z
-
-[Term]
-id: RS:0005657
-name: DA.1M(MNR)/PitHanZtm
-synonym: "RGD ID: 736706834" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T10:45:05Z
-
-[Term]
-id: RS:0005658
-name: DA.1H(KHW)/PitHanZtm
-synonym: "RGD ID: 736706835" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T10:50:47Z
-
-[Term]
-id: RS:0005659
-name: BN.Cg-RT1lddm9/Ztm
-synonym: "RGD ID: 736706837" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:24:36Z
-
-[Term]
-id: RS:0005660
-name: BN.1B(BUF)/HanZtm
-synonym: "RGD ID: 736706838" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:28:30Z
-
-[Term]
-id: RS:0005661
-name: BN.1E(BDVII)/HanZtm
-synonym: "RGD ID: 736706839" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:30:19Z
-
-[Term]
-id: RS:0005662
-name: DA.1I(BI)/PitHanZtm
-synonym: "RGD ID: 736706840" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:33:08Z
-
-[Term]
-id: RS:0005663
-name: DA.1O(MR)/PitHanZtm
-synonym: "RGD ID: 736706841" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:35:16Z
-
-[Term]
-id: RS:0005664
-name: LEW.1QR1/Won
-synonym: "RGD ID: 736706842" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:41:44Z
-
-[Term]
-id: RS:0005665
-name: LEW.1R15/WonZtm
-synonym: "RGD ID: 736706843" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:43:44Z
-
-[Term]
-id: RS:0005666
-name: DA.1G/HanZtm
-synonym: "RGD ID: 736706844" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:45:41Z
-
-[Term]
-id: RS:0005667
-name: SPRD-Atrnzi/HanZtm
-synonym: "RGD ID: 736706845" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:48:12Z
-
-[Term]
-id: RS:0005668
-name: LEW.SPRDPkd/HanZtm
-synonym: "RGD ID: 736706846" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:51:32Z
-
-[Term]
-id: RS:0005669
-name: BH.7A(LEW)WonZtm-ci3
-synonym: "RGD ID: 736706848" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T12:53:26Z
-
-[Term]
-id: RS:0005670
-name: LEW.Cg-RT1um1/Won
-synonym: "RGD ID: 736706849" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:09:10Z
-
-[Term]
-id: RS:0005671
-name: BN.Cg-RT1u/Ztm
-synonym: "RGD ID: 736706850" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:11:32Z
-
-[Term]
-id: RS:0005672
-name: BN.Cg-RT1uDock8iddm/Ztm
-synonym: "RGD ID: 736706851" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:43:59Z
-
-[Term]
-id: RS:0005673
-name: BN.Cg-RT1uDock8iddmCebp/betaiddmVwa2iddm/Ztm
-synonym: "RGD ID: 736706852" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:47:15Z
-
-[Term]
-id: RS:0005674
-name: LEW.Cg-RT1uRT7b/Won
-synonym: "RGD ID: 736706853" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:50:08Z
-
-[Term]
-id: RS:0005675
-name: LEW.TO-RT12bNkcM1/Won
-synonym: "736711700" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:51:56Z
-
-[Term]
-id: RS:0005676
-name: LEW.BS-NkcR1/Won
-synonym: "RGD ID: 736711701" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T13:59:33Z
-
-[Term]
-id: RS:0005677
-name: LEW.BS-NkcR2/Won
-synonym: "RGD ID: 736711702" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T14:00:57Z
-
-[Term]
-id: RS:0005678
-name: LEW.BS-NkcR3/Won
-synonym: "RGD ID: 736711703" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-15T14:04:28Z
-
-[Term]
-id: RS:0005679
-name: LEW.BN-(D10Mit10-D10Mgh7) (D4Wox32-D4Mgh2)/Won
-synonym: "RGD ID: 736711705" EXACT []
-is_a: RS:0000500 ! LEW.BN
-created_by: shurjenw
-creation_date: 2026-07-17T16:13:47Z
-
-[Term]
-id: RS:0005680
-name: LEW.BH-Nkc/Won
-synonym: "RGD ID: 736711709" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:16:43Z
-
-[Term]
-id: RS:0005681
-name: LEW.Cg-RT1fTcra(BH)/Won
-synonym: "RGD ID: 736711710" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:19:07Z
-
-[Term]
-id: RS:0005682
-name: LEW.1LM2/Won
-synonym: "RGD ID: 736711711" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:25:30Z
-
-[Term]
-id: RS:0005683
-name: BN.Cg-RT1eDock8iddm/Ztm
-synonym: "RGD ID: 736711712" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:27:24Z
-
-[Term]
-id: RS:0005684
-name: LEW.SHR-RT8a/Ztm
-synonym: "RGD ID: 736711713" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:30:09Z
-
-[Term]
-id: RS:0005685
-name: LEW.1LM1/Won
-synonym: "RGD ID: 736711714" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-17T16:32:00Z
 
 [Typedef]
 id: part_of
