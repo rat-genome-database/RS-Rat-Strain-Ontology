@@ -1,15 +1,15 @@
 format-version: 1.2
-data-version: releases/2026-07-29
-date: 29:07:2026 15:47
+data-version: releases/2026-07-25
+date: 25:07:2026 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: rat_strain_ontology
 ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-07-29" xsd:string
+property_value: owl:versionInfo "2026-07-25" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -47133,46 +47133,6 @@ synonym: "RGD ID: 736711723" EXACT []
 is_a: RS:0000459 ! congenic strain
 created_by: shurjenw
 creation_date: 2026-07-20T15:49:44Z
-
-[Term]
-id: RS:0005710
-name: McwiWfsmAap:HS-Cadm2em5Aap
-synonym: "RGD ID: 736802354" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:52:15Z
-
-[Term]
-id: RS:0005711
-name: McwiWfsmAap:HS-Cadm2em4Aap
-synonym: "RGD ID: 736802355" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:55:03Z
-
-[Term]
-id: RS:0005712
-name: McwiWfsmAap:HS-Cadm2em3Aap
-synonym: "RGD ID: 736802356" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:56:50Z
-
-[Term]
-id: RS:0005713
-name: McwiWfsmAap:HS-Cadm2em2Aap
-synonym: "RGD ID: 736802357" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T15:00:10Z
-
-[Term]
-id: RS:0005714
-name: McwiWfsmAap:HS-Cadm2em1Aap
-synonym: "RGD ID: 736802358" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T15:01:28Z
 
 [Typedef]
 id: part_of

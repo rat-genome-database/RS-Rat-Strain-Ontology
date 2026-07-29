@@ -1,15 +1,15 @@
 format-version: 1.2
-data-version: releases/2026-07-29
-date: 29:07:2026 15:47
+data-version: releases/2026-07-18
+date: 18:07:2026 20:13
 saved-by: sjwang
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
 default-namespace: rat_strain_ontology
 ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-07-29" xsd:string
+property_value: owl:versionInfo "2026-07-18" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -40311,11 +40311,8 @@ creation_date: 2021-02-08T13:45:32Z
 
 [Term]
 id: RS:0004855
-name: DA.F344-Dpp4m/SvHZtm
-alt_id: RS:0005699
-synonym: "DA.F344-Dpp4m/1SvHZtm" EXACT []
+name: DA.F344-Dpp4DPPIV/SvH
 synonym: "RGD ID: 41408337" RELATED []
-synonym: "RGD ID: 736711733" EXACT []
 is_a: RS:0000237 ! DA.F344
 created_by: sjwang
 creation_date: 2021-02-09T10:31:21Z
@@ -46949,230 +46946,6 @@ synonym: "RGD ID: 736711714" EXACT []
 is_a: RS:0000459 ! congenic strain
 created_by: shurjenw
 creation_date: 2026-07-17T16:32:00Z
-
-[Term]
-id: RS:0005686
-name: BN.Cg-RT1eCebp/betaiddm/Ztm
-synonym: "RGD ID: 736711715" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T11:56:22Z
-
-[Term]
-id: RS:0005687
-name: LEW.1R14/WonZtm
-synonym: "RGD ID: 736711716" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T11:59:33Z
-
-[Term]
-id: RS:0005688
-name: LEW.UV4(BB)/WonZtm
-synonym: "RGD ID: 736711717" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T12:01:57Z
-
-[Term]
-id: RS:0005689
-name: LEW.12B(TO)/WonZtm
-synonym: "RGD ID: 736711718" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T12:04:25Z
-
-[Term]
-id: RS:0005690
-name: BN.Cg-RT1eVwa2iddm/Ztm
-synonym: "RGD ID: 736711719" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T12:07:54Z
-
-[Term]
-id: RS:0005691
-name: SIV-Ca/Ztm
-synonym: "RGD ID: 736711744" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-20T12:53:32Z
-
-[Term]
-id: RS:0005692
-name: HanZtm:WIST-spa
-synonym: "RGD ID: 736711745" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-20T12:58:32Z
-
-[Term]
-id: RS:0005693
-name: WC/Ztm
-synonym: "RGD ID: 736711746" EXACT []
-is_a: RS:0000765 ! inbred strain
-created_by: shurjenw
-creation_date: 2026-07-20T13:29:19Z
-
-[Term]
-id: RS:0005694
-name: NAR/Ztm
-synonym: "RGD ID: 736711750" EXACT []
-is_a: RS:0000598 ! NAR
-created_by: shurjenw
-creation_date: 2026-07-20T13:32:06Z
-
-[Term]
-id: RS:0005695
-name: PVG-C6-/-/Ztm
-synonym: "RGD ID: 736711751" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-20T14:02:45Z
-
-[Term]
-id: RS:0005696
-name: R34/PitZtm
-synonym: "RGD ID: 736711752" EXACT []
-is_a: RS:0000463 ! recombinant inbred strain
-created_by: shurjenw
-creation_date: 2026-07-20T14:05:34Z
-
-[Term]
-id: RS:0005697
-name: F344-Dpp4m/Crl(Wiga)SvH
-synonym: "RGD ID: 736711730" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: shurjenw
-creation_date: 2026-07-20T14:14:01Z
-
-[Term]
-id: RS:0005698
-name: F344-Dpp4m/DuCrljSvH
-synonym: "RGD ID: 736711732" EXACT []
-is_a: RS:0003472 ! F344 mutants
-created_by: shurjenw
-creation_date: 2026-07-20T14:17:30Z
-
-[Term]
-id: RS:0005700
-name: BN.WKY-Dnd1ter/Ztm
-synonym: "RGD ID: 736711729" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:14:23Z
-
-[Term]
-id: RS:0005701
-name: DA.WKY-Dnd1ter/Ztm
-synonym: "RGD ID: 736711727" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:19:08Z
-
-[Term]
-id: RS:0005702
-name: LEW.Cg-RT1av1Dpp4m/SvHZtm
-synonym: "RGD ID: 736711728" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:23:11Z
-
-[Term]
-id: RS:0005703
-name: LEW.WKY-Dnd1ter/Ztm
-synonym: "RGD ID: 736711726" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:27:04Z
-
-[Term]
-id: RS:0005704
-name: LEW.1AR1-Rnor_6.0Chr1:234999152AG/Ztm
-synonym: "RGD ID: 736711725" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:30:15Z
-
-[Term]
-id: RS:0005705
-name: LEW.1AR1-Dock8iddm/Ztm
-synonym: "RGD ID: 736711724" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:40:56Z
-
-[Term]
-id: RS:0005706
-name: BN.Cg-RT1uCebp/betaiddm/Ztm
-synonym: "RGD ID: 736711720" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:43:17Z
-
-[Term]
-id: RS:0005707
-name: BN.Cg-RT1eDock8iddmCebp/betaiddm/Ztm
-synonym: "RGD ID: 736711721" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:45:11Z
-
-[Term]
-id: RS:0005708
-name: BN.Cg-RT1uDock8iddmCebp/betaiddm/Ztm
-synonym: "RGD ID: 736711722" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:47:44Z
-
-[Term]
-id: RS:0005709
-name: BN.Cg-RTe-iddm9/Ztm
-synonym: "RGD ID: 736711723" EXACT []
-is_a: RS:0000459 ! congenic strain
-created_by: shurjenw
-creation_date: 2026-07-20T15:49:44Z
-
-[Term]
-id: RS:0005710
-name: McwiWfsmAap:HS-Cadm2em5Aap
-synonym: "RGD ID: 736802354" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:52:15Z
-
-[Term]
-id: RS:0005711
-name: McwiWfsmAap:HS-Cadm2em4Aap
-synonym: "RGD ID: 736802355" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:55:03Z
-
-[Term]
-id: RS:0005712
-name: McwiWfsmAap:HS-Cadm2em3Aap
-synonym: "RGD ID: 736802356" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T14:56:50Z
-
-[Term]
-id: RS:0005713
-name: McwiWfsmAap:HS-Cadm2em2Aap
-synonym: "RGD ID: 736802357" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T15:00:10Z
-
-[Term]
-id: RS:0005714
-name: McwiWfsmAap:HS-Cadm2em1Aap
-synonym: "RGD ID: 736802358" EXACT []
-is_a: RS:0000461 ! mutant strain
-created_by: shurjenw
-creation_date: 2026-07-27T15:01:28Z
 
 [Typedef]
 id: part_of
