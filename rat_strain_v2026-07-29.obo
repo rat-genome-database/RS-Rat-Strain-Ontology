@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-01
-date: 01:08:2026 20:13
+data-version: releases/2026-07-29
+date: 29:07:2026 15:47
 saved-by: sjwang
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 synonymtypedef: DISPLAY_SYNONYM "term name abbreviation, used for display" EXACT
@@ -9,7 +9,7 @@ ontology: rs
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Victoria Petri" xsd:string
-property_value: owl:versionInfo "2026-08-01" xsd:string
+property_value: owl:versionInfo "2026-07-29" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -47173,14 +47173,6 @@ synonym: "RGD ID: 736802358" EXACT []
 is_a: RS:0000461 ! mutant strain
 created_by: shurjenw
 creation_date: 2026-07-27T15:01:28Z
-
-[Term]
-id: RS:0005715
-name: SD-Cirbpem1
-synonym: "RGD ID: 736802379" EXACT []
-is_a: RS:0004523 ! SD (TALEN) mutants
-created_by: shurjenw
-creation_date: 2026-07-30T12:01:40Z
 
 [Typedef]
 id: part_of
